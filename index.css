@@ -45,7 +45,7 @@ input {
 	margin: 0;
 	outline: none;
 	cursor: pointer;
-	color: #444d58;
+	color: #8590a6;
 	background-color: #f2f2f2;
 	border-radius: 0 8px 8px 0;
 	font-size: 16px;
@@ -67,11 +67,12 @@ input {
 #sitebox ul {
 	margin: 0 auto;
 	overflow: hidden;
+	padding-inline-start: 80px;
 }
 
 #sitebox li {
 	list-style: none;
-	width: 150px;
+	width: 180px;
 	height: 50px;
 	float: left;
 	margin: 0 auto 20px auto;
@@ -96,8 +97,7 @@ input {
 }
 
 .class {
-	border-style: none;	
-
+	border-style: none;
 }
 
 iframe {
