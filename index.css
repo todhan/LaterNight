@@ -85,6 +85,10 @@ input {
 	float: left;
 }
 
+#sitebox li a:hover {
+    color: #808080;
+}
+
 #sitebox li a .text {
 	padding-left: 6px;
 	vertical-align: middle;
