@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-	<head>
-		<meta charset="utf-8">
-		<title>小岛</title>
-		<meta name="keywords" content="小岛导航,小岛,岛,小岛秀夫">
-		<meta name="description" content="每个人都是一座小岛">
-		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-		<link rel="short icon" href="images/favicon.ico" type="image/x-icon">
-		<link rel="stylesheet" type="text/css" href="index.css">
-	</head>
+   <head>
+      <meta charset="utf-8">
+      <title>小岛</title>
+      <meta name="keywords" content="小岛导航,小岛,岛,小岛秀夫">
+      <meta name="description" content="每个人都是一座小岛">
+      <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+      <link rel="short icon" href="images/favicon.ico" type="image/x-icon">
+      <link rel="stylesheet" type="text/css" href="index.css">
+   </head>
 
-	<body>
-		<div class="content">
-			<div id="imgbox">
-				<a href="http://1041uuu.tumblr.com/" target="_blank" title="1041uuu">
-				<img id="img" src="https://i.loli.net/2019/03/15/5c8b0f6cb01ee.gif">
-				</a>
-			</div>
+   <body>
+      <div class="content">
+         <!--图片框-->
+         <div id="imgbox">
+            <a href="http://1041uuu.tumblr.com/" target="_blank" title="1041uuu">
+            <img id="img" src="https://i.loli.net/2019/03/15/5c8b0f6cb01ee.gif">
+            </a>
+         </div>
 
 <script type="text/javascript">
-
+//随机显示图片
 var images = [
    "https://i.loli.net/2019/03/15/5c8b0f6cb01ee.gif", 
    "https://i.loli.net/2019/03/15/5c8b0f568cacb.gif",
@@ -30,119 +31,151 @@ var images = [
    "https://i.loli.net/2019/03/15/5c8b0f6c11f2b.gif",
    "https://i.loli.net/2019/03/15/5c8b116108485.gif"
 ];
-
 var url = Math.floor(Math.random()*images.length);
-
 document.getElementById('img').src = images[url];
 
+//显示更多
+function show() {
+   document.all["more"].style.display="block";
+}
 </script>
+         <!--搜索框-->
+         <div id="searchbox">
+            <form action="https://vip.kuaimen.bid/search" target="_blank" method="get" class="search-form"> 
+               <input type="text" name="q" autocomplete="off" class="form-control" placeholder="Google" autofocus="autofocus" onmouseover="this.focus()"/><button type="submit" class="search-btn"><span>搜索</span></button>
+            </form>
+         </div>
 
-			<div id="searchbox">
-				<form action="https://vip.kuaimen.bid/search" target="_blank" method="get" class="search-form"> 
-					<input type="text" name="q" autocomplete="off" class="form-control" placeholder="Google" autofocus="autofocus" onmouseover="this.focus()"/><button type="submit" class="search-btn"><span>搜索</span></button>
-				</form>
-			</div>
-			<div id="sitebox">
-  				<ul>
-   					<li>
-   						<a href="https://docs.qq.com" target="_blank">
-   							<img src="https://s1.url.cn/tim/docs/desktop_gray1/favicon.ico">
-   							<span class="text">腾讯文档</span>
-   						</a>
-   					</li>
-   					<li>
-   						<a href="https://mail.qq.com" target="_blank">
-   							<img src="https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/c8/4b/60/c84b606b-29e5-c292-1a62-f7fb96758cf7/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/230x0w.jpg">
-   							<span class="text">QQ邮箱</span>
-   						</a>
-   					</li>
-   					<li>
-   						<a href="https://www.qimai.cn/rank" target="_blank">
-   							<img src="https://static.qimai.cn/static/favicon.ico">
-   							<span class="text">七麦数据</span>
-   						</a>
-   					</li>
-   					<li>
-   						<a href="https://unsplash.com/" target="_blank">
-   							<img src="https://res.cloudinary.com/tryghost/image/fetch/w_120,h_100,c_fit/https://docs.ghost.io/content/images/2019/01/unsplash.svg">
-   							<span class="text">Unsplash</span>
-   						</a>
-   					</li>
-   					<li>
-   						<a href="http://yj.duduxuexi.com/" target="_blank">
-   							<img src="http://yj.duduxuexi.com/yj.png">
-   							<span class="text">圆角图片</span>
-   						</a>
-   					</li>
-   					<li>
-   						<a href="https://tinypng.com/" target="_blank">
-   							<img src="https://tinypng.com/images/apple-touch-icon.png">
-   							<span class="text">TinyPNG</span>
-   						</a>
-   					</li>
-   					<li>
-   						<a href="https://sm.ms/" target="_blank">
-   							<img src="https://sm.ms/favicon.ico">
-   							<span class="text">SM.MS</span>
-   						</a>
-   					</li>
-   					<li>
-   						<a href="https://cowtransfer.com/" target="_blank">
-   							<img src="https://background.cowtransfer.com/favicon.ico">
-   							<span class="text">奶牛快传</span>
-   						</a>
-   					</li>
-  				</ul>
-  				<ul>
-   					<li>
-   						<a href="https://www.cnbeta.com/" target="_blank">
-   							<img src="https://static.cnbetacdn.com/favicon.ico">
-   							<span class="text">cnBeta</span>
-   						</a>
-   					</li>
-   					<li>
-   						<a href="http://www.qdaily.com/" target="_blank">
-   							<img src="http://www.qdaily.com/favicon.ico">
-   							<span class="text">好奇心日报</span>
-   						</a>
-   					</li>
-   					<li>
-   						<a href="http://www.dgtle.com/" target="_blank">
-   							<img src="http://www.dgtle.com/favicon.ico">
-   							<span class="text">数字尾巴</span>
-   						</a>
-   					</li>
-   					<li>
-   						<a href="https://www.v2ex.com/" target="_blank">
-   							<img src="https://www.v2ex.com/static/img/icon_rayps_64.png">
-   							<span class="text">V2EX</span>
-   						</a>
-   					</li>
-   					<li>
-   						<a href="http://www.yinfans.com" target="_blank">
-   							<img src="http://www.yinfans.com/wp-content/themes/Loostrive/images/favicon.ico">
-   							<span class="text">音范丝</span>
-   						</a>
-   					</li>
-   					<li>
-   						<a href="https://neets.cc/" target="_blank">
-   							<img src="https://neets.cc/favicon.ico">
-   							<span class="text">Neets</span>
-   						</a>
-   					</li>
-   					<li>
-   						<a href="https://dos.zczc.cz/" target="_blank">
-   							<img src="https://i.loli.net/2019/03/08/5c822391dc584.png">
-   							<span class="text">Dos游戏</span>
-   						</a>
-   					</li>
-  				</ul>
-			</div>
-		<div class="news">
-			<iframe scrolling="auto" src="https://readhub.cn/topics"></iframe>
-		</div>
-	</div>
+         <!--网址框-->
+         <div id="sitebox">
+            <ul>
+                  <li>
+                     <a href="https://docs.qq.com" target="_blank">
+                        <img src="https://s1.url.cn/tim/docs/desktop_gray1/favicon.ico">
+                        <span class="text">腾讯文档</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://mail.qq.com" target="_blank">
+                        <img src="https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/c8/4b/60/c84b606b-29e5-c292-1a62-f7fb96758cf7/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/230x0w.jpg">
+                        <span class="text">QQ邮箱</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://index.iresearch.com.cn/App/List#container" target="_blank">
+                        <img src="https://index.iresearch.com.cn/favicon.ico">
+                        <span class="text">艾瑞数据</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.qimai.cn/rank" target="_blank">
+                        <img src="https://static.qimai.cn/static/favicon.ico">
+                        <span class="text">七麦数据</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://unsplash.com/" target="_blank">
+                        <img src="https://res.cloudinary.com/tryghost/image/fetch/w_120,h_100,c_fit/https://docs.ghost.io/content/images/2019/01/unsplash.svg">
+                        <span class="text">Unsplash</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.iconfont.cn/" target="_blank">
+                        <img src="https://gtms04.alicdn.com/tps/i4/TB1_oz6GVXXXXaFXpXXJDFnIXXX-64-64.ico">
+                        <span class="text">Iconfont</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.iconfinder.com/" target="_blank">
+                        <img src="https://www.iconfinder.com/favicon.ico">
+                        <span class="text">Iconfinder</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="javascript:show()">
+                        <img src="https://i.loli.net/2019/04/03/5ca48caa76976.png">
+                        <span class="text">更多</span>
+                     </a>
+                  </li>
+            </ul>
+            <ul id="more" style="display: none;">
+                  <li>
+                     <a href="https://tinypng.com/" target="_blank">
+                        <img src="https://tinypng.com/images/apple-touch-icon.png">
+                        <span class="text">TinyPNG</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://yj.duduxuexi.com/" target="_blank">
+                        <img src="http://yj.duduxuexi.com/yj.png">
+                        <span class="text">圆角图片</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://sm.ms/" target="_blank">
+                        <img src="https://sm.ms/favicon.ico">
+                        <span class="text">SM.MS</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://cowtransfer.com/" target="_blank">
+                        <img src="https://background.cowtransfer.com/favicon.ico">
+                        <span class="text">奶牛快传</span>
+                     </a>
+                  </li>
+            </ul>
+            <ul>
+                  <li>
+                     <a href="https://www.cnbeta.com/" target="_blank">
+                        <img src="https://static.cnbetacdn.com/favicon.ico">
+                        <span class="text">cnBeta</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://www.qdaily.com/" target="_blank">
+                        <img src="http://www.qdaily.com/favicon.ico">
+                        <span class="text">好奇心日报</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://www.dgtle.com/" target="_blank">
+                        <img src="http://www.dgtle.com/favicon.ico">
+                        <span class="text">数字尾巴</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.v2ex.com/" target="_blank">
+                        <img src="https://www.v2ex.com/static/img/icon_rayps_64.png">
+                        <span class="text">V2EX</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://www.yinfans.com" target="_blank">
+                        <img src="http://www.yinfans.com/wp-content/themes/Loostrive/images/favicon.ico">
+                        <span class="text">音范丝</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://neets.cc/" target="_blank">
+                        <img src="https://neets.cc/favicon.ico">
+                        <span class="text">Neets</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://dos.zczc.cz/" target="_blank">
+                        <img src="https://i.loli.net/2019/03/08/5c822391dc584.png">
+                        <span class="text">Dos游戏</span>
+                     </a>
+                  </li>
+            </ul>
+         </div>
 
+      <!--新闻框-->
+      <div class="news">
+         <iframe scrolling="auto" src="https://readhub.cn/topics"></iframe>
+      </div>
+        <div id="test" style="background-color: #f2f2f2; display: none;">dfgfsdg</div>
+   </div>
 
-	</body>
+   </body>
 </html>
