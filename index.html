@@ -31,6 +31,7 @@
          </div>
 
 <script type="text/javascript">
+
 //随机显示图片
 var images = [
    "https://i.loli.net/2019/03/15/5c8b0f6cb01ee.gif", 
@@ -46,10 +47,21 @@ var url = Math.floor(Math.random()*images.length);
 document.getElementById('img').src = images[url];
 
 //显示更多
+var onOff = true;
 function show() {
-   document.all["more"].style.display="block";
+   if (onOff) {
+      document.getElementById("more").innerHTML ="收起";
+      document.all["moreList"].style.display="block";
+   } 
+   else {
+      document.getElementById("more").innerHTML ="更多";
+      document.all["moreList"].style.display="none";
+   };
+   onOff = !onOff;
+   return false;
 }
 </script>
+
          <!--搜索框-->
          <div id="searchbox">
             <form action="https://vip.kuaimen.bid/search" target="_blank" method="get" class="search-form"> 
@@ -103,13 +115,13 @@ function show() {
                      </a>
                   </li>
                   <li>
-                     <a href="javascript:show()">
-                        <img src="https://i.loli.net/2019/04/06/5ca89dcb29c2d.png">
-                        <span class="text">更多</span>
+                     <a  href="javascript:show()">
+                        <img src="https://i.loli.net/2019/04/07/5ca8ea65a28d4.png">
+                        <span id="more" class="text">更多</span>
                      </a>
                   </li>
             </ul>
-            <ul id="more" style="display: none;">
+            <ul id="moreList" style="display: none;">
                   <li>
                      <a href="https://tinypng.com/" target="_blank">
                         <img src="https://tinypng.com/images/apple-touch-icon.png">
