@@ -23,13 +23,16 @@ body {
 
 input {
 	font-size: 16px;
-	width: 659px;
+	width: 800px;
 	height: 44px;
 	border: none;
 	padding: 0;
-	padding-left: 20px;
-    border-radius: 8px 0 0 8px;
+    border-radius: 24px;
     outline: none;
+    vertical-align: middle;
+    line-height: 44px;
+    text-indent: 32px;
+    color: #444d58;
 	/*box-shadow: inset 0 1px 1px rgba(0,0,0,.075);*/
 }
 
@@ -37,7 +40,7 @@ input {
 	   border-color:#20a0ff;
 }*/
 
-.search-btn {
+/*.search-btn {
 	width: 120px;
 	height: 44px;
 	border: none;
@@ -47,14 +50,14 @@ input {
 	cursor: pointer;
 	color: #8590a6;
 	background-color: #f2f2f2;
-	border-radius: 0 8px 8px 0;
+	border-radius: 0 24px 24px 0;
 	font-size: 16px;
 	line-height: 16px;
 }
 
 .search-btn:hover {
 	background-color: #ededed;
-}
+}*/
 
 #sitebox {
 	width: 800px;
