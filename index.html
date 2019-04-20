@@ -64,6 +64,14 @@
       }
       </script>
 
+            <script type="text/javascript">
+      if((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+         document.all["newsList"].style.display="none";
+      } else {
+         document.all["newsList"].style.display="block";
+      }
+      </script>
+
          <!--搜索框-->
          <div id="searchbox">
             <form action="https://google.wenyuhai.com/search" target="_blank" method="get" class="search-form"> 
@@ -225,13 +233,7 @@
                   </li>
             </ul>
          </div>
-      <script type="text/javascript">
-      if((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
-         alert ("dd");
-      } else {
-         document.all["newsList"].style.display="block";
-      }
-      </script>
+
       <!--新闻框-->
       <div id="newsList" class="news">
          <iframe scrolling="auto" src="https://readhub.cn/"></iframe>
