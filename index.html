@@ -3,7 +3,7 @@
    <head>
       <meta charset="utf-8">
       <title>小岛</title>
-      <meta name="keywords" content="小岛导航,小岛,岛,小岛秀夫">
+      <meta name="keywords" content="小岛, 小岛秀夫">
       <meta name="description" content="每个人都是一座小岛">
       <link rel="icon" href="images/favicon.ico" type="image/x-icon">
       <link rel="short icon" href="images/favicon.ico" type="image/x-icon">
@@ -61,12 +61,6 @@
        };
        onOff = !onOff;
        return false;
-}
-
-      if((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
-         alert('您正在通过手机访问');
-      } else {
-       alert("您在PC端访问");
       }
       </script>
 
@@ -231,9 +225,15 @@
                   </li>
             </ul>
          </div>
-
+      <script type="text/javascript">
+      if((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+         document.all["newsList"].style.display="none";
+      } else {
+         document.all["newsList"].style.display="block";
+      }
+      </script>
       <!--新闻框-->
-      <div class="news">
+      <div id=“newsList” class="news">
          <iframe scrolling="auto" src="https://readhub.cn/"></iframe>
       </div>
    </div>
