@@ -9,16 +9,14 @@
       <link rel="short icon" href="images/favicon.ico" type="image/x-icon">
       <link rel="stylesheet" type="text/css" href="index.css">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137819175-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-137819175-1');
-</script>
-
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137819175-1"></script>
+      <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-137819175-1');
+      </script>
    </head>
 
    <body>
@@ -30,42 +28,47 @@
             </a>
          </div>
 
-<script type="text/javascript">
+      <script type="text/javascript">
+      //随机显示图片
+      var images = [
+      "https://i.loli.net/2019/03/15/5c8b0f6cb01ee.gif", 
+      "https://i.loli.net/2019/03/15/5c8b0f568cacb.gif",
+      "https://i.loli.net/2019/03/15/5c8b0f60854a2.gif",
+      "https://i.loli.net/2019/03/15/5c8b0f624b2c4.gif",
+      "https://i.loli.net/2019/03/15/5c8b0f67acc24.gif",
+      "https://i.loli.net/2019/03/15/5c8b0f6b80e17.gif",
+      "https://i.loli.net/2019/03/15/5c8b0f6c11f2b.gif",
+      "https://i.loli.net/2019/03/15/5c8b116108485.gif",
+      "https://i.loli.net/2019/04/07/5ca8ecbc9ac19.gif",
+      "https://i.loli.net/2019/04/07/5ca8ecd2e96d9.gif",
+      "https://i.loli.net/2019/04/07/5ca8ecd332e33.gif",
+      "https://i.loli.net/2019/04/07/5ca8f253cf17f.gif",
+      "https://i.loli.net/2019/04/07/5ca8f358438d5.gif",   
+      ];
+      var url = Math.floor(Math.random()*images.length);
+      document.getElementById('img').src = images[url];
 
-//随机显示图片
-var images = [
-   "https://i.loli.net/2019/03/15/5c8b0f6cb01ee.gif", 
-   "https://i.loli.net/2019/03/15/5c8b0f568cacb.gif",
-   "https://i.loli.net/2019/03/15/5c8b0f60854a2.gif",
-   "https://i.loli.net/2019/03/15/5c8b0f624b2c4.gif",
-   "https://i.loli.net/2019/03/15/5c8b0f67acc24.gif",
-   "https://i.loli.net/2019/03/15/5c8b0f6b80e17.gif",
-   "https://i.loli.net/2019/03/15/5c8b0f6c11f2b.gif",
-   "https://i.loli.net/2019/03/15/5c8b116108485.gif",
-   "https://i.loli.net/2019/04/07/5ca8ecbc9ac19.gif",
-   "https://i.loli.net/2019/04/07/5ca8ecd2e96d9.gif",
-   "https://i.loli.net/2019/04/07/5ca8ecd332e33.gif",
-   "https://i.loli.net/2019/04/07/5ca8f253cf17f.gif",
-   "https://i.loli.net/2019/04/07/5ca8f358438d5.gif",   
-];
-var url = Math.floor(Math.random()*images.length);
-document.getElementById('img').src = images[url];
-
-//显示更多
-var onOff = true;
-function show() {
-   if (onOff) {
-      document.getElementById("more").innerHTML ="收起";
-      document.all["moreList"].style.display="block";
-   } 
-   else {
-      document.getElementById("more").innerHTML ="更多";
-      document.all["moreList"].style.display="none";
-   };
-   onOff = !onOff;
-   return false;
+      //显示更多
+      var onOff = true;
+      function show() {
+         if (onOff) {
+          document.getElementById("more").innerHTML ="收起";
+          document.all["moreList"].style.display="block";
+       } 
+       else {
+          document.getElementById("more").innerHTML ="更多";
+          document.all["moreList"].style.display="none";
+       };
+       onOff = !onOff;
+       return false;
 }
-</script>
+
+      if((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+         alert('您正在通过手机访问');
+      } else {
+       alert("您在PC端访问");
+      }
+      </script>
 
          <!--搜索框-->
          <div id="searchbox">
@@ -233,7 +236,6 @@ function show() {
       <div class="news">
          <iframe scrolling="auto" src="https://readhub.cn/"></iframe>
       </div>
-        <div id="test" style="background-color: #f2f2f2; display: none;">dfgfsdg</div>
    </div>
 
    </body>
