@@ -5,7 +5,7 @@ body {
 	font-family: 'Helvetica Neue','Hiragino Sans GB',Helvetica,Arial,Sans-serif；
 }
 
-#imgbox {
+#imgBox {
 	width: auto;
 	height: 300px;
 }
@@ -17,7 +17,7 @@ body {
 	margin: 40px auto;
 }
 
-#searchbox {
+#searchBox {
 	text-align: center;
 	margin: 80px auto 0 auto;
 }
@@ -60,7 +60,7 @@ input {
 	background-color: #ededed;
 }*/
 
-#sitebox {
+#siteBox {
 	width: 800px;
 	margin: 20px auto 0 auto;
 	padding: 20px 0 0 0;
@@ -68,13 +68,13 @@ input {
 	border-radius: 8px;
 }
 
-#sitebox ul {
+#siteBox ul {
 	margin: 0 auto;
 	overflow: hidden;
 	padding-inline-start: 80px;
 }
 
-#sitebox li {
+#siteBox li {
 	list-style: none;
 	width: 180px;
 	height: 50px;
@@ -82,23 +82,23 @@ input {
 	margin: 0 auto 20px auto;
 }
 
-#sitebox li a {
+#siteBox li a {
 	text-decoration: none;
 	color: #444d58;
 	line-height: 50px;
 	float: left;
 }
 
-#sitebox li a:hover {
+#siteBox li a:hover {
     color: #8590a6;
 }
 
-#sitebox li a .text {
+#siteBox li a .text {
 	padding-left: 6px;
 	vertical-align: middle;
 }
 
-#sitebox li img {
+#siteBox li img {
 	width: 20px;
 	height: 20px;
 	vertical-align: middle;
