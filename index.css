@@ -5,6 +5,15 @@ body {
 	font-family: 'Helvetica Neue','Hiragino Sans GB',Helvetica,Arial,Sans-serif；
 }
 
+.notes {
+	position: fixed;
+	top: 0;
+	left: 0;
+	resize: none;
+	width: 200px;
+	height: 200px; 
+}
+
 #imgBox {
 	width: auto;
 	height: 300px;
