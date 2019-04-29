@@ -20,7 +20,6 @@
             gtag('config', 'UA-137819175-1');
         </script>
     </head>
-
     <body>
         <div class="content">
             <!--图片框-->
@@ -189,25 +188,22 @@
                     </li>
                 </ul>
             </div>
-            
             <!--notes-->
             <textarea id="notes"></textarea>
-
             <!--newsBox-->
             <div id="newsBox">
                 <iframe scrolling="auto" src="https://readhub.cn/"></iframe>
             </div>
-            <script type="text/javascript">
+            <script>
                 //判断设备
-if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
-    document.all["newsBox"].style.display = "none";
-    document.all["notes"].style.display = "none";
-} else {
-    document.all["newsBox"].style.display = "block";
-    document.all["notes"].style.display = "block";
-}
+                if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+                    document.all["newsBox"].style.display = "none";
+                    document.all["notes"].style.display = "none";
+                } else {
+                    document.all["newsBox"].style.display = "block";
+                    document.all["notes"].style.display = "block";
+                }
             </script>
         </div>
-
     </body>
 </html>
