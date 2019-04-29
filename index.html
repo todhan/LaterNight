@@ -22,20 +22,20 @@
     </head>
     <body>
         <div class="content">
-            <!--图片框-->
+            <!--imgBox-->
             <div id="imgBox">
                 <a href="https://www.pixivision.net/zh/a/2686" target="_blank" title="像素画GIF是怎么制作出来的？ 插画师・丰井（@1041uuu）访谈">
                     <img id="img" src="https://i.loli.net/2019/03/15/5c8b0f6cb01ee.gif"/>
                 </a>
             </div>
-            <!--搜索框-->
+            <!--searchBox-->
             <div id="searchBox">
                 <form action="https://google.wenyuhai.com/search" target="_blank" method="get" class="search-form">
                     <input type="text" name="q" autocomplete="off" class="form-control" placeholder="Google" autofocus="autofocus" onmouseover="this.focus()"/>
                     <!-- <button type="submit" class="search-btn"><span>搜索</span></button> -->
                 </form>
             </div>
-            <!--网址框-->
+            <!--siteBox-->
             <div id="siteBox">
                 <ul>
                     <li>
@@ -203,6 +203,20 @@
                     document.all["newsBox"].style.display = "block";
                     document.all["notes"].style.display = "block";
                 }
+
+                //显示更多
+var onOff = true;
+function show() {
+    if (onOff) {
+        document.getElementById("more").innerHTML = "收起";
+        document.all["moreList"].style.display = "block";
+    } else {
+        document.getElementById("more").innerHTML = "更多";
+        document.all["moreList"].style.display = "none";
+    }
+    ;onOff = !onOff;
+    return false;
+}
             </script>
         </div>
     </body>
