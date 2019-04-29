@@ -1,267 +1,204 @@
-   <!DOCTYPE html>
-   <html lang="zh-CN">
-      <head>
-         <meta charset="utf-8">
-         <title>小岛</title>
-         <meta name="keywords" content="小岛, 小岛秀夫">
-         <meta name="description" content="每个人都是一座小岛">
-         <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-         <link rel="short icon" href="images/favicon.ico" type="image/x-icon">
-         <link rel="stylesheet" type="text/css" href="index.css">
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8"/>
+        <title>小岛</title>
+        <meta name="keywords" content="小岛, 小岛秀夫"/>
+        <meta name="description" content="每个人都是一座小岛"/>
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+        <link rel="short icon" href="images/favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" type="text/css" href="index.css"/>
+        <script src="index.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137819175-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'UA-137819175-1');
+        </script>
+    </head>
 
-         <!-- Global site tag (gtag.js) - Google Analytics -->
-         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137819175-1"></script>
-         <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         gtag('js', new Date());
-         gtag('config', 'UA-137819175-1');
-         </script>
-      </head>
-
-      <body>
-         
-         <div class="content">
+    <body>
+        <div class="content">
             <!--图片框-->
             <div id="imgBox">
-               <a href="https://www.pixivision.net/zh/a/2686" target="_blank" title="像素画GIF是怎么制作出来的？ 插画师・丰井（@1041uuu）访谈">
-               <img id="img" src="https://i.loli.net/2019/03/15/5c8b0f6cb01ee.gif">
-               </a>
+                <a href="https://www.pixivision.net/zh/a/2686" target="_blank" title="像素画GIF是怎么制作出来的？ 插画师・丰井（@1041uuu）访谈">
+                    <img id="img" src="https://i.loli.net/2019/03/15/5c8b0f6cb01ee.gif"/>
+                </a>
             </div>
-
-         <script type="text/javascript">
-   var d = document;
-
-   // Check browser support
-   if (typeof(Storage) !== "undefined") {
-      d.addEventListener('DOMContentLoaded', function() {
-         var savedContent = localStorage.getItem("notesContent");
-         if (savedContent != null) {
-            d.getElementById("notes").value = savedContent;
-         }
-
-         d.getElementById("notes").onkeyup = function() {
-            var data = d.getElementById("notes").value;
-            localStorage.setItem("notesContent", data);
-         }
-      });
-   } 
-
-   else {
-      document.getElementById("result").innerHTML = "你这个浏览器不支持 Web Storage";
-   }
-
-         //随机显示图片
-         var images = [
-         "https://i.loli.net/2019/03/15/5c8b0f6cb01ee.gif", 
-         "https://i.loli.net/2019/03/15/5c8b0f568cacb.gif",
-         "https://i.loli.net/2019/03/15/5c8b0f60854a2.gif",
-         "https://i.loli.net/2019/03/15/5c8b0f624b2c4.gif",
-         "https://i.loli.net/2019/03/15/5c8b0f67acc24.gif",
-         "https://i.loli.net/2019/03/15/5c8b0f6b80e17.gif",
-         "https://i.loli.net/2019/03/15/5c8b0f6c11f2b.gif",
-         "https://i.loli.net/2019/03/15/5c8b116108485.gif",
-         "https://i.loli.net/2019/04/07/5ca8ecbc9ac19.gif",
-         "https://i.loli.net/2019/04/07/5ca8ecd2e96d9.gif",
-         "https://i.loli.net/2019/04/07/5ca8ecd332e33.gif",
-         "https://i.loli.net/2019/04/07/5ca8f253cf17f.gif",
-         "https://i.loli.net/2019/04/07/5ca8f358438d5.gif",   
-         ];
-         var url = Math.floor(Math.random()*images.length);
-         document.getElementById('img').src = images[url];
-
-         //显示更多
-         var onOff = true;
-         function show() {
-            if (onOff) {
-             document.getElementById("more").innerHTML ="收起";
-             document.all["moreList"].style.display="block";
-          } 
-          else {
-             document.getElementById("more").innerHTML ="更多";
-             document.all["moreList"].style.display="none";
-          };
-          onOff = !onOff;
-          return false;
-         }
-         </script>
-
             <!--搜索框-->
             <div id="searchBox">
-               <form action="https://google.wenyuhai.com/search" target="_blank" method="get" class="search-form"> 
-                  <input type="text" name="q" autocomplete="off" class="form-control" placeholder="Google" autofocus="autofocus" onmouseover="this.focus()"/>
-                  <!-- <button type="submit" class="search-btn"><span>搜索</span></button> -->
-               </form>
+                <form action="https://google.wenyuhai.com/search" target="_blank" method="get" class="search-form">
+                    <input type="text" name="q" autocomplete="off" class="form-control" placeholder="Google" autofocus="autofocus" onmouseover="this.focus()"/>
+                    <!-- <button type="submit" class="search-btn"><span>搜索</span></button> -->
+                </form>
             </div>
-
             <!--网址框-->
             <div id="siteBox">
-               <ul>
-                     <li>
+                <ul>
+                    <li>
                         <a href="https://www.qimai.cn/rank/float" target="_blank">
-                           <img src="https://static.qimai.cn/static/favicon.ico">
-                           <span class="text">七麦数据</span>
+                            <img src="https://static.qimai.cn/static/favicon.ico"/>
+                            <span class="text">七麦数据</span>
                         </a>
-                     </li>
-                     <li>
+                    </li>
+                    <li>
                         <a href="https://index.iresearch.com.cn/App/List#container" target="_blank">
-                           <img src="https://index.iresearch.com.cn/favicon.ico">
-                           <span class="text">艾瑞数据</span>
+                            <img src="https://index.iresearch.com.cn/favicon.ico"/>
+                            <span class="text">艾瑞数据</span>
                         </a>
-                     </li>
-                     <li>
+                    </li>
+                    <li>
                         <a href="https://www.producthunt.com/" target="_blank">
-                           <img src="https://www.producthunt.com/favicon.ico">
-                           <span class="text">Product Hunt</span>
+                            <img src="https://www.producthunt.com/favicon.ico"/>
+                            <span class="text">Product Hunt</span>
                         </a>
-                     </li>
-                     <li>
+                    </li>
+                    <li>
                         <a href="https://dribbble.com/" target="_blank">
-                           <img src="https://cdn.dribbble.com/assets/favicon-63b2904a073c89b52b19aa08cebc16a154bcf83fee8ecc6439968b1e6db569c7.ico">
-                           <span class="text">Dribbble</span>
+                            <img src="https://i.loli.net/2019/04/29/5cc6a90733ac0.png"/>
+                            <span class="text">Dribbble</span>
                         </a>
-                     </li>
-                     <li>
+                    </li>
+                    <li>
                         <a href="https://docs.qq.com" target="_blank">
-                           <img src="https://s1.url.cn/tim/docs/desktop_gray1/favicon.ico">
-                           <span class="text">腾讯文档</span>
+                            <img src="https://s1.url.cn/tim/docs/desktop_gray1/favicon.ico"/>
+                            <span class="text">腾讯文档</span>
                         </a>
-                     </li>
-                     <li>
+                    </li>
+                    <li>
                         <a href="https://mail.qq.com" target="_blank">
-                           <img src="https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/c8/4b/60/c84b606b-29e5-c292-1a62-f7fb96758cf7/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/230x0w.jpg">
-                           <span class="text">QQ邮箱</span>
+                            <img src="https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/c8/4b/60/c84b606b-29e5-c292-1a62-f7fb96758cf7/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/230x0w.jpg"/>
+                            <span class="text">QQ邮箱</span>
                         </a>
-                     </li>
-                     <li>
+                    </li>
+                    <li>
                         <a href="https://www.iconfont.cn/" target="_blank">
-                           <img src="https://gtms04.alicdn.com/tps/i4/TB1_oz6GVXXXXaFXpXXJDFnIXXX-64-64.ico">
-                           <span class="text">Iconfont</span>
+                            <img src="https://gtms04.alicdn.com/tps/i4/TB1_oz6GVXXXXaFXpXXJDFnIXXX-64-64.ico"/>
+                            <span class="text">Iconfont</span>
                         </a>
-                     </li>
-                     <li>
-                        <a  href="javascript:show()">
-                           <img src="https://i.loli.net/2019/04/07/5ca8ea65a28d4.png">
-                           <span id="more" class="text">更多</span>
+                    </li>
+                    <li>
+                        <a href="javascript:show()">
+                            <img src="https://i.loli.net/2019/04/07/5ca8ea65a28d4.png"/>
+                            <span id="more" class="text">更多</span>
                         </a>
-                     </li>
-               </ul>
-               <ul id="moreList" style="display: none;">
-                     <li>
+                    </li>
+                </ul>
+                <ul id="moreList" style="display: none;">
+                    <li>
                         <a href="https://www.iconfinder.com/" target="_blank">
-                           <img src="https://www.iconfinder.com/favicon.ico">
-                           <span class="text">Iconfinder</span>
+                            <img src="https://www.iconfinder.com/favicon.ico"/>
+                            <span class="text">Iconfinder</span>
                         </a>
-                     </li>
-                     <li>
+                    </li>
+                    <li>
                         <a href="https://unsplash.com/" target="_blank">
-                           <img src="https://res.cloudinary.com/tryghost/image/fetch/w_120,h_100,c_fit/https://docs.ghost.io/content/images/2019/01/unsplash.svg">
-                           <span class="text">Unsplash</span>
+                            <img src="https://res.cloudinary.com/tryghost/image/fetch/w_120,h_100,c_fit/https://docs.ghost.io/content/images/2019/01/unsplash.svg"/>
+                            <span class="text">Unsplash</span>
                         </a>
-                     </li>
-                     <li>
+                    </li>
+                    <li>
                         <a href="https://tinypng.com/" target="_blank">
-                           <img src="https://tinypng.com/images/apple-touch-icon.png">
-                           <span class="text">TinyPNG</span>
+                            <img src="https://tinypng.com/images/apple-touch-icon.png"/>
+                            <span class="text">TinyPNG</span>
                         </a>
-                     </li>
-                     <li>
+                    </li>
+                    <li>
                         <a href="http://yj.duduxuexi.com/" target="_blank">
-                           <img src="http://yj.duduxuexi.com/yj.png">
-                           <span class="text">圆角图片</span>
+                            <img src="http://yj.duduxuexi.com/yj.png"/>
+                            <span class="text">圆角图片</span>
                         </a>
-                     </li>
-                     <li>
+                    </li>
+                    <li>
                         <a href="https://sm.ms/" target="_blank">
-                           <img src="https://sm.ms/favicon.ico">
-                           <span class="text">SM.MS</span>
+                            <img src="https://sm.ms/favicon.ico"/>
+                            <span class="text">SM.MS</span>
                         </a>
-                     </li>
-                     <li>
+                    </li>
+                    <li>
                         <a href="https://cowtransfer.com/" target="_blank">
-                           <img src="https://background.cowtransfer.com/favicon.ico">
-                           <span class="text">奶牛快传</span>
+                            <img src="https://background.cowtransfer.com/favicon.ico"/>
+                            <span class="text">奶牛快传</span>
                         </a>
-                     </li>
-                     <li>
+                    </li>
+                    <li>
                         <a href="https://www.pdflibr.com/" target="_blank">
-                           <img src="https://www.pdflibr.com/static/favicon.ico">
-                           <span class="text">云短信</span>
+                            <img src="https://www.pdflibr.com/static/favicon.ico"/>
+                            <span class="text">云短信</span>
                         </a>
-                     </li>
-                     <li>
+                    </li>
+                    <li>
                         <a href="https://xclient.info/" target="_blank">
-                           <img src="https://img.xclient.info/icon/favicon.ico">
-                           <span class="text">Xclient</span>
+                            <img src="https://img.xclient.info/icon/favicon.ico"/>
+                            <span class="text">Xclient</span>
                         </a>
-                     </li>
-               </ul>
-               <ul>
-                     <li>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
                         <a href="https://www.cnbeta.com/" target="_blank">
-                           <img src="https://static.cnbetacdn.com/favicon.ico">
-                           <span class="text">cnBeta</span>
+                            <img src="https://static.cnbetacdn.com/favicon.ico"/>
+                            <span class="text">cnBeta</span>
                         </a>
-                     </li>
-                     <li>
+                    </li>
+                    <li>
                         <a href="https://www.qdaily.com/" target="_blank">
-                           <img src="https://www.qdaily.com/favicon.ico">
-                           <span class="text">好奇心日报</span>
+                            <img src="https://www.qdaily.com/favicon.ico"/>
+                            <span class="text">好奇心日报</span>
                         </a>
-                     </li>
-                     <li>
+                    </li>
+                    <li>
                         <a href="https://www.dgtle.com/" target="_blank">
-                           <img src="https://www.dgtle.com/favicon.ico">
-                           <span class="text">数字尾巴</span>
+                            <img src="https://www.dgtle.com/favicon.ico"/>
+                            <span class="text">数字尾巴</span>
                         </a>
-                     </li>
-                     <li>
+                    </li>
+                    <li>
                         <a href="https://www.v2ex.com/" target="_blank">
-                           <img src="https://www.v2ex.com/static/img/icon_rayps_64.png">
-                           <span class="text">V2EX</span>
+                            <img src="https://www.v2ex.com/static/img/icon_rayps_64.png"/>
+                            <span class="text">V2EX</span>
                         </a>
-                     </li>
-                     <li>
-                        <a href="https://www.yinfans.com" target="_blank">
-                           <img src="https://www.yinfans.com/wp-content/themes/Loostrive/images/favicon.ico">
-                           <span class="text">音范丝</span>
+                    </li>
+                    <li>
+                        <a href="http://www.yinfans.com" target="_blank">
+                            <img src="http://www.yinfans.com/wp-content/themes/Loostrive/images/favicon.ico"/>
+                            <span class="text">音范丝</span>
                         </a>
-                     </li>
-                     <li>
+                    </li>
+                    <li>
                         <a href="https://www.imeiju.cc/" target="_blank">
-                           <img src="https://www.imeiju.cc/favicon.ico">
-                           <span class="text">爱美剧</span>
+                            <img src="https://www.imeiju.cc/favicon.ico"/>
+                            <span class="text">爱美剧</span>
                         </a>
-                     </li>
-                     <li>
+                    </li>
+                    <li>
                         <a href="https://meiriyiwen.com/" target="_blank">
-                           <img src="https://meiriyiwen.com/favicon.ico">
-                           <span class="text">每日一文</span>
+                            <img src="https://meiriyiwen.com/favicon.ico"/>
+                            <span class="text">每日一文</span>
                         </a>
-                     </li>
-                     <li>
+                    </li>
+                    <li>
                         <a href="https://dos.zczc.cz/" target="_blank">
-                           <img src="https://i.loli.net/2019/03/08/5c822391dc584.png">
-                           <span class="text">Dos游戏</span>
+                            <img src="https://i.loli.net/2019/03/08/5c822391dc584.png"/>
+                            <span class="text">Dos游戏</span>
                         </a>
-                     </li>
-               </ul>
+                    </li>
+                </ul>
             </div>
-         <textarea id="notes" placeholder="便签"></textarea>
-         <!--新闻框-->
-         <div id="newsBox">
-            <iframe scrolling="auto" src="https://readhub.cn/"></iframe>
-         </div>
-      </div>
+            
+            <!--notes-->
+            <textarea id="notes"></textarea>
 
-         <script type="text/javascript">
-         if((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
-            document.all["newsBox"].style.display="none";
-            document.all["notes"].style.display="none";
-         } else {
-            document.all["newsBox"].style.display="block";
-            document.all["notes"].style.display="block";
-         }
-         </script>
-      </body>
-   </html>
+            <!--newsBox-->
+            <div id="newsBox">
+                <iframe scrolling="auto" src="https://readhub.cn/"></iframe>
+            </div>
+        </div>
+
+        </script>
+    </body>
+</html>

@@ -1,16 +1,59 @@
-var images = [
-	{ "href":"http://1041uuu.tumblr.com/" , "src":"https://i.loli.net/2019/03/15/5c8b0f6cb01ee.gif" , "title":"1041uuu" },
-	{ "href":"http://1041uuu.tumblr.com/" , "src":"https://i.loli.net/2019/03/15/5c8b0f6c2938d.gif" , "title":"1041uuu" },
-	{ "href":"http://1041uuu.tumblr.com/" , "src":"https://i.loli.net/2019/03/15/5c8b0f568cacb.gif" , "title":"1041uuu" },
-	{ "href":"http://1041uuu.tumblr.com/" , "src":"https://i.loli.net/2019/03/15/5c8b0f5f9df0b.gif" , "title":"1041uuu" },
-	{ "href":"http://1041uuu.tumblr.com/" , "src":"https://i.loli.net/2019/03/15/5c8b0f60854a2.gif" , "title":"1041uuu" },
-	{ "href":"http://1041uuu.tumblr.com/" , "src":"https://i.loli.net/2019/03/15/5c8b0f624b2c4.gif" , "title":"1041uuu" },
-	{ "href":"http://1041uuu.tumblr.com/" , "src":"https://i.loli.net/2019/03/15/5c8b0f628816d.gif" , "title":"1041uuu" },
-	{ "href":"http://1041uuu.tumblr.com/" , "src":"https://i.loli.net/2019/03/15/5c8b0f67acc24.gif" , "title":"1041uuu" },
-	{ "href":"http://1041uuu.tumblr.com/" , "src":"https://i.loli.net/2019/03/15/5c8b0f6b80e17.gif" , "title":"1041uuu" },
-	{ "href":"http://1041uuu.tumblr.com/" , "src":"https://i.loli.net/2019/03/15/5c8b0f6c11f2b.gif" , "title":"1041uuu" },
+var d = document;
+// Check browser support
+if (typeof (Storage) !== "undefined") {
+    d.addEventListener('DOMContentLoaded', function() {
+        var savedContent = localStorage.getItem("notesContent");
+        if (savedContent != null) {
+            d.getElementById("notes").value = savedContent;
+        }
 
-	{ "href":"http://1041uuu.tumblr.com/" , "src":"https://i.loli.net/2019/03/15/5c8b116108485.gif" , "title":"1041uuu" },
-	{ "href":"http://1041uuu.tumblr.com/" , "src":"https://i.loli.net/2019/03/15/5c8b11653b79c.gif" , "title":"1041uuu" },
-	{ "href":"http://1041uuu.tumblr.com/" , "src":"https://i.loli.net/2019/03/15/5c8b11670a61c.gif" , "title":"1041uuu" },
-]
+        d.getElementById("notes").onkeyup = function() {
+            var data = d.getElementById("notes").value;
+            localStorage.setItem("notesContent", data);
+        }
+    });
+} else {
+    document.getElementById("result").innerHTML = "你这个浏览器不支持 Web Storage";
+}
+
+//随机显示图片
+var images = [
+	"https://i.loli.net/2019/03/15/5c8b0f6cb01ee.gif",
+	"https://i.loli.net/2019/03/15/5c8b0f568cacb.gif",
+	"https://i.loli.net/2019/03/15/5c8b0f60854a2.gif",
+	"https://i.loli.net/2019/03/15/5c8b0f624b2c4.gif",
+	"https://i.loli.net/2019/03/15/5c8b0f67acc24.gif",
+	"https://i.loli.net/2019/03/15/5c8b0f6b80e17.gif",
+	"https://i.loli.net/2019/03/15/5c8b0f6c11f2b.gif",
+	"https://i.loli.net/2019/03/15/5c8b116108485.gif",
+	"https://i.loli.net/2019/04/07/5ca8ecbc9ac19.gif",
+	"https://i.loli.net/2019/04/07/5ca8ecd2e96d9.gif",
+	"https://i.loli.net/2019/04/07/5ca8ecd332e33.gif",
+	"https://i.loli.net/2019/04/07/5ca8f253cf17f.gif",
+	"https://i.loli.net/2019/04/07/5ca8f358438d5.gif"
+	];
+var url = Math.floor(Math.random() * images.length);
+document.getElementById('img').src = images[url];
+
+//显示更多
+var onOff = true;
+function show() {
+    if (onOff) {
+        document.getElementById("more").innerHTML = "收起";
+        document.all["moreList"].style.display = "block";
+    } else {
+        document.getElementById("more").innerHTML = "更多";
+        document.all["moreList"].style.display = "none";
+    }
+    ;onOff = !onOff;
+    return false;
+}
+
+//判断设备
+if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+    document.all["newsBox"].style.display = "none";
+    document.all["notes"].style.display = "none";
+} else {
+    document.all["newsBox"].style.display = "block";
+    document.all["notes"].style.display = "block";
+}
