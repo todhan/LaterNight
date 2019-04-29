@@ -197,8 +197,17 @@
             <div id="newsBox">
                 <iframe scrolling="auto" src="https://readhub.cn/"></iframe>
             </div>
+            <script>
+                //判断设备
+if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+    document.all["newsBox"].style.display = "none";
+    document.all["notes"].style.display = "none";
+} else {
+    document.all["newsBox"].style.display = "block";
+    document.all["notes"].style.display = "block";
+}
+            </script>
         </div>
 
-        </script>
     </body>
 </html>
