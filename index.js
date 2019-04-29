@@ -1,3 +1,4 @@
+// Save the notes
 var d = document;
 // Check browser support
 if (typeof (Storage) !== "undefined") {
@@ -16,7 +17,7 @@ if (typeof (Storage) !== "undefined") {
     document.getElementById("result").innerHTML = "你这个浏览器不支持 Web Storage";
 }
 
-//随机显示图片
+//Random pics
 var images = [
 	"https://i.loli.net/2019/03/15/5c8b0f6cb01ee.gif",
 	"https://i.loli.net/2019/03/15/5c8b0f568cacb.gif",
@@ -34,26 +35,3 @@ var images = [
 	];
 var url = Math.floor(Math.random() * images.length);
 document.getElementById('img').src = images[url];
-
-//显示更多
-var onOff = true;
-function show() {
-    if (onOff) {
-        document.getElementById("more").innerHTML = "收起";
-        document.all["moreList"].style.display = "block";
-    } else {
-        document.getElementById("more").innerHTML = "更多";
-        document.all["moreList"].style.display = "none";
-    }
-    ;onOff = !onOff;
-    return false;
-}
-
-//判断设备
-if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
-    document.all["newsBox"].style.display = "none";
-    document.all["notes"].style.display = "none";
-} else {
-    document.all["newsBox"].style.display = "block";
-    document.all["notes"].style.display = "block";
-}
