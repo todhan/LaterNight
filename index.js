@@ -19,7 +19,7 @@ if (typeof (Storage) !== "undefined") {
 
 var test;
 $(document).ready( function(){
-	test =function {
+	test =function (){
 			//Random pics
 var images = [
 	"https://i.loli.net/2019/03/15/5c8b0f6cb01ee.gif",
