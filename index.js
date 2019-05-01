@@ -17,10 +17,8 @@ if (typeof (Storage) !== "undefined") {
     document.getElementById("result").innerHTML = "你这个浏览器不支持 Web Storage";
 }
 
-var test;
-$(document).ready( function(){
-	test =function (){
-			//Random pics
+$(document).ready(function(){
+//Random pics
 var images = [
 	"https://i.loli.net/2019/03/15/5c8b0f6cb01ee.gif",
 	"https://i.loli.net/2019/03/15/5c8b0f568cacb.gif",
@@ -38,6 +36,5 @@ var images = [
 	];
 var url = Math.floor(Math.random() * images.length);
 document.getElementById('img').src = images[url];
-	}
+});
 
-} );
