@@ -13,7 +13,7 @@ body {
 #img {
     width: auto;
     height: 100%;
-    border-radius: 8px;
+    border-radius: 20px;
     margin: 40px auto;
 }
 
@@ -38,32 +38,32 @@ input {
 }
 
 /*input:focus {
-	   border-color:#20a0ff;
+       border-color:#20a0ff;
 }*/
 /*.search-btn {
-	width: 120px;
-	height: 44px;
-	border: none;
-	padding: 0;
-	margin: 0;
-	outline: none;
-	cursor: pointer;
-	color: #8590a6;
-	background-color: #f2f2f2;
-	border-radius: 0 24px 24px 0;
-	font-size: 16px;
-	line-height: 16px;
+    width: 120px;
+    height: 44px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    cursor: pointer;
+    color: #8590a6;
+    background-color: #f2f2f2;
+    border-radius: 0 24px 24px 0;
+    font-size: 16px;
+    line-height: 16px;
 }
 
 .search-btn:hover {
-	background-color: #ededed;
+    background-color: #ededed;
 }*/
 #siteBox {
     width: 800px;
     margin: 20px auto 0 auto;
     padding: 20px 0 0 0;
     background-color: #ffffff;
-    border-radius: 8px;
+    border-radius: 20px;
 }
 
 #siteBox ul {
@@ -75,7 +75,7 @@ input {
 #siteBox li {
     list-style: none;
     width: 180px;
-    height: 50px;
+    height: 60px;
     float: left;
     margin: 0 auto 20px auto;
 }
@@ -83,7 +83,7 @@ input {
 #siteBox li a {
     text-decoration: none;
     color: #000000;
-    line-height: 50px;
+    line-height: 60px;
     float: left;
 }
 
