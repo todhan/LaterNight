@@ -75,7 +75,7 @@ input {
 #siteBox li {
     list-style: none;
     width: 180px;
-    height: 60px;
+    height: 56px;
     float: left;
     margin: 0 auto 20px auto;
 }
@@ -83,12 +83,13 @@ input {
 #siteBox li a {
     text-decoration: none;
     color: #000000;
-    line-height: 60px;
+    line-height: 56px;
     float: left;
 }
 
 #siteBox li a:hover {
-    color: #8590a6;
+    box-shadow: 0 1px 8px #ddd;
+    /*color: #8590a6;*/
 }
 
 #siteBox li a .text {
