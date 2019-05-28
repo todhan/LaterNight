@@ -1,17 +1,9 @@
-@font-face {
-    font-family: 'PingFang SC'; 
-    src: url('/images/苹方黑体-准-简.ttf'); //你的资源目录
-    font-weight: normal;
-    font-style: normal;
-  }
-
 body {
     text-align: center;
     background-color: #fafafa;
     margin: 0;
-    font-family: "PingFang SC", 'Helvetica Neue', 'Hiragino Sans GB', Helvetica, Arial, Sans-serif；
+    font-family: 'Helvetica Neue', 'Hiragino Sans GB', Helvetica, Arial, Sans-serif；
 }
-
 
 #imgBox {
     width: auto;
