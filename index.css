@@ -88,8 +88,16 @@ input {
 }
 
 #siteBox li a:hover {
-    box-shadow: 0 1px 8px #ddd;
-    /*color: #8590a6;*/
+    background-color: #fff;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0 4px 18px -4px rgba(0,0,0,.1);
+    margin-left: -22px;
+    margin-right: -22px;
+    margin-top: -1px;
+    padding-left: 21px;
+    padding-right: 21px;
+    z-index: 2
 }
 
 #siteBox li a .text {
@@ -124,5 +132,5 @@ iframe {
     right: 0;
     width: 300px;
     height: 1000px;
-    border: none;
+    border: none; 
 }
