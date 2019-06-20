@@ -8,7 +8,7 @@ body {
 .logo {
     position: fixed;
     top: 20px;
-    left: 40px;
+    left: 30px;
     height: 40px;
 }
 
@@ -128,16 +128,40 @@ textarea {
     right: 0;
     resize: none;
     width: 296px;
-    height: 64px;
+    height: 44px;
     border: none;
     font-family: 'Helvetica Neue', 'Hiragino Sans GB', Helvetica, Arial, Sans-serif；
 }
 
+@media screen and (max-device-width: 1500px) {
+textarea {
+    position: fixed;
+    top: 0;
+    right: 0;
+    resize: none;
+    width: 256px;
+    height: 44px;
+    border: none;
+    font-family: 'Helvetica Neue', 'Hiragino Sans GB', Helvetica, Arial, Sans-serif；
+}
+}
+
 iframe {
     position: fixed;
-    top: 64px;
+    top: 44px;
     right: 0;
     width: 300px;
     height: 1000px;
     border: none; 
+}
+
+@media screen and (max-device-width: 1500px) {
+iframe {
+    position: fixed;
+    top: 44px;
+    right: 0;
+    width: 260px;
+    height: 1000px;
+    border: none; 
+}
 }
