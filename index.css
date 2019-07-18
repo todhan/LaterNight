@@ -26,22 +26,27 @@ body {
 
 #searchBox {
     text-align: center;
-    margin: 80px auto 0 auto;
+    margin: 20px auto;
 }
 
 input {
     font-size: 16px;
-    width: 800px;
-    height: 50px;
+    width: 640px;
+    height: 44px;
     border: none;
     padding: 0;
     border-radius: 30px;
     outline: none;
     vertical-align: middle;
     line-height: 50px;
-    text-indent: 40px;
+    text-indent: 30px;
     color: #000000;
+    border: 1px solid #e6e6e6!important;
     /*box-shadow: inset 0 1px 1px rgba(0,0,0,.075);*/
+}
+
+::-webkit-input-placeholder {
+    color: #999;
 }
 
 /*input:focus {
@@ -67,10 +72,10 @@ input {
 }*/
 #siteBox {
     width: 800px;
-    margin: 20px auto 0 auto;
+    margin: 80px auto 0 auto;
     padding: 20px 0 0 0;
     background-color: #ffffff;
-    border-radius: 30px;
+    border-radius: 40px;
 }
 
 #siteBox ul {
@@ -130,20 +135,6 @@ textarea {
     width: 296px;
     height: 44px;
     border: none;
-    font-family: 'Helvetica Neue', 'Hiragino Sans GB', Helvetica, Arial, Sans-serif；;
-}
-
-@media screen and (max-device-width: 1500px) {
-textarea {
-    position: fixed;
-    top: 0;
-    right: 0;
-    resize: none;
-    width: 256px;
-    height: 44px;
-    border: none;
-    font-family: 'Helvetica Neue', 'Hiragino Sans GB', Helvetica, Arial, Sans-serif；
-}
 }
 
 iframe {
@@ -156,12 +147,42 @@ iframe {
 }
 
 @media screen and (max-device-width: 1500px) {
-iframe {
-    position: fixed;
-    top: 44px;
-    right: 0;
-    width: 260px;
-    height: 1000px;
-    border: none; 
-}
+    #imgBox {
+        width: auto;
+        height: 250px;
+    }
+
+    #img {
+        width: auto;
+        height: 100%;
+        border-radius: 20px;
+        margin: 20px auto;
+    }
+
+    #siteBox {
+        width: 800px;
+        margin: 60px auto 0 auto;
+        padding: 20px 0 0 0;
+        background-color: #ffffff;
+        border-radius: 40px;
+    }
+
+    textarea {
+        position: fixed;
+        top: 0;
+        right: 0;
+        resize: none;
+        width: 256px;
+        height: 44px;
+        border: none;
+    }
+
+    iframe {
+        position: fixed;
+        top: 44px;
+        right: 0;
+        width: 260px;
+        height: 1000px;
+        border: none;
+    }
 }
