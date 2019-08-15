@@ -26,8 +26,8 @@ body {
 }
 
 input {
-    width: 598px;
-    height: 44px;
+    width: 560px;
+    height: 47px;
     padding: 0;
     font-size: 16px;
     color: #000000;
@@ -69,7 +69,6 @@ input {
 .search-btn:hover {
     background-color: #ededed;
 }*/
-
 .site {
     width: 760px;
     margin: 30px auto 0 auto;
@@ -77,12 +76,20 @@ input {
     border-radius: 40px;
 }
 
+#ulBox {
+    padding: 10px 0 1px 0;
+}
+
 #moreSiteBox {
     width: 930px;
+    height: 600px;
+    margin: auto;
+    padding-top: 10px;
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .site ul {
@@ -168,7 +175,7 @@ iframe {
         width: 216px;
         height: 44px;
         border: none;
-        font-size: 32pxï¼›
+        font-size: 32pxÃƒÂ¯Ã‚Â¼Ã¢â‚¬Âº;
     }
 
     iframe {
