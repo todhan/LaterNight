@@ -37,7 +37,7 @@ input {
     outline: none;
     border-bottom-right-radius: 28px;
     border-bottom-left-radius: 28px;
-    border: 1px solid #dfe1e5;
+    border: 0.5px solid #dfe1e5;
     border-top-style: none;
     /*box-shadow: inset 0 1px 1px rgba(0,0,0,.075);*/
     font-family: 'Helvetica Neue', 'Hiragino Sans GB', Helvetica, Arial, 'Sans-serif';
