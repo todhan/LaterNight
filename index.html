@@ -8,7 +8,7 @@
         <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
         <link rel="short icon" href="images/favicon.ico" type="image/x-icon"/>
         <link rel="stylesheet" type="text/css" href="index.css"/>
-        <script src="index.js"></script>
+        <!-- <script src="index.js"></script> -->
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137819175-1"></script>
         <script>
@@ -25,7 +25,6 @@
             <a href="https://xiaodaor.github.io/index/">
                 <img class="logo" src="https://i.loli.net/2019/09/10/u7R69be3DtqVNon.png">
             </a>
-
             <a id="hint" href="https://music.163.com/#/playlist?id=4825712" target="_blank" style="display: none">夜深了
             </a>
             <script type="text/javascript">
@@ -35,7 +34,6 @@
                     document.all["hint"].style.display = "block";
                 }
             </script>
-
             <!-- imgBox -->
             <div id="imgBox">
                 <a href="https://www.pixivision.net/zh/a/2686" target="_blank" title="像素画GIF是怎么制作出来的？ 插画师・丰井（@1041uuu）访谈">
@@ -335,7 +333,27 @@
                 <div id="newsBox">
                     <iframe scrolling="auto" src="https://readhub.cn/"></iframe>
                 </div>
+                
                 <script>
+                    // Save the notes
+                    var d = document;
+                    // Check browser support
+                    if (typeof (Storage) !== "undefined") {
+                        d.addEventListener('DOMContentLoaded', function() {
+                            var savedContent = localStorage.getItem("notesContent");
+                            if (savedContent != null) {
+                                d.getElementById("notes").value = savedContent;
+                            }
+
+                            d.getElementById("notes").onkeyup = function() {
+                                var data = d.getElementById("notes").value;
+                                localStorage.setItem("notesContent", data);
+                            }
+                        });
+                    } else {
+                        document.getElementById("result").innerHTML = "你这个浏览器不支持 Web Storage";
+                    }
+
                     //Adapt devices
                     if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
                         document.all["newsBox"].style.display = "none";
