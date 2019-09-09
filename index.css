@@ -13,6 +13,12 @@ body {
     height: 40px;
 }
 
+#hint {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+}
+
 #imgBox {
     width: auto;
     height: 300px;
