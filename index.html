@@ -20,13 +20,13 @@
             gtag('config', 'UA-137819175-1');
         </script>
     </head>
-    <body>
+    <body onkeydown="keyCode(event)">
         <div class="content">
-            <a href="https://xiaodaor.github.io/index/">
+            <a href="https://www.xiaobeidao.com/">
                 <img class="logo" src="https://i.loli.net/2019/09/10/u7R69be3DtqVNon.png">
             </a>
-            <a id="hint" href="https://music.163.com/#/playlist?id=4825712" target="_blank" style="display: none">￣O￣)ノ&nbsp&nbsp&nbsp夜深了
-            </a>
+            <p id="hint" style="display: none">￣O￣)ノ&nbsp &nbsp &nbsp夜深了
+            </p>
             <script type="text/javascript">
                 var d = new Date();
                 var hour = d.getHours();
@@ -333,7 +333,6 @@
                 <div id="newsBox">
                     <iframe scrolling="auto" src="https://readhub.cn/"></iframe>
                 </div>
-                
                 <script>
                     // Save the notes
                     var d = document;
@@ -378,6 +377,14 @@
                         }
                     }
                     );
+
+                    //Press "esc" hidden moreSite
+                    function keyCode(event) {
+                        var x = event.keyCode;
+                        if (x == 27) {
+                            document.all["moreSiteBox"].style.display = "none";
+                        }
+                    }
                 </script>
             </div>
     </body>
