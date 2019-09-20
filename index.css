@@ -3,7 +3,7 @@ body {
     margin: 0 ;
     padding: 0;
     background-color: #fafafa;
-    font-family: 'Helvetica Neue', 'Hiragino Sans GB', Helvetica, Arial, 'Sans-serif';
+    font-family: "Helvetica", "Lucida Grande", "Microsoft YaHei", sans-serif;
 }
 
 .logo {
@@ -48,7 +48,7 @@ input {
     border: 0.5px solid #dfe1e5;
     border-top-style: none;
     /*box-shadow: inset 0 1px 1px rgba(0,0,0,.075);*/
-    font-family: 'Helvetica Neue', 'Hiragino Sans GB', Helvetica, Arial, 'Sans-serif';
+    font-family: "Helvetica", "Lucida Grande", "Microsoft YaHei", sans-serif;
 }
 
 ::-webkit-input-placeholder {
@@ -183,7 +183,7 @@ iframe {
         width: 216px;
         height: 44px;
         border: none;
-        font-size: 32pxÃƒÂ¯Ã‚Â¼Ã¢â‚¬Âº;
+        font-size: 32px;
     }
 
     iframe {
