@@ -42,7 +42,8 @@ input {
     vertical-align: middle;
     line-height: 42px;
     text-indent: 10px;
-    outline: none;/*
+    outline: none;
+    /*
     border-bottom-right-radius: 28px;
     border-bottom-left-radius: 28px;*/
     border: 0.5px solid #e6e6e6;

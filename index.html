@@ -51,7 +51,7 @@
                 <!--searchBox-->
                 <div id="searchBox">
                     <form action="https://www.dogedoge.com/results?q=%s" target="_blank" method="get" class="search-form">
-                        <input type="text" name="q" autocomplete="off" class="form-control" placeholder="多吉搜索" autofocus="autofocus" onmouseover="this.focus()"/>
+                        <input id="search" type="text" name="q" autocomplete="off" class="form-control" placeholder="多吉搜索" autofocus="autofocus" onmouseover="this.focus()"/>
                         <!-- <button type="submit" class="search-btn"><span>搜索</span></button> -->
                     </form>
                 </div>
@@ -262,12 +262,11 @@
                             </a>
                         </li>
                         <li>
-                        	<a href="https://weread.qq.com/" target="_blank">
-                            	<img src="https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/favicon/favicon_32h.png"/>
-                            	<span class="text">微信读书</span>
-                        	</a>
-                    	</li>
-
+                            <a href="https://weread.qq.com/" target="_blank">
+                                <img src="https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/favicon/favicon_32h.png"/>
+                                <span class="text">微信读书</span>
+                            </a>
+                        </li>
                         <li>
                             <a href="https://xclient.info/" target="_blank">
                                 <img src="https://img.xclient.info/icon/favicon.ico"/>
@@ -386,16 +385,18 @@
                         var tDom = event.target;
                         if (cDom == tDom || cDom.contains(tDom)) {// ... 
                         } else {
-                            cDom.style.display = "none"
+                            cDom.style.display = "none";
                         }
                     }
-                    );
+                    )
 
-                    //Press "esc" hidden moreSite
+                    //Press "esc" hidden moreSite and focus the input
                     function keyCode(event) {
-                        var x = event.keyCode;
-                        if (x == 27) {
+                        var value = event.keyCode;
+                        if (value == 27) {
                             document.all["moreSiteBox"].style.display = "none";
+                            var a = document.getElementById("search");
+                            a.focus();
                         }
                     }
                 </script>
