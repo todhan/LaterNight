@@ -17,7 +17,8 @@ body {
     position: absolute;
     top: 76px;
     left: 30px;
-    color: #080419;
+    padding-left: 4px;
+    color: #16122c;
     text-decoration: none;
 }
 
