@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8"/>
         <title>小北岛</title>
-        <meta name="keywords" content="小北岛,产品经理,产品经理导航,设计师导航,运营导航,市场导航,大数据导航,产品经理培训,产品运营,产品设计,数据分析导航,产品经理网址导航,用户体验,交互设计"/>
-        <meta name="description" content="产品经理导航站"/>
+        <meta name="keywords" content="小北岛"/>
+        <meta name="description" content="产品经理工具导航站"/>
         <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
         <link rel="short icon" href="images/favicon.ico" type="image/x-icon"/>
         <link rel="stylesheet" type="text/css" href="index.css"/>
@@ -41,7 +41,7 @@
                 </a>
             </div>
             <script type="text/javascript">
-                //Random pics
+                // Random pics
                 var images = ["https://i.loli.net/2019/03/15/5c8b0f6cb01ee.gif", "https://i.loli.net/2019/03/15/5c8b0f568cacb.gif", "https://i.loli.net/2019/03/15/5c8b0f60854a2.gif", "https://i.loli.net/2019/03/15/5c8b0f624b2c4.gif", "https://i.loli.net/2019/03/15/5c8b0f67acc24.gif", "https://i.loli.net/2019/03/15/5c8b0f6b80e17.gif", "https://i.loli.net/2019/03/15/5c8b0f6c11f2b.gif", "https://i.loli.net/2019/03/15/5c8b116108485.gif", "https://i.loli.net/2019/04/07/5ca8ecbc9ac19.gif", "https://i.loli.net/2019/04/07/5ca8ecd2e96d9.gif", "https://i.loli.net/2019/04/07/5ca8ecd332e33.gif", "https://i.loli.net/2019/04/07/5ca8f253cf17f.gif", "https://i.loli.net/2019/04/07/5ca8f358438d5.gif"];
                 var url = Math.floor(Math.random() * images.length);
                 document.getElementById('img').src = images[url];
@@ -52,7 +52,6 @@
                 <div id="searchBox">
                     <form action="https://www.dogedoge.com/results?q=%s" target="_blank" method="get" class="search-form">
                         <input id="search" type="text" name="q" autocomplete="off" class="form-control" placeholder="多吉搜索" autofocus="autofocus" onmouseover="this.focus()"/>
-                        <!-- <button type="submit" class="search-btn"><span>搜索</span></button> -->
                     </form>
                 </div>
                 <div id="ulBox">
@@ -65,7 +64,7 @@
                         </li>
                         <li>
                             <a href="https://www.qimai.cn/rank/float/float/up/genre/36/device/iphone/type/seven/brand/free/country/cn" target="_blank">
-                                <img src="https://static.qimai.cn/static/favicon.ico"/>
+                                <img src="https://static.qimai.cn/static/bitbug_favicon.ico"/>
                                 <span class="text">七麦数据</span>
                             </a>
                         </li>
@@ -165,7 +164,7 @@
                         </li>
                         <li>
                             <a href="https://www.qimai.cn/rank/float/float/up/genre/36/device/iphone/type/seven/brand/free/country/cn" target="_blank">
-                                <img src="https://static.qimai.cn/static/favicon.ico"/>
+                                <img src="https://static.qimai.cn/static/bitbug_favicon.ico"/>
                                 <span class="text">七麦数据</span>
                             </a>
                         </li>
@@ -342,9 +341,9 @@
                 <!--notes-->
                 <textarea id="notes"></textarea>
                 <!--newsBox-->
-                <div id="newsBox">
+                <!--                 <div id="newsBox">
                     <iframe scrolling="auto" src="https://readhub.cn/"></iframe>
-                </div>
+                </div> -->
                 <script>
                     // Save the notes
                     var d = document;
@@ -365,21 +364,21 @@
                         document.getElementById("result").innerHTML = "你这个浏览器不支持 Web Storage";
                     }
 
-                    //Adapt devices
-                    if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+                    // Adapt devices
+                    /*                    if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
                         document.all["newsBox"].style.display = "none";
                         document.all["notes"].style.display = "none";
                     } else {
                         document.all["newsBox"].style.display = "block";
                         document.all["notes"].style.display = "block";
-                    }
+                    }*/
 
-                    //Show moreSite
+                    // Show moreSite
                     function show() {
                         document.all["moreSiteBox"].style.display = "block";
                     }
 
-                    //Hidden moreSite
+                    // Hidden moreSite
                     document.addEventListener("click", event=>{
                         var cDom = document.querySelector("#moreSiteBox");
                         var tDom = event.target;
@@ -390,7 +389,7 @@
                     }
                     )
 
-                    //Press "esc" hidden moreSite and focus the input
+                    // Press "esc" hidden moreSite and focus the input
                     function keyCode(event) {
                         var value = event.keyCode;
                         if (value == 27) {
