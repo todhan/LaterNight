@@ -217,12 +217,12 @@ iframe {
 /*screen adaptation*/
 @media screen and (max-device-width: 1500px) {
     #imgBox {
-        height: 200px;
+        height: 220px;
         margin: 20px auto;
     }
 
     input {
-    width: 340px;
+    width: 380px;
     }
 
     textarea {
