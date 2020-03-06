@@ -17,14 +17,14 @@ body {
     position: absolute;
     top: 76px;
     left: 30px;
-    padding-left: 4px;
+    margin-left: 4px;
     color: #16122c;
     text-decoration: none;
 }
 
 #imgBox {
     width: auto;
-    height: 300px;
+    height: 260px;
     margin: 40px auto;
 }
 
@@ -35,14 +35,14 @@ body {
 }
 
 input {
-    width: 380px;
-    height: 42px;
-    padding-top: 20px;
+    width: 440px;
+    height: 40px;
+    padding-top: 30px;
     font-size: 16px;
     color: #000000;
     vertical-align: middle;
-    line-height: 42px;
-    text-indent: 10px;
+    line-height: 40px;
+    text-indent: 4px;
     outline: none;
     border: 0.5px solid #e6e6e6;
     border-top-style: none;
@@ -57,20 +57,20 @@ input {
 
 .site {
     width: 760px;
-    margin: 30px auto 0 auto;
+    margin: 26px auto 0 auto;
     background-color: #ffffff;
     border-radius: 40px;
 }
 
 #ulBox {
-    padding: 10px 0 1px 0;
+    padding: 16px 0 1px 0;
 }
 
 #moreSiteBox {
     width: 930px;
-    height: 600px;
+    height: 560px;
     margin: auto;
-    padding-top: 10px;
+    padding-top: 20px;
     position: absolute;
     top: 0;
     left: 0;
@@ -78,10 +78,28 @@ input {
     bottom: 0;
 }
 
+.con {
+    margin-top: 40px;
+    display: none;
+}
+
+button {
+    margin-top: 30px;
+    width: 66px;
+    font-size: 16px;
+    border: 0;
+    color: #6a6a6a;
+    outline: none;
+    background-color: transparent;
+}
+
+.current {
+    color: #000000;
+}
+
 .site ul {
     overflow: hidden;
     padding-inline-start: 80px;
-    padding-top: 10px;
 }
 
 .site li {
@@ -101,10 +119,16 @@ input {
 .site li a .text {
     padding-left: 6px;
     vertical-align: middle;
+    text-align: left;
+    display: inline-block;
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .site li a:hover {
-/*    background-color: #ffffff;
+    /*    background-color: #ffffff;
     border-radius: 18px;
     position: relative;
     box-shadow: 0 2px 16px -4px rgba(0,0,0,.1);
@@ -125,9 +149,9 @@ textarea {
     right: 0;
     resize: none;
     width: 296px;
-    height: 44px;
-    background-color: #fafafa;
-    font-size: 16px;
+    height: 40px;
+    background-color: #ffffff;
+    font-size: 15px;
     border: none;
 }
 
@@ -136,25 +160,11 @@ iframe {
     top: 44px;
     right: 0;
     width: 300px;
-    height: 1000px;
+    height: 1040px;
     border: none;
 }
 
-@media screen and (max-device-width: 1500px) {
-    #imgBox {
-        height: 220px;
-        margin: 20px auto;
-    }
-
-    textarea {
-        width: 216px;
-    }
-
-    iframe {
-        width: 220px;
-    }
-}
-
+/*dark mode*/
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #232323;
@@ -181,6 +191,14 @@ iframe {
         background-color: #2f2f2f;
     }
 
+    button {
+        color: #8899a6;
+    }
+
+    .current {
+        color: #ffffff;
+    }
+
     .site li a {
         color: #ffffff;
     }
@@ -191,7 +209,37 @@ iframe {
     }
 
     textarea {
-        background-color: #232323;
-        color: #ffffff;
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+/*screen adaptation*/
+@media screen and (max-device-width: 1500px) {
+    #imgBox {
+        height: 200px;
+        margin: 20px auto;
+    }
+
+    input {
+    width: 340px;
+    }
+
+    textarea {
+        width: 216px;
+        background-color: #fafafa;
+        color: #000000;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        textarea {
+            background-color: #232323;
+            color: #ffffff;
+        }
+    }
+
+    iframe {
+        width: 220px;
+        display: none;
     }
 }
