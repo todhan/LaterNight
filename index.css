@@ -44,7 +44,7 @@ input {
     line-height: 40px;
     text-indent: 4px;
     outline: none;
-    border: 0.5px solid #e6e6e6;
+    border: 0.5px solid #cccccc;
     border-top-style: none;
     border-left-style: none;
     border-right-style: none;
@@ -52,7 +52,7 @@ input {
 }
 
 ::-webkit-input-placeholder {
-    color: #e6e6e6;
+    color: #cccccc;
 }
 
 .site {
@@ -88,7 +88,7 @@ button {
     width: 66px;
     font-size: 16px;
     border: 0;
-    color: #6a6a6a;
+    color: #cccccc;
     outline: none;
     background-color: transparent;
 }
@@ -170,6 +170,10 @@ iframe {
         background-color: #232323;
     }
 
+    .logo {
+        content:url(https://s2.ax1x.com/2020/03/07/3jcCNR.png);
+    }
+
     #hint {
         color: #ffffff;
     }
@@ -222,7 +226,7 @@ iframe {
     }
 
     input {
-    width: 370px;
+    width: 360px;
     }
 
     textarea {
