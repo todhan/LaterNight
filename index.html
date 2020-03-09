@@ -48,11 +48,21 @@
                 var url = Math.floor(Math.random() * images.length);
                 document.getElementById('img').src = images[url];
             </script>
+            
             <!--siteBox-->
             <div id="siteBox" class="site">
-                <form action="https://www.dogedoge.com/results?q=%s" target="_blank" method="get" class="search-form">
-                    <input id="search" type="text" name="q" autocomplete="off" class="form-control" placeholder="多吉搜索" onmouseover="this.focus()"/>
+                <form class="search-form" action="https://www.dogedoge.com/results?q=%s" target="_blank" method="get">
+                    <input id="search" type="text" name="q" autocomplete="off" class="form-control" placeholder="多吉搜索" onmouseover="this.focus()" onkeyup="keyCode2(event)"/>
                 </form>
+<!--                 <script type="text/javascript">
+                    function keyCode2(event) {
+                        var value = event.keyCode;
+                        if (value == 13) {
+                            document.getElementById("search").value = "";
+                        }
+                    }
+                </script> -->
+
                 <div id="ulBox">
                     <ul>
                         <li>
@@ -594,7 +604,7 @@
                                     <img src="https://s2.ax1x.com/2020/03/07/3XojqP.png"/>
                                     <span class="text">FACEBOOK</span>
                                 </a>
-                            </li>                           
+                            </li>
                             <li>
                                 <a href="https://cash.app/" target="_blank">
                                     <img src="https://cash.app/favicon.ico"/>
