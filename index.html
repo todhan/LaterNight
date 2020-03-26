@@ -43,7 +43,7 @@
             <script type="text/javascript">
 
                 // Random pics
-                var images = ["https://s2.ax1x.com/2020/03/01/36o3uD.gif", "https://s2.ax1x.com/2020/03/01/36oN4I.gif", "https://s2.ax1x.com/2020/03/01/36osbQ.gif", "https://s2.ax1x.com/2020/03/01/36orDg.gif", "https://s2.ax1x.com/2020/03/01/36T2ee.gif", "https://s2.ax1x.com/2020/03/01/36TcLD.gif", "https://s2.ax1x.com/2020/03/01/36TyQK.gif", "https://s2.ax1x.com/2020/03/01/36Trz6.gif", "https://s2.ax1x.com/2020/03/01/36TDRx.gif", "https://s2.ax1x.com/2020/03/01/36TRdH.gif", "https://s2.ax1x.com/2020/03/01/36IotI.gif", "https://s2.ax1x.com/2020/03/01/36TWod.gif", "https://s2.ax1x.com/2020/03/01/36T4JI.gif", "https://s1.ax1x.com/2020/03/20/86BsxS.gif", "https://s1.ax1x.com/2020/03/20/86Bf5q.gif", "https://s1.ax1x.com/2020/03/20/86B4P0.gif", "https://s1.ax1x.com/2020/03/20/86BI2T.gif", "https://s1.ax1x.com/2020/03/20/86BHr4.gif", "https://s1.ax1x.com/2020/03/20/86BbqJ.gif", "https://s1.ax1x.com/2020/03/20/86BLZ9.gif", "https://s1.ax1x.com/2020/03/20/86BOaR.gif", "https://s1.ax1x.com/2020/03/20/86BxG6.gif", "https://s1.ax1x.com/2020/03/20/86BzRK.gif", "https://s1.ax1x.com/2020/03/20/86D9MD.gif", "https://s1.ax1x.com/2020/03/20/86DCse.gif", "https://s1.ax1x.com/2020/03/20/86DPqH.gif", "https://s1.ax1x.com/2020/03/20/86DFZd.gif", "https://s1.ax1x.com/2020/03/20/86DAII.gif", "https://s1.ax1x.com/2020/03/20/86DZJP.gif", "https://s1.ax1x.com/2020/03/20/86Dmz8.gif", "https://s1.ax1x.com/2020/03/20/86DMLQ.gif", "https://s1.ax1x.com/2020/03/20/86D1ds.gif"];
+                var images = ["https://s2.ax1x.com/2020/03/01/36o3uD.gif", "https://s2.ax1x.com/2020/03/01/36oN4I.gif", "https://s2.ax1x.com/2020/03/01/36osbQ.gif", "https://s2.ax1x.com/2020/03/01/36orDg.gif", "https://s2.ax1x.com/2020/03/01/36T2ee.gif", "https://s2.ax1x.com/2020/03/01/36TcLD.gif", "https://s2.ax1x.com/2020/03/01/36TyQK.gif", "https://s2.ax1x.com/2020/03/01/36Trz6.gif", "https://s2.ax1x.com/2020/03/01/36TDRx.gif", "https://s2.ax1x.com/2020/03/01/36TRdH.gif", "https://s2.ax1x.com/2020/03/01/36IotI.gif", "https://s2.ax1x.com/2020/03/01/36TWod.gif", "https://s2.ax1x.com/2020/03/01/36T4JI.gif", "https://s1.ax1x.com/2020/03/20/86BsxS.gif", "https://s1.ax1x.com/2020/03/20/86BI2T.gif", "https://s1.ax1x.com/2020/03/20/86BHr4.gif", "https://s1.ax1x.com/2020/03/20/86BbqJ.gif", "https://s1.ax1x.com/2020/03/20/86BLZ9.gif", "https://s1.ax1x.com/2020/03/20/86BOaR.gif", "https://s1.ax1x.com/2020/03/20/86BxG6.gif", "https://s1.ax1x.com/2020/03/20/86BzRK.gif", "https://s1.ax1x.com/2020/03/20/86D9MD.gif", "https://s1.ax1x.com/2020/03/20/86DCse.gif", "https://s1.ax1x.com/2020/03/20/86DPqH.gif", "https://s1.ax1x.com/2020/03/20/86DFZd.gif", "https://s1.ax1x.com/2020/03/20/86DAII.gif", "https://s1.ax1x.com/2020/03/20/86DZJP.gif", "https://s1.ax1x.com/2020/03/20/86Dmz8.gif", "https://s1.ax1x.com/2020/03/20/86DMLQ.gif", "https://s1.ax1x.com/2020/03/20/86D1ds.gif"];
                 var url = Math.floor(Math.random() * images.length);
                 document.getElementById('img').src = images[url];
             </script>
@@ -51,13 +51,16 @@
             <!--siteBox-->
             <div id="siteBox" class="site">
                 <form class="search-form" action="https://www.dogedoge.com/results?q=%s" target="_blank" method="get">
-                    <input id="search" type="text" name="q" autocomplete="off" class="form-control" placeholder="多吉搜索" onmouseover="this.focus()" onkeyup="keyCode2(event)"/>
+                    <input id="search" type="text" name="q" class="form-control" placeholder="多吉搜索" onmouseover="this.focus()"/>
                 </form>
+                <!-- onkeyup="keyCode2(event)" -->
 <!--                 <script type="text/javascript">
                     function keyCode2(event) {
                         var value = event.keyCode;
                         if (value == 13) {
                             document.getElementById("search").value = "";
+                            var input = document.getElementById("search");
+                            input.blur();
                         }
                     }
                 </script> -->

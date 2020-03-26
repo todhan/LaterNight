@@ -3,7 +3,7 @@ body {
     margin: 0 ;
     padding: 0;
     background-color: #fafafa;
-    font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .logo {
@@ -37,18 +37,18 @@ body {
 input {
     width: 440px;
     height: 40px;
-    padding-top: 30px;
+    padding-top: 40px;
     font-size: 16px;
     color: #000000;
     vertical-align: middle;
     line-height: 40px;
-    text-indent: 4px;
+    text-indent: 2px;
     outline: none;
     border: 0.5px solid #cccccc;
     border-top-style: none;
     border-left-style: none;
     border-right-style: none;
-    font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 ::-webkit-input-placeholder {
@@ -63,7 +63,7 @@ input {
 }
 
 #ulBox {
-    padding: 16px 0 1px 0;
+    padding: 16px 0 10px 0;
 }
 
 #moreSiteBox {
@@ -79,14 +79,14 @@ input {
 }
 
 .con {
-    margin-top: 40px;
+    margin-top: 36px;
     display: none;
 }
 
 button {
     margin-top: 40px;
-    width: 66px;
-    font-size: 16px;
+    width: 80px;
+    font-size: 18px;
     border: 0;
     color: #cccccc;
     outline: none;
@@ -171,7 +171,7 @@ iframe {
     }
 
     .logo {
-        content:url(https://s2.ax1x.com/2020/03/08/3zGJC4.png);
+        content:url(https://s1.ax1x.com/2020/03/26/8zL09U.png);
     }
 
     #hint {
