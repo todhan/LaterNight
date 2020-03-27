@@ -9,14 +9,14 @@ body {
 .logo {
     position: absolute;
     top: 20px;
-    left: 30px;
+    left: 20px;
     height: 40px;
 }
 
 #hint {
     position: absolute;
     top: 80px;
-    left: 30px;
+    left: 20px;
     margin-left: 4px;
     color: #16122c;
     text-decoration: none;
@@ -25,7 +25,7 @@ body {
 #imgBox {
     width: auto;
     height: 260px;
-    margin: 40px auto;
+    margin: 20px auto;
 }
 
 #img {
@@ -42,7 +42,6 @@ input {
     color: #000000;
     vertical-align: middle;
     line-height: 40px;
-    text-indent: 2px;
     outline: none;
     border: 0.5px solid #cccccc;
     border-top-style: none;
@@ -55,22 +54,26 @@ input {
     color: #cccccc;
 }
 
+#siteBox {
+    margin-top: 26px;
+}
+
 .site {
     width: 760px;
-    margin: 26px auto 0 auto;
+    height: 460px;
+    margin: 0 auto;
     background-color: #ffffff;
     border-radius: 40px;
 }
 
 #ulBox {
-    padding: 16px 0 10px 0;
+    margin-top: 32px;
 }
 
 #moreSiteBox {
     width: 930px;
-    height: 560px;
+    height: 570px;
     margin: auto;
-    padding-top: 20px;
     position: absolute;
     top: 0;
     left: 0;
@@ -78,13 +81,8 @@ input {
     bottom: 0;
 }
 
-.con {
-    margin-top: 36px;
-    display: none;
-}
-
 button {
-    margin-top: 40px;
+    margin-top: 60px;
     width: 80px;
     font-size: 18px;
     border: 0;
@@ -93,13 +91,18 @@ button {
     background-color: transparent;
 }
 
+.con {
+    margin-top: 36px;
+    display: none;
+}
+
 .current {
     color: #000000;
 }
 
 .site ul {
     overflow: hidden;
-    padding-inline-start: 80px;
+    padding-inline-start: 78px;
 }
 
 .site li {
@@ -171,7 +174,7 @@ iframe {
     }
 
     .logo {
-        content:url(https://s1.ax1x.com/2020/03/26/8zL09U.png);
+        content: url(https://s1.ax1x.com/2020/03/26/8zL09U.png);
     }
 
     #hint {
@@ -221,12 +224,12 @@ iframe {
 /*screen adaptation*/
 @media screen and (max-device-width: 1500px) {
     #imgBox {
-        height: 220px;
+        height: 210px;
         margin: 20px auto;
     }
 
     input {
-    width: 360px;
+        width: 360px;
     }
 
     textarea {
