@@ -31,7 +31,7 @@ body {
 #img {
     width: auto;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 input {
@@ -60,10 +60,10 @@ input {
 
 .site {
     width: 760px;
-    height: 460px;
+    height: 470px;
     margin: 0 auto;
     background-color: #ffffff;
-    border-radius: 40px;
+    border-radius: 60px;
 }
 
 #ulBox {
@@ -72,7 +72,7 @@ input {
 
 #moreSiteBox {
     width: 930px;
-    height: 570px;
+    height: 580px;
     margin: auto;
     position: absolute;
     top: 0;
@@ -83,8 +83,8 @@ input {
 
 button {
     margin-top: 60px;
-    width: 80px;
-    font-size: 18px;
+    width: 90px;
+    font-size: 20px;
     border: 0;
     color: #cccccc;
     outline: none;
@@ -92,7 +92,7 @@ button {
 }
 
 .con {
-    margin-top: 36px;
+    margin-top: 40px;
     display: none;
 }
 
@@ -131,13 +131,14 @@ button {
 }
 
 .site li a:hover {
-    /*    background-color: #ffffff;
-    border-radius: 18px;
-    position: relative;
-    box-shadow: 0 2px 16px -4px rgba(0,0,0,.1);
+    background-color: #fafafa;
+    border-radius: 20px;
+    /*    position: relative;
+    box-shadow: 0 2px 16px -4px rgba(0,0,0,.1); 
     margin: -1px -22px -1px -22px;
     padding: 0 21px 0 21px;*/
-    color: #6a6a6a;
+    margin: 0 -20px 0 -20px;
+    padding: 0 20px 0 20px;
 }
 
 .site li img {
@@ -211,8 +212,10 @@ iframe {
     }
 
     .site li a:hover {
-        background-color: #2f2f2f;
-        color: #8899a6;
+        background-color: #232323;
+        border-radius: 20px;
+        margin: 0 -20px 0 -20px;
+        padding: 0 20px 0 20px;
     }
 
     textarea {
