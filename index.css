@@ -102,8 +102,7 @@ button {
 
 .site ul {
     overflow: hidden;
-    padding-inline-start: 78px;
-}
+    padding-inline-start: 78px; }
 
 .site li {
     list-style: none;
