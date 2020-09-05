@@ -43,7 +43,7 @@ input {
     vertical-align: middle;
     line-height: 40px;
     outline: none;
-    border: 0.5px solid #cccccc;
+    border: 1px solid #cccccc;
     border-top-style: none;
     border-left-style: none;
     border-right-style: none;
@@ -170,7 +170,7 @@ iframe {
 /*dark mode*/
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #232323;
+        background-color: #111111;
     }
 
     .logo {
@@ -183,19 +183,19 @@ iframe {
 
     input {
         color: #ffffff;
-        background-color: #2f2f2f;
-        border: 0.5px solid #8899a6;
+        background-color: #1c1c1e;
+        border: 1px solid #6e6e73;
         border-top-style: none;
         border-left-style: none;
         border-right-style: none;
     }
 
     ::-webkit-input-placeholder {
-        color: #8899a6;
+        color: #6e6e73;
     }
 
     .site {
-        background-color: #2f2f2f;
+        background-color: #1c1c1e;
     }
 
     button {
@@ -242,7 +242,7 @@ iframe {
 
     @media (prefers-color-scheme: dark) {
         textarea {
-            background-color: #232323;
+            background-color: #111111;
             color: #ffffff;
         }
     }
