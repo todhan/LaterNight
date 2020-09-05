@@ -18,7 +18,7 @@ body {
     top: 82px;
     left: 20px;
     margin-left: 4px;
-    color: #16122c;
+    color: #111111;
     text-decoration: none;
 }
 
@@ -26,6 +26,7 @@ body {
     width: auto;
     height: 240px;
     margin: 20px auto;
+    overflow: hidden;
 }
 
 #img {
@@ -39,7 +40,7 @@ input {
     height: 40px;
     padding-top: 40px;
     font-size: 16px;
-    color: #000000;
+    color: #111111;
     vertical-align: middle;
     line-height: 40px;
     outline: none;
@@ -97,7 +98,7 @@ button {
 }
 
 .current {
-    color: #000000;
+    color: #111111;
 }
 
 .site ul {
@@ -113,7 +114,7 @@ button {
 
 .site li a {
     text-decoration: none;
-    color: #000000;
+    color: #111111;
     line-height: 60px;
     float: left;
 }
@@ -132,10 +133,6 @@ button {
 .site li a:hover {
     background-color: #fafafa;
     border-radius: 20px;
-    /*    position: relative;
-    box-shadow: 0 2px 16px -4px rgba(0,0,0,.1); 
-    margin: -1px -22px -1px -22px;
-    padding: 0 21px 0 21px;*/
     margin: 0 -20px 0 -20px;
     padding: 0 20px 0 20px;
 }
@@ -199,7 +196,7 @@ iframe {
     }
 
     button {
-        color: #8899a6;
+        color: #6e6e73;
     }
 
     .current {
@@ -211,7 +208,7 @@ iframe {
     }
 
     .site li a:hover {
-        background-color: #232323;
+        background-color: #111111;
         border-radius: 20px;
         margin: 0 -20px 0 -20px;
         padding: 0 20px 0 20px;
@@ -219,11 +216,11 @@ iframe {
 
     textarea {
         background-color: #ffffff;
-        color: #000000;
+        color: #111111;
     }
 }
 
-/*screen adaptation*/
+/*0-1500px widrh screen adaptation*/
 @media screen and (max-device-width: 1500px) {
     #imgBox {
         height: 210px;
@@ -237,7 +234,7 @@ iframe {
     textarea {
         width: 216px;
         background-color: #fafafa;
-        color: #000000;
+        color: #111111;
     }
 
     @media (prefers-color-scheme: dark) {
