@@ -48,7 +48,7 @@ input {
     border-top-style: none;
     border-left-style: none;
     border-right-style: none;
-    font-family: "PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 ::-webkit-input-placeholder {
