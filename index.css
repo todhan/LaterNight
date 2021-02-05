@@ -3,7 +3,7 @@ body {
     margin: 0 ;
     padding: 0;
     background-color: #fafafa;
-    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-family: "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .logo {
@@ -48,7 +48,7 @@ input {
     border-top-style: none;
     border-left-style: none;
     border-right-style: none;
-    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-family: "PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 ::-webkit-input-placeholder {
@@ -103,7 +103,8 @@ button {
 
 .site ul {
     overflow: hidden;
-    padding-inline-start: 78px; }
+    padding-inline-start: 78px;
+}
 
 .site li {
     list-style: none;
