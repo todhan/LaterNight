@@ -6,8 +6,6 @@
         <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
         <link rel="stylesheet" type="text/css" href="index.css"/>
         <!-- <script src="index.js"></script> -->
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137819175-1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag() {
@@ -63,7 +61,7 @@
                 <div id="ulBox">
                     <ul>
                         <li>
-                            <a href="https://www.notion.so/" target="_blank">
+                            <a href="https://www.notion.so/login" target="_blank">
                                 <img src="https://www.notion.so/front-static/favicon.ico"/>
                                 <span class="text">Notion</span>
                             </a>
@@ -141,15 +139,15 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/" target="_blank">
-                                <img src="https://developer.apple.com/favicon.ico?37062125044"/>
-                                <span class="text">Human Interface Guidelines</span>
+                            <a href="https://www.behance.net/" target="_blank">
+                                <img src="https://s6.jpg.cm/2022/01/01/LtJbQi.png"/>
+                                <span class="text">Behance</span>
                             </a>
                         </li>
                         <li>
-                            <a href="https://material.io/components" target="_blank">
-                                <img src="https://s3.jpg.cm/2021/06/22/IRk53W.png"/>
-                                <span class="text">Material Design</span>
+                            <a href="https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/" target="_blank">
+                                <img src="https://developer.apple.com/favicon.ico?37062125044"/>
+                                <span class="text">Human Interface Guidelines</span>
                             </a>
                         </li>
                         <li>
@@ -179,7 +177,7 @@
                     <div class="con" style="display:block">
                         <ul>
                             <li>
-                                <a href="https://www.notion.so/" target="_blank">
+                                <a href="https://www.notion.so/login" target="_blank">
                                     <img src="https://www.notion.so/front-static/favicon.ico"/>
                                     <span class="text">Notion</span>
                                 </a>
@@ -481,7 +479,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.age.tv/" target="_blank">
+                                <a href="https://www.agefans.vip/" target="_blank">
                                     <img src="https://www.agefans.vip/favicon.ico"/>
                                     <span class="text">AGE动漫</span>
                                 </a>
@@ -587,6 +585,12 @@
                                 </a>
                             </li>
                             <li>
+                                <a href="https://www.behance.net/" target="_blank">
+                                    <img src="https://s6.jpg.cm/2022/01/01/LtJbQi.png"/>
+                                    <span class="text">Behance</span>
+                                </a>
+                            </li>
+                            <li>
                                 <a href="https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/" target="_blank">
                                     <img src="https://developer.apple.com/favicon.ico?37062125044"/>
                                     <span class="text">Human Interface Guidelines</span>
@@ -602,12 +606,6 @@
                                 <a href="https://ant.design/components/overview-cn/" target="_blank">
                                     <img src="https://gw.alipayobjects.com/zos/rmsportal/rlpTLlbMzTNYuZGGCVYM.png"/>
                                     <span class="text">Ant Design</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://developers.weixin.qq.com/miniprogram/design/#%E8%A7%86%E8%A7%89%E8%A7%84%E8%8C%83" target="_blank">
-                                    <img src="https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico"/>
-                                    <span class="text">微信小程序设计指南</span>
                                 </a>
                             </li>
                             <li>
@@ -695,9 +693,9 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://about.fb.com/" target="_blank">
-                                    <img src="https://s1.ax1x.com/2020/10/18/0j3gHK.png"/>
-                                    <span class="text">About Facebook</span>
+                                <a href="https://about.facebook.com/" target="_blank">
+                                    <img src="https://s6.jpg.cm/2022/01/01/LtJzpE.png"/>
+                                    <span class="text">Meta</span>
                                 </a>
                             </li>
                             <li>
@@ -806,10 +804,18 @@
                     }
                     )
 
-                    // Press "esc" to hidden moreSite and focus the input box
+                    // Shortcuts
                     function keyCode(event) {
                         var value = event.keyCode;
-                        if (value == 32) {
+                        if (value == 49) {
+                            window.open("https://www.notion.so/login");
+                        } else if (value == 50) {
+                            window.open("https://www.figma.com/login");
+                        } else if (value == 51) {
+                            window.open("https://weread.qq.com/");
+                        } else if (value == 32 && document.all["moreSiteBox"].style.display == "none") {
+                            document.all["moreSiteBox"].style.display = "block";
+                        } else {
                             document.all["moreSiteBox"].style.display = "none";
                         }
                     }
