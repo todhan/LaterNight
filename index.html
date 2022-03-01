@@ -369,6 +369,12 @@
                                 </a>
                             </li>
                             <li>
+                                <a href="https://xueqiu.com/" target="_blank">
+                                    <img src="https://xqimg.imedao.com/17af5fe80fb1844b3fd48941.png"/>
+                                    <span class="text">雪球</span>
+                                </a>
+                            </li>
+                            <li>
                                 <a href="https://hypebeast.cn/" target="_blank">
                                     <img src="https://hypebeast.cn/dist/hypebeast/favicon/favicon-32x32.png"/>
                                     <span class="text">HYPEBEAST</span>
@@ -381,27 +387,21 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://dig.chouti.com" target="_blank">
-                                    <img src="https://dig.chouti.com/images/favicon-d38b877458.png"/>
-                                    <span class="text">抽屉新热榜</span>
-                                </a>
-                            </li>
-                            <li>
                                 <a href="https://www.v2ex.com/" target="_blank">
                                     <img src="https://s1.ax1x.com/2020/09/12/wdCPU0.png"/>
                                     <span class="text">V2EX</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.reddit.com/" target="_blank">
-                                    <img src="https://s2.ax1x.com/2020/03/05/37Bgzt.png"/>
-                                    <span class="text">Reddit</span>
+                                <a href="https://dig.chouti.com" target="_blank">
+                                    <img src="https://dig.chouti.com/images/favicon-d38b877458.png"/>
+                                    <span class="text">抽屉新热榜</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://feedly.com/" target="_blank">
-                                    <img src="https://s6.jpg.cm/2021/12/31/LJ0yUC.png"/>
-                                    <span class="text">Feedly</span>
+                                <a href="https://www.reddit.com/" target="_blank">
+                                    <img src="https://s2.ax1x.com/2020/03/05/37Bgzt.png"/>
+                                    <span class="text">Reddit</span>
                                 </a>
                             </li>
                             <li>
@@ -417,6 +417,11 @@
                                 </a>
                             </li>
                             <li>
+                                <a href="https://feedly.com/" target="_blank">
+                                    <img src="https://s6.jpg.cm/2021/12/31/LJ0yUC.png">
+                                    <span class="text">Feedly</span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div class="con">
@@ -728,10 +733,6 @@
                 </script>
                 <!--notes-->
                 <textarea id="notes"></textarea>
-                <!--newsBox-->
-                <div id="newsBox">
-                    <iframe scrolling="auto" src="https://readhub.cn/"></iframe>
-                </div>
                 <script>
                     // Save the notes
                     var d = document;
@@ -750,15 +751,6 @@
                         });
                     } else {
                         document.getElementById("result").innerHTML = "你这个浏览器不支持 Web Storage";
-                    }
-
-                    // Adapt devices
-                    if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
-                        document.all["newsBox"].style.display = "none";
-                        document.all["notes"].style.display = "none";
-                    } else {
-                        document.all["newsBox"].style.display = "block";
-                        document.all["notes"].style.display = "block";
                     }
 
                     // Show moreSite
@@ -785,6 +777,8 @@
                         } else if (value == 50) {
                             window.open("https://www.figma.com/login");
                         } else if (value == 51) {
+                            window.open("https://www.cnbeta.com/");
+                        } else if (value == 52) {
                             window.open("https://weread.qq.com/#login");
                         } else if (value == 32 && document.all["moreSiteBox"].style.display == "none") {
                             document.all["moreSiteBox"].style.display = "block";
