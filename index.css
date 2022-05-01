@@ -83,8 +83,8 @@ input {
 }
 
 button {
-    margin-top: 60px;
-    width: 90px;
+    margin-top: 64px;
+    width: 96px;
     font-size: 20px;
     border: 0;
     color: #cccccc;
@@ -221,7 +221,7 @@ textarea {
     }
 
     input {
-        width: 360px;
+        width: 340px;
     }
 
     textarea {
