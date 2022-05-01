@@ -104,8 +104,7 @@ button {
 
 .site ul {
     overflow: hidden;
-    padding-inline-start: 78px;
-}
+    padding-inline-start: 78px; }
 
 .site li {
     list-style: none;
@@ -140,8 +139,8 @@ button {
 }
 
 .site li img {
-    width: 22px;
-    height: 22px;
+    width: 24px;
+    height: 24px;
     vertical-align: middle;
 }
 
@@ -217,7 +216,7 @@ textarea {
 /*0-1500px widrh screen adaptation*/
 @media screen and (max-device-width: 1500px) {
     #imgBox {
-        height: 210px;
+        height: 200px;
         margin: 20px auto;
     }
 
@@ -237,5 +236,4 @@ textarea {
             color: #ffffff;
         }
     }
-
 }
