@@ -35,40 +35,20 @@ body {
     border-radius: 30px;
 }
 
-input {
-    width: 416px;
-    height: 40px;
-    padding-top: 40px;
-    font-size: 16px;
-    color: #111111;
-    vertical-align: middle;
-    line-height: 40px;
-    outline: none;
-    border: 1px solid #eeeeee;
-    border-top-style: none;
-    border-left-style: none;
-    border-right-style: none;
-    font-family: "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-}
-
-::-webkit-input-placeholder {
-    color: #cccccc;
-}
-
 #siteBox {
     margin-top: 26px;
 }
 
 .site {
     width: 760px;
-    height: 470px;
+    height: 432px;
     margin: 0 auto;
     background-color: #ffffff;
     border-radius: 60px;
 }
 
 #ulBox {
-    margin-top: 32px;
+    padding-top: 48px;
 }
 
 #moreSiteBox {
@@ -216,12 +196,8 @@ textarea {
 /*0-1500px widrh screen adaptation*/
 @media screen and (max-device-width: 1500px) {
     #imgBox {
-        height: 200px;
+        height: 190px;
         margin: 20px auto;
-    }
-
-    input {
-        width: 340px;
     }
 
     textarea {

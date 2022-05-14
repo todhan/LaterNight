@@ -46,9 +46,6 @@
             </script>
             <!--siteBox-->
             <div id="siteBox" class="site">
-                <form class="search-form" action="https://www.bing.com/search?q=%s" target="_blank" method="get">
-                    <input id="search" type="text" name="q" class="form-control" placeholder="Search"/>
-                </form>
                 <div id="ulBox">
                     <ul>
                         <li>
@@ -400,9 +397,9 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.google.com/finance/" target="_blank">
-                                    <img src="https://s6.jpg.cm/2022/04/08/LhCqxw.png"/>
-                                    <span class="text">Google Finance</span>
+                                <a href="https://feedly.com/" target="_blank">
+                                    <img src="https://s6.jpg.cm/2021/12/31/LJ0yUC.png">
+                                    <span class="text">Feedly</span>
                                 </a>
                             </li>
                             <li>
@@ -412,9 +409,15 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://feedly.com/" target="_blank">
-                                    <img src="https://s6.jpg.cm/2021/12/31/LJ0yUC.png">
-                                    <span class="text">Feedly</span>
+                                <a href="https://www.google.com/finance/" target="_blank">
+                                    <img src="https://s6.jpg.cm/2022/04/08/LhCqxw.png"/>
+                                    <span class="text">Google Finance</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.binance.com/zh-CN/markets" target="_blank">
+                                    <img src="https://s6.jpg.cm/2022/05/14/LM5ezE.png"/>
+                                    <span class="text">币安</span>
                                 </a>
                             </li>
                         </ul>
@@ -757,8 +760,7 @@
                     document.addEventListener("click", event=>{
                         var cDom = document.querySelector("#moreSiteBox");
                         var tDom = event.target;
-                        if (cDom == tDom || cDom.contains(tDom)) {// ... 
-                        } else {
+                        if (cDom == tDom || cDom.contains(tDom)) {} else {
                             cDom.style.display = "none";
                         }
                     }
