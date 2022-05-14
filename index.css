@@ -33,6 +33,7 @@ body {
     width: auto;
     height: 100%;
     border-radius: 30px;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 #siteBox {
@@ -196,20 +197,10 @@ textarea {
 /*0-1500px widrh screen adaptation*/
 @media screen and (max-device-width: 1500px) {
     #imgBox {
-        height: 190px;
-        margin: 20px auto;
+        height: 200px;
     }
 
     textarea {
         width: 216px;
-        background-color: #fafafa;
-        color: #111111;
-    }
-
-    @media (prefers-color-scheme: dark) {
-        textarea {
-            background-color: #111111;
-            color: #ffffff;
-        }
     }
 }
