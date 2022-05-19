@@ -1,9 +1,18 @@
 body {
+    background: url("https://s2.ax1x.com/2020/03/01/36orDg.gif") no-repeat center center fixed;
+    background-color: #1c1c1e;
+    background-size: cover;
+    image-rendering: -webkit-optimize-contrast;
     text-align: center;
     margin: 0 ;
     padding: 0;
-    background-color: #fafafa;
     font-family: "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .logo {
@@ -18,38 +27,16 @@ body {
     top: 82px;
     left: 20px;
     margin-left: 4px;
-    color: #111111;
+    color: #ffffff;
     text-decoration: none;
-}
-
-#imgBox {
-    width: auto;
-    height: 240px;
-    margin: 20px auto;
-    overflow: hidden;
-}
-
-#img {
-    width: auto;
-    height: 100%;
-    border-radius: 30px;
-    image-rendering: -webkit-optimize-contrast;
-}
-
-#siteBox {
-    margin-top: 26px;
 }
 
 .site {
     width: 760px;
     height: 432px;
     margin: 0 auto;
-    background-color: #ffffff;
-    border-radius: 60px;
-}
-
-#ulBox {
-    padding-top: 48px;
+    background-color: #1c1c1e;
+    border-radius: 80px;
 }
 
 #moreSiteBox {
@@ -68,7 +55,7 @@ button {
     width: 96px;
     font-size: 20px;
     border: 0;
-    color: #cccccc;
+    color: #6e6e73;
     outline: none;
     background-color: transparent;
     font-family: "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -80,10 +67,11 @@ button {
 }
 
 .current {
-    color: #111111;
+    color: #ffffff;
 }
 
 .site ul {
+    /* margin-top: 160px; */
     overflow: hidden;
     padding-inline-start: 78px; }
 
@@ -96,7 +84,7 @@ button {
 
 .site li a {
     text-decoration: none;
-    color: #111111;
+    color: #ffffff;
     line-height: 60px;
     float: left;
 }
@@ -113,7 +101,7 @@ button {
 }
 
 .site li a:hover {
-    background-color: #fafafa;
+    background-color: #111111;
     border-radius: 20px;
     margin: 0 -20px 0 -20px;
     padding: 0 20px 0 20px;
@@ -132,74 +120,15 @@ textarea {
     resize: none;
     width: 296px;
     height: 80px;
-    background-color: #fafafa;
+    background-color: transparent;
+    color: #ffffff;
     font-size: 15px;
     border: none;
     font-family: "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
-/*dark mode*/
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #111111;
-    }
-
-    .logo {
-        content: url(https://s1.ax1x.com/2020/03/26/8zL09U.png);
-    }
-
-    #hint {
-        color: #ffffff;
-    }
-
-    input {
-        color: #ffffff;
-        background-color: #1c1c1e;
-        border: 1px solid #6e6e73;
-        border-top-style: none;
-        border-left-style: none;
-        border-right-style: none;
-    }
-
-    ::-webkit-input-placeholder {
-        color: #6e6e73;
-    }
-
-    .site {
-        background-color: #1c1c1e;
-    }
-
-    button {
-        color: #6e6e73;
-    }
-
-    .current {
-        color: #ffffff;
-    }
-
-    .site li a {
-        color: #ffffff;
-    }
-
-    .site li a:hover {
-        background-color: #111111;
-        border-radius: 20px;
-        margin: 0 -20px 0 -20px;
-        padding: 0 20px 0 20px;
-    }
-
-    textarea {
-        background-color: #111111;
-        color: #ffffff;
-    }
-}
-
 /*0-1500px widrh screen adaptation*/
 @media screen and (max-device-width: 1500px) {
-    #imgBox {
-        height: 200px;
-    }
-
     textarea {
         width: 216px;
     }
