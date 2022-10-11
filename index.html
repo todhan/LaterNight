@@ -1,648 +1,589 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-    <head>
-        <meta charset="utf-8"/>
-        <title>x8o</title>
-        <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
-        <link rel="stylesheet" type="text/css" href="index.css"/>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137819175-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
 
-            gtag('config', 'UA-137819175-1');
-        </script>
-    </head>
-    <body onkeydown="keyCode(event)">
-        <div class="content">
-            <a href="https://www.xiaobeidao.com/">
-                <img class="logo" src="images/logo.png">
-            </a>
-            <a id="hint" href="https://music.163.com/#/song?id=29600147" target="_blank" style="display: none">夜深了
-            </a>
-            <script type="text/javascript">
-                var d = new Date();
-                var hour = d.getHours();
-                if (hour > 0 && hour < 5) {
-                    document.all["hint"].style.display = "block";
-                }
-            </script>
-            <!-- Random pics -->
-            <script language="javascript">
-                var bgarr = ["https://s2.ax1x.com/2020/03/01/36o3uD.gif", "https://s2.ax1x.com/2020/03/01/36oN4I.gif", "https://s2.ax1x.com/2020/03/01/36osbQ.gif", "https://s2.ax1x.com/2020/03/01/36orDg.gif", "https://s2.ax1x.com/2020/03/01/36TcLD.gif", "https://s6.jpg.cm/2022/05/14/LM5w0t.gif", "https://s2.ax1x.com/2020/03/01/36TyQK.gif", "https://s2.ax1x.com/2020/03/01/36TDRx.gif", "https://s2.ax1x.com/2020/03/01/36TRdH.gif", "https://s2.ax1x.com/2020/03/01/36T4JI.gif", "https://s1.ax1x.com/2020/03/20/86BbqJ.gif"];
-                var bgindex = Math.floor((Math.random() * bgarr.length));
-                document.body.style.backgroundImage = "url(" + bgarr[bgindex] + ")";
-            </script>
-            <!--siteBox-->
-            <div id="moreSiteBox" class="site">
-                <tr>
-                    <td>
-                        <button class="current">工具</button>
-                    </td>
-                    <td>
-                        <button>资讯</button>
-                    </td>
-                    <td>
-                        <button>娱乐</button>
-                    </td>
-                    <td>
-                        <button>参考</button>
-                    </td>
-                </tr>
-                <div class="con" style="display:block">
-                    <ul>
-                        <li>
-                            <a href="https://www.notion.so/login" target="_blank">
-                                <img src="https://www.notion.so/front-static/favicon.ico"/>
-                                <span class="text">Notion</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.figma.com/login" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/04/08/Lh39wE.png"/>
-                                <span class="text">Figma</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://docs.qq.com/desktop/" target="_blank">
-                                <img src="https://docs.idqqimg.com/tim/docs/desktop/favicon.ico"/>
-                                <span class="text">腾讯文档</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.weiyun.com/" target="_blank">
-                                <img src="https://img.weiyun.com/vipstyle/nr/box/img/favicon.ico"/>
-                                <span class="text">微云</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://mail.qq.com" target="_blank">
-                                <img src="https://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_32h.png"/>
-                                <span class="text">QQ邮箱</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://snapdrop.net/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/04/08/Lh3DjW.png"/>
-                                <span class="text">Snapdrop</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://filehelper.weixin.qq.com/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/06/06/PI6FNh.png"/>
-                                <span class="text">微信文件传输助手网页版</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://wetransfer.com/" target="_blank">
-                                <img src="https://prod-cdn.wetransfer.net/packs/media/images/favicon-a34a7465.ico"/>
-                                <span class="text">WeTransfer</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://yunduanxin.net/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/04/08/Lh3ZtH.png"/>
-                                <span class="text">云短信</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://temp-mail.org/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/04/08/LhCG0L.png"/>
-                                <span class="text">Temp Mail</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://paint.withdiagram.com/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/05/20/LOxkZL.png"/>
-                                <span class="text">Paint</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.photopea.com/" target="_blank">
-                                <img src="https://www.photopea.com/promo/thumb256.png"/>
-                                <span class="text">Photopea</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://rive.app/login/" target="_blank">
-                                <img src="https://rive.app/favicon.ico"/>
-                                <span class="text">Rive</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.veed.io/" target="_blank">
-                                <img src="https://assets-global.website-files.com/616e938268c8f02f94b2b53c/616e938268c8f01093b2b56b_Frame%202.png"/>
-                                <span class="text">VEED</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://codepen.io/pen/" target="_blank">
-                                <img src="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico"/>
-                                <span class="text">CodePen</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.aconvert.com/" target="_blank">
-                                <img src="https://s1.ax1x.com/2020/03/14/8Q2pqA.png"/>
-                                <span class="text">Aconvert</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://imagelol.com/" target="_blank">
-                                <img src="https://imagelol.com/content/images/system/favicon_1585616956625_17890a.png"/>
-                                <span class="text">LOL图床</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://i18ns.com/" target="_blank">
-                                <img src="https://i18ns.com/favicon.ico"/>
-                                <span class="text">I18ns</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://libgen.rs/" target="_blank">
-                                <img src="https://s1.ax1x.com/2020/10/07/0a7fU0.png"/>
-                                <span class="text">Library Genesis</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://unsplash.com/" target="_blank">
-                                <img src="https://unsplash.com/favicon-32x32.png"/>
-                                <span class="text">Unsplash</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.soundsnap.com/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/04/08/LhCLIf.png"/>
-                                <span class="text">Soundsnap</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://coverr.co/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/04/08/LhCPUU.png"/>
-                                <span class="text">coverr</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/06/06/PI8oEU.png"/>
-                                <span class="text">GitHub</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://apkpure.com/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/06/27/PRMMCp.png"/>
-                                <span class="text">APKPure</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://archive.org/" target="_blank">
-                                <img src="https://s2.ax1x.com/2020/03/06/3qTYnK.jpg"/>
-                                <span class="text">Internet Archive</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="con">
-                    <ul>
-                        <li>
-                            <a href="https://cn.nytimes.com/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/04/08/LhCRwO.png">
-                                <span class="text">纽约时报</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.bbc.com/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/02/24/Lgd4HE.png">
-                                <span class="text">BBC</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://theinitium.com/" target="_blank">
-                                <img src="https://s1.ax1x.com/2020/03/14/8Q5LmF.png">
-                                <span class="text">端傳媒</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://news.pts.org.tw/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/03/24/LC533L.png"/>
-                                <span class="text">公視新聞網</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://weibo.com/newlogin?tabtype=search" target="_blank">
-                                <img src="https://weibo.com/favicon.ico"/>
-                                <span class="text">微博</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/elonmusk?lang=en" target="_blank">
-                                <img src="https://s2.ax1x.com/2020/03/05/370I81.png"/>
-                                <span class="text">Twitter</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://xueqiu.com/u/1247347556" target="_blank">
-                                <img src="https://xqimg.imedao.com/17af5fe80fb1844b3fd48941.png"/>
-                                <span class="text">雪球</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.cnbeta.com/" target="_blank">
-                                <img src="https://www.cnbeta.com/favicon.ico"/>
-                                <span class="text">cnBeta</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://hypebeast.com/?gl=us" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/09/24/Pb3996.png"/>
-                                <span class="text">HYPEBEAST</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.zfrontier.com/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/02/20/LfPV7u.png"/>
-                                <span class="text">zFrontier</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.reddit.com/r/Genshin_Impact/" target="_blank">
-                                <img src="https://s2.ax1x.com/2020/03/05/37Bgzt.png"/>
-                                <span class="text">Reddit</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://dig.chouti.com" target="_blank">
-                                <img src="https://dig.chouti.com/images/favicon-d38b877458.png"/>
-                                <span class="text">抽屉新热榜</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.v2ex.com/" target="_blank">
-                                <img src="https://s1.ax1x.com/2020/09/12/wdCPU0.png"/>
-                                <span class="text">V2EX</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.qimai.cn/rank/index/brand/all/device/iphone/country/us/genre/6014" target="_blank">
-                                <img src="https://static.qimai.cn/static/bitbug_favicon.ico"/>
-                                <span class="text">七麦数据</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://play.google.com/store/games?hl=en&gl=us" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/07/28/P7MeE8.png"/>
-                                <span class="text">Google Play</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.google.com/finance/?hl=en&gl=us" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/04/08/LhCqxw.png"/>
-                                <span class="text">Google Finance</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.binance.com/zh-CN/markets" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/05/14/LM5ezE.png"/>
-                                <span class="text">币安</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="con">
-                    <ul>
-                        <li>
-                            <a href="https://ddys.tv/" target="_blank">
-                                <img src="https://ddys.tv/favicon-32x32.png"/>
-                                <span class="text">低端影视</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://zxzj.vip/" target="_blank">
-                                <img src="https://zxzj.vip/statics/img/favicon.ico"/>
-                                <span class="text">在线之家</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.mdoutv.com/" target="_blank">
-                                <img src="https://s1.ax1x.com/2020/10/11/0cz77j.png"/>
-                                <span class="text">麦豆TV</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.agemys.cc/" target="_blank">
-                                <img src="https://www.agemys.cc/favicon.ico"/>
-                                <span class="text">AGE动漫</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.nunuyy3.org/" target="_blank">
-                                <img src="https://www.nunuyy3.org/favicon.ico"/>
-                                <span class="text">努努影院</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://cupfox.app/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/04/30/LiiO4E.png"/>
-                                <span class="text">茶杯狐</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/?gl=US" target="_blank">
-                                <img src="https://s2.ax1x.com/2020/03/07/3XHOM9.png"/>
-                                <span class="text">YouTube</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.bilibili.com/" target="_blank">
-                                <img src="https://www.bilibili.com/favicon.ico"/>
-                                <span class="text">哔哩哔哩</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.douyin.com/" target="_blank">
-                                <img src="https://lf1-cdn-tos.bytegoofy.com/goofy/ies/douyin_web/public/favicon.ico"/>
-                                <span class="text">抖音</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://weread.qq.com/#login" target="_blank">
-                                <img src="https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/favicon/favicon_32h.png"/>
-                                <span class="text">微信读书</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://open.spotify.com/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/04/08/LhCn68.png"/>
-                                <span class="text">Spotify</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.listennotes.com/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/06/27/PRORAh.png"/>
-                                <span class="text">Listen Notes</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.taptap.com/upcoming" target="_blank">
-                                <img src="https://www.taptap.com/favicon.ico"/>
-                                <span class="text">TapTap</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://store.steampowered.com/?cc=en" target="_blank">
-                                <img src="https://s2.ax1x.com/2020/03/07/3XbqFf.png"/>
-                                <span class="text">Steam</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.epicgames.com/store" target="_blank">
-                                <img src="https://static-assets-prod-1251447533.file.myqcloud.com/epic-store/static/favicon.ico"/>
-                                <span class="text">Epic Games Store</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.dosgameol.com/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/04/08/LhCjSe.png"/>
-                                <span class="text">在线 DOS 游戏</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.y8.com/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/04/08/LhCTPr.png"/>
-                                <span class="text">Y8</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.yikm.net/" target="_blank">
-                                <img src="https://s2.ax1x.com/2020/03/07/3XbrLR.png"/>
-                                <span class="text">小霸王</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://movie.douban.com/mine?status=wish" target="_blank">
-                                <img src="https://www.douban.com/favicon.ico"/>
-                                <span class="text">豆瓣</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="con">
-                    <ul>
-                        <li>
-                            <a href="https://www.apple.com/" target="_blank">
-                                <img src="https://www.apple.com/favicon.ico"/>
-                                <span class="text">Apple</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.muji.com/jp/ja/store" target="_blank">
-                                <img src="https://www.muji.com/favicon.ico"/>
-                                <span class="text">無印良品</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.nike.com/w/new-mens-shoes-3n82yznik1zy7ok" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/04/08/LhCl0r.png"/>
-                                <span class="text">Nike</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.tesla.com/" target="_blank">
-                                <img src="https://www.tesla.com/themes/custom/tesla_frontend/assets/favicons/favicon.ico"/>
-                                <span class="text">Tesla</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://us.nothing.tech/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/09/24/PbCL8H.png"/>
-                                <span class="text">Nothing</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank">
-                                <img src="https://s1.ax1x.com/2020/10/24/BV6KCd.png"/>
-                                <span class="text">Facebook</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.pinterest.com/ideas/" target="_blank">
-                                <img src="https://s1.ax1x.com/2020/03/20/8609fK.png"/>
-                                <span class="text">Pinterest</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://medium.com/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/04/08/LhC8UC.png"/>
-                                <span class="text">Medium</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://dribbble.com/" target="_blank">
-                                <img src="https://s2.ax1x.com/2020/03/06/3LSNHs.png"/>
-                                <span class="text">Dribbble</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.behance.net/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/01/01/LtJbQi.png"/>
-                                <span class="text">Behance</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.qq.com/" target="_blank">
-                                <img src="https://mat1.gtimg.com/www/icon/favicon2.ico"/>
-                                <span class="text">腾讯网</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.dgtle.com/" target="_blank">
-                                <img src="https://www.dgtle.com/favicon.ico"/>
-                                <span class="text">数字尾巴</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.theverge.com/" target="_blank">
-                                <img src="https://cdn.vox-cdn.com/verge/favicon.ico"/>
-                                <span class="text">The Verge</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://www.qdaily.com/" target="_blank">
-                                <img src="https://s1.ax1x.com/2020/10/07/0aH1Zn.png"/>
-                                <span class="text">好奇心日报</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://mp.weixin.qq.com/" target="_blank">
-                                <img src="https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico"/>
-                                <span class="text">微信公众平台</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://about.facebook.com/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/01/01/LtJzpE.png"/>
-                                <span class="text">Meta</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.kakaocorp.com/page/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/04/08/LhCbFu.png"/>
-                                <span class="text">카카오</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://supercell.com/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/04/08/LhCAot.png"/>
-                                <span class="text">Supercell</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.dinehq.com/" target="_blank">
-                                <img src="https://www.dinehq.com/favicon.png"/>
-                                <span class="text">Dine Creative Design</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://ethereum.org/" target="_blank">
-                                <img src="https://ethereum.org/favicon-32x32.png"/>
-                                <span class="text">Ethereum</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.sneakinpeace.com/" target="_blank">
-                                <img src="https://cdn.shopifycdn.net/s/files/1/0493/5663/6318/files/favicon_fce707f0-955d-4b19-8beb-a3bfcb9a2b11_32x32.png"/>
-                                <span class="text">Sneak in Peace</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://fanqienovel.com/" target="_blank">
-                                <img src="https://p1-tt.byteimg.com/origin/pgc-image/40b62ecded39425e819b950e745e46ae"/>
-                                <span class="text">番茄小说网</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://www.timepill.net/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/04/08/LhCuyG.png"/>
-                                <span class="text">胶囊日记</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://web.getmatter.app/" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/06/27/PROLZQ.png">
-                                <span class="text">Matter</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://discord.com/app" target="_blank">
-                                <img src="https://s6.jpg.cm/2022/04/08/LhCau5.png"/>
-                                <span class="text">Discord</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+<head>
+    <meta charset="utf-8" />
+    <title>x8o</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137819175-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-137819175-1');
+    </script>
+</head>
+
+<body onkeydown="keyCode(event)">
+    <div class="content">
+        <a href="https://www.xiaobeidao.com/">
+            <img class="logo" src="images/logo.png">
+        </a>
+        <a id="hint" href="https://music.163.com/#/song?id=29600147" target="_blank" style="display: none">夜深了
+        </a>
+        <!--siteBox-->
+        <div id="moreSiteBox" class="site">
+            <tr>
+                <td>
+                    <button class="current">工具</button>
+                </td>
+                <td>
+                    <button>资讯</button>
+                </td>
+                <td>
+                    <button>娱乐</button>
+                </td>
+                <td>
+                    <button>参考</button>
+                </td>
+            </tr>
+            <div class="con" style="display:block">
+                <ul>
+                    <li>
+                        <a href="https://www.notion.so/login" target="_blank">
+                            <img src="https://www.notion.so/front-static/favicon.ico" />
+                            <span class="text">Notion</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.figma.com/login" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/04/08/Lh39wE.png" />
+                            <span class="text">Figma</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://docs.qq.com/desktop/" target="_blank">
+                            <img src="https://docs.idqqimg.com/tim/docs/desktop/favicon.ico" />
+                            <span class="text">腾讯文档</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.weiyun.com/" target="_blank">
+                            <img src="https://img.weiyun.com/vipstyle/nr/box/img/favicon.ico" />
+                            <span class="text">微云</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://mail.qq.com" target="_blank">
+                            <img src="https://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_32h.png" />
+                            <span class="text">QQ邮箱</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://snapdrop.net/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/04/08/Lh3DjW.png" />
+                            <span class="text">Snapdrop</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://filehelper.weixin.qq.com/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/06/06/PI6FNh.png" />
+                            <span class="text">微信文件传输助手网页版</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wetransfer.com/" target="_blank">
+                            <img src="https://prod-cdn.wetransfer.net/packs/media/images/favicon-a34a7465.ico" />
+                            <span class="text">WeTransfer</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://yunduanxin.net/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/04/08/Lh3ZtH.png" />
+                            <span class="text">云短信</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://temp-mail.org/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/04/08/LhCG0L.png" />
+                            <span class="text">Temp Mail</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://paint.withdiagram.com/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/05/20/LOxkZL.png" />
+                            <span class="text">Paint</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.photopea.com/" target="_blank">
+                            <img src="https://www.photopea.com/promo/thumb256.png" />
+                            <span class="text">Photopea</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://rive.app/login/" target="_blank">
+                            <img src="https://rive.app/favicon.ico" />
+                            <span class="text">Rive</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.veed.io/" target="_blank">
+                            <img
+                                src="https://assets-global.website-files.com/616e938268c8f02f94b2b53c/616e938268c8f01093b2b56b_Frame%202.png" />
+                            <span class="text">VEED</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://codepen.io/pen/" target="_blank">
+                            <img
+                                src="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+                            <span class="text">CodePen</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.aconvert.com/" target="_blank">
+                            <img src="https://s1.ax1x.com/2020/03/14/8Q2pqA.png" />
+                            <span class="text">Aconvert</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://imagelol.com/" target="_blank">
+                            <img src="https://imagelol.com/content/images/system/favicon_1585616956625_17890a.png" />
+                            <span class="text">LOL图床</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://i18ns.com/" target="_blank">
+                            <img src="https://i18ns.com/favicon.ico" />
+                            <span class="text">I18ns</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://libgen.rs/" target="_blank">
+                            <img src="https://s1.ax1x.com/2020/10/07/0a7fU0.png" />
+                            <span class="text">Library Genesis</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://unsplash.com/" target="_blank">
+                            <img src="https://unsplash.com/favicon-32x32.png" />
+                            <span class="text">Unsplash</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.soundsnap.com/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/04/08/LhCLIf.png" />
+                            <span class="text">Soundsnap</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://coverr.co/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/04/08/LhCPUU.png" />
+                            <span class="text">coverr</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/06/06/PI8oEU.png" />
+                            <span class="text">GitHub</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://apkpure.com/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/06/27/PRMMCp.png" />
+                            <span class="text">APKPure</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://archive.org/" target="_blank">
+                            <img src="https://s2.ax1x.com/2020/03/06/3qTYnK.jpg" />
+                            <span class="text">Internet Archive</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <script>
-                // 首先要获得所有的按钮
-                var box = document.getElementById('moreSiteBox');
-                var btns = document.getElementsByTagName('button');
-                var divs = box.getElementsByTagName('div');
-                for (var i = 0; i < btns.length; i++) {
-                    var btn = btns[i];
-                    btn.index = i;
-                    // 给每个按钮添加一个自定义属性，用来存储当前的索引
-                    btn.onmouseover = function() {
+            <div class="con">
+                <ul>
+                    <li>
+                        <a href="https://cn.nytimes.com/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/04/08/LhCRwO.png">
+                            <span class="text">纽约时报</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.com/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/02/24/Lgd4HE.png">
+                            <span class="text">BBC</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://theinitium.com/" target="_blank">
+                            <img src="https://s1.ax1x.com/2020/03/14/8Q5LmF.png">
+                            <span class="text">端傳媒</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://news.pts.org.tw/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/03/24/LC533L.png" />
+                            <span class="text">公視新聞網</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://weibo.com/newlogin?tabtype=search" target="_blank">
+                            <img src="https://weibo.com/favicon.ico" />
+                            <span class="text">微博</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/elonmusk?lang=en" target="_blank">
+                            <img src="https://s2.ax1x.com/2020/03/05/370I81.png" />
+                            <span class="text">Twitter</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://xueqiu.com/u/1247347556" target="_blank">
+                            <img src="https://xqimg.imedao.com/17af5fe80fb1844b3fd48941.png" />
+                            <span class="text">雪球</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.cnbeta.com/" target="_blank">
+                            <img src="https://www.cnbeta.com/favicon.ico" />
+                            <span class="text">cnBeta</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://hypebeast.com/?gl=us" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/09/24/Pb3996.png" />
+                            <span class="text">HYPEBEAST</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.zfrontier.com/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/02/20/LfPV7u.png" />
+                            <span class="text">zFrontier</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.reddit.com/r/Genshin_Impact/" target="_blank">
+                            <img src="https://s2.ax1x.com/2020/03/05/37Bgzt.png" />
+                            <span class="text">Reddit</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://dig.chouti.com" target="_blank">
+                            <img src="https://dig.chouti.com/images/favicon-d38b877458.png" />
+                            <span class="text">抽屉新热榜</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.v2ex.com/" target="_blank">
+                            <img src="https://s1.ax1x.com/2020/09/12/wdCPU0.png" />
+                            <span class="text">V2EX</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.qimai.cn/rank/index/brand/all/device/iphone/country/us/genre/6014"
+                            target="_blank">
+                            <img src="https://static.qimai.cn/static/bitbug_favicon.ico" />
+                            <span class="text">七麦数据</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://play.google.com/store/games?hl=en&gl=us" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/07/28/P7MeE8.png" />
+                            <span class="text">Google Play</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/finance/?hl=en&gl=us" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/04/08/LhCqxw.png" />
+                            <span class="text">Google Finance</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.binance.com/zh-CN/markets" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/05/14/LM5ezE.png" />
+                            <span class="text">币安</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="con">
+                <ul>
+                    <li>
+                        <a href="https://ddys.tv/" target="_blank">
+                            <img src="https://ddys.tv/favicon-32x32.png" />
+                            <span class="text">低端影视</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://zxzj.vip/" target="_blank">
+                            <img src="https://zxzj.vip/statics/img/favicon.ico" />
+                            <span class="text">在线之家</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.mdoutv.com/" target="_blank">
+                            <img src="https://s1.ax1x.com/2020/10/11/0cz77j.png" />
+                            <span class="text">麦豆TV</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.agemys.cc/" target="_blank">
+                            <img src="https://www.agemys.cc/favicon.ico" />
+                            <span class="text">AGE动漫</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.nunuyy3.org/" target="_blank">
+                            <img src="https://www.nunuyy3.org/favicon.ico" />
+                            <span class="text">努努影院</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://cupfox.app/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/04/30/LiiO4E.png" />
+                            <span class="text">茶杯狐</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/?gl=US" target="_blank">
+                            <img src="https://s2.ax1x.com/2020/03/07/3XHOM9.png" />
+                            <span class="text">YouTube</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.bilibili.com/" target="_blank">
+                            <img src="https://www.bilibili.com/favicon.ico" />
+                            <span class="text">哔哩哔哩</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.douyin.com/" target="_blank">
+                            <img src="https://lf1-cdn-tos.bytegoofy.com/goofy/ies/douyin_web/public/favicon.ico" />
+                            <span class="text">抖音</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://weread.qq.com/#login" target="_blank">
+                            <img
+                                src="https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/favicon/favicon_32h.png" />
+                            <span class="text">微信读书</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/04/08/LhCn68.png" />
+                            <span class="text">Spotify</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.listennotes.com/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/06/27/PRORAh.png" />
+                            <span class="text">Listen Notes</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.taptap.com/upcoming" target="_blank">
+                            <img src="https://www.taptap.com/favicon.ico" />
+                            <span class="text">TapTap</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://store.steampowered.com/?cc=en" target="_blank">
+                            <img src="https://s2.ax1x.com/2020/03/07/3XbqFf.png" />
+                            <span class="text">Steam</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.epicgames.com/store" target="_blank">
+                            <img
+                                src="https://static-assets-prod-1251447533.file.myqcloud.com/epic-store/static/favicon.ico" />
+                            <span class="text">Epic Games Store</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.dosgameol.com/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/04/08/LhCjSe.png" />
+                            <span class="text">在线 DOS 游戏</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.y8.com/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/04/08/LhCTPr.png" />
+                            <span class="text">Y8</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.yikm.net/" target="_blank">
+                            <img src="https://s2.ax1x.com/2020/03/07/3XbrLR.png" />
+                            <span class="text">小霸王</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://movie.douban.com/mine?status=wish" target="_blank">
+                            <img src="https://www.douban.com/favicon.ico" />
+                            <span class="text">豆瓣</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="con">
+                <ul>
+                    <li>
+                        <a href="https://www.apple.com/" target="_blank">
+                            <img src="https://www.apple.com/favicon.ico" />
+                            <span class="text">Apple</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.muji.com/jp/ja/store" target="_blank">
+                            <img src="https://www.muji.com/favicon.ico" />
+                            <span class="text">無印良品</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.nike.com/w/new-mens-shoes-3n82yznik1zy7ok" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/04/08/LhCl0r.png" />
+                            <span class="text">Nike</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.tesla.com/" target="_blank">
+                            <img src="https://www.tesla.com/themes/custom/tesla_frontend/assets/favicons/favicon.ico" />
+                            <span class="text">Tesla</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://us.nothing.tech/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/09/24/PbCL8H.png" />
+                            <span class="text">Nothing</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="https://s1.ax1x.com/2020/10/24/BV6KCd.png" />
+                            <span class="text">Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.pinterest.com/ideas/" target="_blank">
+                            <img src="https://s1.ax1x.com/2020/03/20/8609fK.png" />
+                            <span class="text">Pinterest</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://medium.com/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/04/08/LhC8UC.png" />
+                            <span class="text">Medium</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://dribbble.com/" target="_blank">
+                            <img src="https://s2.ax1x.com/2020/03/06/3LSNHs.png" />
+                            <span class="text">Dribbble</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.behance.net/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/01/01/LtJbQi.png" />
+                            <span class="text">Behance</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.qq.com/" target="_blank">
+                            <img src="https://mat1.gtimg.com/www/icon/favicon2.ico" />
+                            <span class="text">腾讯网</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.dgtle.com/" target="_blank">
+                            <img src="https://www.dgtle.com/favicon.ico" />
+                            <span class="text">数字尾巴</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.theverge.com/" target="_blank">
+                            <img src="https://cdn.vox-cdn.com/verge/favicon.ico" />
+                            <span class="text">The Verge</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.qdaily.com/" target="_blank">
+                            <img src="https://s1.ax1x.com/2020/10/07/0aH1Zn.png" />
+                            <span class="text">好奇心日报</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://mp.weixin.qq.com/" target="_blank">
+                            <img src="https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico" />
+                            <span class="text">微信公众平台</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://about.facebook.com/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/01/01/LtJzpE.png" />
+                            <span class="text">Meta</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.kakaocorp.com/page/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/04/08/LhCbFu.png" />
+                            <span class="text">카카오</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://supercell.com/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/04/08/LhCAot.png" />
+                            <span class="text">Supercell</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.dinehq.com/" target="_blank">
+                            <img src="https://www.dinehq.com/favicon.png" />
+                            <span class="text">Dine Creative Design</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://ethereum.org/" target="_blank">
+                            <img src="https://ethereum.org/favicon-32x32.png" />
+                            <span class="text">Ethereum</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.sneakinpeace.com/" target="_blank">
+                            <img
+                                src="https://cdn.shopifycdn.net/s/files/1/0493/5663/6318/files/favicon_fce707f0-955d-4b19-8beb-a3bfcb9a2b11_32x32.png" />
+                            <span class="text">Sneak in Peace</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://fanqienovel.com/" target="_blank">
+                            <img src="https://p1-tt.byteimg.com/origin/pgc-image/40b62ecded39425e819b950e745e46ae" />
+                            <span class="text">番茄小说网</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.timepill.net/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/04/08/LhCuyG.png" />
+                            <span class="text">胶囊日记</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://web.getmatter.app/" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/06/27/PROLZQ.png">
+                            <span class="text">Matter</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://discord.com/app" target="_blank">
+                            <img src="https://s6.jpg.cm/2022/04/08/LhCau5.png" />
+                            <span class="text">Discord</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--notes-->
+        <textarea id="notes"></textarea>
+        <script src="index.js"></script>
+</body>
 
-                        for (var j = 0; j < btns.length; j++) {
-                            btns[j].className = '';
-                        }
-                        this.className = 'current';
-                        for (var k = 0; k < divs.length; k++) {
-                            divs[k].style.display = 'none';
-                        }
-                        divs[this.index].style.display = 'block';
-                    }
-                }
-            </script>
-            <!--notes-->
-            <textarea id="notes"></textarea>
-            <script>
-                // Save the notes
-                var d = document;
-                // Check browser support
-                if (typeof (Storage) !== "undefined") {
-                    d.addEventListener('DOMContentLoaded', function() {
-                        var savedContent = localStorage.getItem("notesContent");
-                        if (savedContent != null) {
-                            d.getElementById("notes").value = savedContent;
-                        }
-
-                        d.getElementById("notes").onkeyup = function() {
-                            var data = d.getElementById("notes").value;
-                            localStorage.setItem("notesContent", data);
-                        }
-                    });
-                } else {
-                    document.getElementById("result").innerHTML = "你这个浏览器不支持 Web Storage";
-                }
-
-                // Shortcuts
-                function keyCode(event) {
-                    var value = event.keyCode;
-                    if (value == 49) {
-                        window.open("https://www.notion.so/login");
-                    } else if (value == 50) {
-                        window.open("https://www.figma.com/login");
-                    } else if (value == 51) {
-                        window.open("https://docs.qq.com/desktop/");
-                    } else if (value == 52) {
-                        window.open("https://weread.qq.com/#login");
-                    }
-                }
-            </script>
-    </body>
 </html>
