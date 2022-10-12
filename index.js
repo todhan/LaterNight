@@ -10,7 +10,7 @@ var bgindex = Math.floor((Math.random() * bgarr.length));
 document.body.style.backgroundImage = "url(" + bgarr[bgindex] + ")";
 
 // 首先要获得所有的按钮
-var box = document.getElementById('moreSiteBox');
+var box = document.getElementById('siteBox');
 var btns = document.getElementsByTagName('button');
 var divs = box.getElementsByTagName('div');
 for (var i = 0; i < btns.length; i++) {
