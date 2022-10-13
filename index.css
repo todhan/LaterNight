@@ -31,15 +31,7 @@ body {
     text-decoration: none;
 }
 
-.site {
-    width: 760px;
-    height: 432px;
-    margin: 0 auto;
-    background-color: #1c1c1e;
-    border-radius: 80px;
-}
-
-#siteBox {
+.sites {
     width: 930px;
     height: 580px;
     margin: auto;
@@ -48,6 +40,8 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
+    background-color: #1c1c1e;
+    border-radius: 80px;
 }
 
 button {
@@ -70,27 +64,27 @@ button {
     color: #ffffff;
 }
 
-.site ul {
+.sites ul {
     /* margin-top: 160px; */
     overflow: hidden;
     padding-inline-start: 78px;
 }
 
-.site li {
+.sites li {
     list-style: none;
     width: 170px;
     height: 80px;
     float: left;
 }
 
-.site li a {
+.sites li a {
     text-decoration: none;
     color: #ffffff;
     line-height: 60px;
     float: left;
 }
 
-.site li a .text {
+.sites li a .text {
     padding-left: 4px;
     vertical-align: middle;
     text-align: left;
@@ -101,14 +95,14 @@ button {
     text-overflow: ellipsis;
 }
 
-.site li a:hover {
+.sites li a:hover {
     background-color: #111111;
     border-radius: 20px;
     margin: 0 -20px 0 -20px;
     padding: 0 20px 0 20px;
 }
 
-.site li img {
+.sites li img {
     width: 24px;
     height: 24px;
     vertical-align: middle;
