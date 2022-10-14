@@ -1,7 +1,7 @@
 var d = new Date();
 var hour = d.getHours();
 if (hour > 0 && hour < 5) {
-    document.all["hint"].style.display = "block";
+    document.getElementsByClassName("hint")[0].style.display = "block";
 }
 
 // Random pics
