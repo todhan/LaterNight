@@ -9,23 +9,18 @@ var bgarr = ["https://s2.ax1x.com/2020/03/01/36o3uD.gif", "https://s2.ax1x.com/2
 var bgindex = Math.floor((Math.random() * bgarr.length));
 document.body.style.backgroundImage = "url(" + bgarr[bgindex] + ")";
 
-// 首先要获得所有的按钮
-var box = document.getElementsByClassName('sites')[0];
+// 获得所有的按钮
 var btns = document.getElementsByTagName('button');
-var divs = box.getElementsByTagName('div');
+var divs = document.getElementsByClassName('con');
 for (var i = 0; i < btns.length; i++) {
-    var btn = btns[i];
-    btn.index = i;
+    btns[i].index = i;
     // 给每个按钮添加一个自定义属性，用来存储当前的索引
-    btn.onmouseover = function () {
-
+    btns[i].onmouseover = function () {
         for (var j = 0; j < btns.length; j++) {
             btns[j].className = '';
+            divs[j].style.display = 'none'
         }
         this.className = 'current';
-        for (var k = 0; k < divs.length; k++) {
-            divs[k].style.display = 'none';
-        }
         divs[this.index].style.display = 'block';
     }
 }
