@@ -5,23 +5,22 @@ if (hour > 0 && hour < 5) {
 }
 
 // Random pics
-var bgarr = ["https://s2.ax1x.com/2020/03/01/36o3uD.gif", "https://s2.ax1x.com/2020/03/01/36oN4I.gif", "https://s2.ax1x.com/2020/03/01/36osbQ.gif", "https://s2.ax1x.com/2020/03/01/36orDg.gif", "https://s2.ax1x.com/2020/03/01/36TcLD.gif", "https://s6.jpg.cm/2022/05/14/LM5w0t.gif", "https://s2.ax1x.com/2020/03/01/36TyQK.gif", "https://s2.ax1x.com/2020/03/01/36TDRx.gif", "https://s2.ax1x.com/2020/03/01/36TRdH.gif", "https://s2.ax1x.com/2020/03/01/36T4JI.gif", "https://s1.ax1x.com/2020/03/20/86BbqJ.gif"];
-var bgindex = Math.floor((Math.random() * bgarr.length));
-document.body.style.backgroundImage = "url(" + bgarr[bgindex] + ")";
+var bgArr = ["https://s2.ax1x.com/2020/03/01/36o3uD.gif", "https://s2.ax1x.com/2020/03/01/36oN4I.gif", "https://s2.ax1x.com/2020/03/01/36osbQ.gif", "https://s2.ax1x.com/2020/03/01/36orDg.gif", "https://s2.ax1x.com/2020/03/01/36TcLD.gif", "https://s6.jpg.cm/2022/05/14/LM5w0t.gif", "https://s2.ax1x.com/2020/03/01/36TyQK.gif", "https://s2.ax1x.com/2020/03/01/36TDRx.gif", "https://s2.ax1x.com/2020/03/01/36TRdH.gif", "https://s2.ax1x.com/2020/03/01/36T4JI.gif", "https://s1.ax1x.com/2020/03/20/86BbqJ.gif"];
+var bgIndex = Math.floor((Math.random() * bgArr.length));
+document.body.style.backgroundImage = "url(" + bgArr[bgIndex] + ")";
 
-// 获得所有的按钮
-var btns = document.getElementsByTagName('button');
-var divs = document.getElementsByClassName('con');
-for (var i = 0; i < btns.length; i++) {
-    btns[i].index = i;
-    // 给每个按钮添加一个自定义属性，用来存储当前的索引
-    btns[i].onmouseover = function () {
-        for (var j = 0; j < btns.length; j++) {
-            btns[j].className = '';
-            divs[j].style.display = 'none'
+// Switch the Tabs
+var btnArr = document.getElementsByTagName("button");
+var divArr = document.getElementsByClassName("con");
+for (var i = 0; i < btnArr.length; i++) {
+    btnArr[i].index = i;
+    btnArr[i].onmouseover = function () {
+        for (var j = 0; j < btnArr.length; j++) {
+            btnArr[j].className = "";
+            divArr[j].style.display = "none"
         }
-        this.className = 'current';
-        divs[this.index].style.display = 'block';
+        this.className = "current";
+        divArr[this.index].style.display = "block";
     }
 }
 
@@ -29,7 +28,7 @@ for (var i = 0; i < btns.length; i++) {
 var d = document;
 // Check browser support
 if (typeof (Storage) !== "undefined") {
-    d.addEventListener('DOMContentLoaded', function () {
+    d.addEventListener("DOMContentLoaded", function () {
         var savedContent = localStorage.getItem("notesContent");
         if (savedContent != null) {
             d.getElementById("notes").value = savedContent;
