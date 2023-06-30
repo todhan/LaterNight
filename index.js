@@ -70,7 +70,5 @@ function keyCode(event) {
         window.open("https://www.figma.com/login");
     } else if (value == 51) {
         window.open("https://docs.qq.com/desktop/");
-    } else if (value == 52) {
-        window.open("https://weread.qq.com/#login");
     }
 }
