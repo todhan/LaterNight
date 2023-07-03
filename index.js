@@ -1,7 +1,25 @@
-// Random pics
+// Random pictures
 var bgArr = ["https://s2.ax1x.com/2020/03/01/36o3uD.gif", "https://s2.ax1x.com/2020/03/01/36oN4I.gif", "https://s2.ax1x.com/2020/03/01/36osbQ.gif", "https://s2.ax1x.com/2020/03/01/36orDg.gif", "https://s2.ax1x.com/2020/03/01/36TcLD.gif", "https://s6.jpg.cm/2022/05/14/LM5w0t.gif", "https://s2.ax1x.com/2020/03/01/36TyQK.gif", "https://s2.ax1x.com/2020/03/01/36TDRx.gif", "https://s2.ax1x.com/2020/03/01/36TRdH.gif", "https://s2.ax1x.com/2020/03/01/36T4JI.gif", "https://s1.ax1x.com/2020/03/20/86BbqJ.gif"];
 var bgIndex = Math.floor((Math.random() * bgArr.length));
 document.body.style.backgroundImage = "url(" + bgArr[bgIndex] + ")";
+
+//Show the background picture
+const logoLink = document.querySelector('.logo');
+const sitesElement = document.querySelector('.sites');
+
+let isVisible = true;
+
+logoLink.addEventListener('click', function(event) {
+  event.preventDefault();
+  
+  if (isVisible) {
+    sitesElement.classList.add('hidden');
+    isVisible = false;
+} else {
+    sitesElement.classList.remove('hidden');
+    isVisible = true;
+}
+});
 
 // Late night reminder
 function displayMessage() {
