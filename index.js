@@ -10,15 +10,15 @@ const sitesElement = document.querySelector('.sites');
 let isVisible = true;
 
 logoLink.addEventListener('click', function(event) {
-  event.preventDefault();
-  
-  if (isVisible) {
-    sitesElement.classList.add('hidden');
-    isVisible = false;
-} else {
-    sitesElement.classList.remove('hidden');
-    isVisible = true;
-}
+    event.preventDefault();
+
+    if (isVisible) {
+        sitesElement.classList.add('hidden');
+        isVisible = false;
+    } else {
+        sitesElement.classList.remove('hidden');
+        isVisible = true;
+    }
 });
 
 // Late night reminder
@@ -30,20 +30,36 @@ function displayMessage() {
     if (hours >= 0 && hours < 6) {
         var link = document.createElement("a");
         link.href = "https://music.163.com/#/song?id=29600147";
-        // 设置链接目标地址
         link.textContent = "夜深了";
-        // 设置链接显示的文本内容
         link.target = "_blank";
-        // 在新标签页中打开链接
         link.classList.add("hint");
-        // 添加类名 "hint"
+        link.id = "nightLink";
+        // Add a unique id
+
+        // Check if an element with id "nightLink" already exists
+        var existingLink = document.getElementById("nightLink");
+        if (existingLink) {
+            // If it already exists, do nothing
+            return;
+        }
+
         document.body.appendChild(link);
-        // 将链接添加到页面的body元素中
+    } else {
+        var existingLink = document.getElementById("nightLink");
+        if (existingLink) {
+            // If an element with id "nightLink" exists, remove it from the DOM
+            existingLink.parentNode.removeChild(existingLink);
+        }
     }
 }
 
+// Call displayMessage function once after the page has finished loading
+window.addEventListener('load', function() {
+    displayMessage();
+});
+
+// Check time every minute
 setInterval(displayMessage, 60000);
-// 每分钟检查一次时间
 
 // Switch the Tabs
 var btnArr = document.getElementsByTagName("button");

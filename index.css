@@ -47,8 +47,8 @@ body {
 }
 
 .sites.hidden {
-  opacity: 0;
-  pointer-events: none;
+    opacity: 0;
+    pointer-events: none;
 }
 
 button {
@@ -74,8 +74,7 @@ button {
 .sites ul {
     /* margin-top: 160px; */
     overflow: hidden;
-    padding-inline-start: 78px;
-}
+    padding-inline-start: 78px; }
 
 .sites li {
     list-style: none;
@@ -92,7 +91,7 @@ button {
 }
 
 .sites li a .text {
-    padding-left: 4px;
+    padding-left: 8px;
     vertical-align: middle;
     text-align: left;
     display: inline-block;
