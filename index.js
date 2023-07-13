@@ -1,4 +1,4 @@
-// Random pictures
+// Random background pictures
 var bgArr = ["https://s2.ax1x.com/2020/03/01/36o3uD.gif", "https://s2.ax1x.com/2020/03/01/36oN4I.gif", "https://s2.ax1x.com/2020/03/01/36osbQ.gif", "https://s2.ax1x.com/2020/03/01/36orDg.gif", "https://s2.ax1x.com/2020/03/01/36TcLD.gif", "https://s6.jpg.cm/2022/05/14/LM5w0t.gif", "https://s2.ax1x.com/2020/03/01/36TyQK.gif", "https://s2.ax1x.com/2020/03/01/36TDRx.gif", "https://s2.ax1x.com/2020/03/01/36TRdH.gif", "https://s2.ax1x.com/2020/03/01/36T4JI.gif", "https://s1.ax1x.com/2020/03/20/86BbqJ.gif"];
 var bgIndex = Math.floor((Math.random() * bgArr.length));
 document.body.style.backgroundImage = "url(" + bgArr[bgIndex] + ")";
@@ -61,7 +61,7 @@ window.addEventListener('load', function() {
 // Check time every minute
 setInterval(displayMessage, 60000);
 
-// Switch the Tabs
+// Switch the tabs
 var btnArr = document.getElementsByTagName("button");
 var divArr = document.getElementsByClassName("con");
 for (var i = 0; i < btnArr.length; i++) {
@@ -93,16 +93,4 @@ if (typeof (Storage) !== "undefined") {
     });
 } else {
     document.getElementById("result").innerHTML = "你这个浏览器不支持 Web Storage";
-}
-
-// Shortcuts
-function keyCode(event) {
-    var value = event.keyCode;
-    if (value == 49) {
-        window.open("https://www.notion.so/login");
-    } else if (value == 50) {
-        window.open("https://www.figma.com/login");
-    } else if (value == 51) {
-        window.open("https://docs.qq.com/desktop/");
-    }
 }
