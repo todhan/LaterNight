@@ -1,5 +1,4 @@
 body {
-    background: url("https://s2.ax1x.com/2020/03/01/36o3uD.gif") no-repeat center center fixed;
     background-color: #111111;
     background-size: cover;
     image-rendering: -webkit-optimize-contrast;
@@ -40,7 +39,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #1c1c1e;
+    background-color: #1c1c1c;
     opacity: 1;
     transition: opacity 0.5s ease;
     border-radius: 80px;
