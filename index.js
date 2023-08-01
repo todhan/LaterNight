@@ -15,12 +15,12 @@ function preloadImage(url) {
 // Preload the image before setting it as the background
 const bgIndex = Math.floor(Math.random() * bgArr.length);
 preloadImage(bgArr[bgIndex])
-  .then(() => {
-    document.body.style.backgroundImage = `url(${bgArr[bgIndex]})`;
-  })
-  .catch((error) => {
-    console.error("Failed to load background image:", error);
-  });
+.then(() => {
+  document.body.style.backgroundImage = `url(${bgArr[bgIndex]})`;
+})
+.catch((error) => {
+  console.error("Failed to load background image:", error);
+});
 
 /*
 Show or hide the sites
@@ -157,8 +157,24 @@ fetchData().then(data => {
   appendListItems('reference-list', data.referenceData);
 });
 
+/*
+Shortcuts
+*/
+// Add event listener for key press
+document.addEventListener("keydown", function(event) {
+  // Check if the pressed key is "1" (keyCode 49)
+  if (event.keyCode === 49) {
+    // Open websites in a new tab
+    window.open("https://www.notion.so/login", "_blank");
+  } else if (event.keyCode === 32) {
+    // Check if the pressed key is the spacebar (keyCode 32)
+    window.open("https://chat.openai.com/", "_blank");
+  }
+});
 
-
+/*
+Middle mouse button scrolling or touch pad sliding
+*/
 // 获取按钮和内容区域元素
 const buttons = document.querySelectorAll('.sites button');
 const contentDivs = document.querySelectorAll('.con');
