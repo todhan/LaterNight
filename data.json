@@ -127,102 +127,102 @@
     }
   ],
   "newsData": [
-   {
-    "link": "https://cn.nytimes.com/",
-    "imageSrc": "https://i2.mjj.rip/2023/06/30/6db3334b24599860c84c7ffbc031eb6b.png",
-    "text": "纽约时报中文网"
-  },
-  {
-    "link": "https://www.bbc.com/",
-    "imageSrc": "https://i2.mjj.rip/2023/06/30/47eaca6a6daebf595d14866f8f6f7b7e.png",
-    "text": "BBC"
-  },
-  {
-    "link": "https://theinitium.com/",
-    "imageSrc": "https://s1.ax1x.com/2020/03/14/8Q5LmF.png",
-    "text": "端傳媒"
-  },
-  {
-    "link": "https://news.pts.org.tw/",
-    "imageSrc": "https://i2.mjj.rip/2023/06/30/99fd19330308deef59e30b18fedd9b7d.png",
-    "text": "公視新聞網"
-  },
-  {
-    "link": "https://weibo.com/newlogin?tabtype=search",
-    "imageSrc": "https://weibo.com/favicon.ico",
-    "text": "微博"
-  },
-  {
-    "link": "https://xueqiu.com/u/1247347556",
-    "imageSrc": "https://xqimg.imedao.com/17af5fe80fb1844b3fd48941.png",
-    "text": "雪球"
-  },
-  {
-    "link": "https://www.ithome.com/blog/",
-    "imageSrc": "https://www.ithome.com/favicon.ico",
-    "text": "IT之家"
-  },
-  {
-    "link": "https://www.dongchedi.com",
-    "imageSrc": "https://p3.dcarimg.com/obj/eden-cn/vlseh7ubqnuhs/motor/favicon/favicon-96x96.png",
-    "text": "懂车帝"
-  },
-  {
-    "link": "https://hypebeast.com/?gl=us",
-    "imageSrc": "https://i2.mjj.rip/2023/06/30/bd18cec50e6e8fce29cefa878fb6defb.png",
-    "text": "HYPEBEAST"
-  },
-  {
-    "link": "https://www.zfrontier.com/",
-    "imageSrc": "https://i2.mjj.rip/2023/06/30/d3062d2b58e42536fcba7810d468ed33.png",
-    "text": "zFrontier"
-  },
-  {
-    "link": "https://twitter.com/elonmusk?lang=en",
-    "imageSrc": "https://s2.ax1x.com/2020/03/05/370I81.png",
-    "text": "Twitter"
-  },
-  {
-    "link": "https://www.reddit.com/r/Genshin_Impact/",
-    "imageSrc": "https://s2.ax1x.com/2020/03/05/37Bgzt.png",
-    "text": "Reddit"
-  },
-  {
-    "link": "https://dig.chouti.com",
-    "imageSrc": "https://dig.chouti.com/images/favicon-d38b877458.png",
-    "text": "抽屉新热榜"
-  },
-  {
-    "link": "https://www.v2ex.com/",
-    "imageSrc": "https://s1.ax1x.com/2020/09/12/wdCPU0.png",
-    "text": "V2EX"
-  },
-  {
-    "link": "https://www.qimai.cn/rank/index/brand/all/device/iphone/country/us/genre/6014",
-    "imageSrc": "https://static.qimai.cn/static/bitbug_favicon.ico",
-    "text": "七麦数据"
-  },
-  {
-    "link": "https://play.google.com/store/games?hl=en&gl=us",
-    "imageSrc": "https://i2.mjj.rip/2023/06/30/0ede3f74f24a3ccaf4ed9b5b23e539b0.png",
-    "text": "Google Play"
-  },
-  {
-    "link": "https://www.similarweb.com/top-websites/",
-    "imageSrc": "https://www.similarweb.com/favicon.ico",
-    "text": "Similarweb"
-  },
-  {
-    "link": "https://www.google.com/finance/?hl=en&gl=us",
-    "imageSrc": "https://i2.mjj.rip/2023/06/30/6b5a21c7c1177ab4925ff114ba9c6ea0.png",
-    "text": "Google Finance"
-  },
-  {
-    "link": "https://www.binance.com/zh-CN/markets",
-    "imageSrc": "https://i2.mjj.rip/2023/06/30/ac112f608dca95c450f5e5f2f972e8dc.png",
-    "text": "币安"
-  }
-],
+    {
+      "link": "https://twitter.com/elonmusk?lang=en",
+      "imageSrc": "https://s2.ax1x.com/2020/03/05/370I81.png",
+      "text": "Twitter"
+    },
+    {
+      "link": "https://www.reddit.com/r/popular/",
+      "imageSrc": "https://s2.ax1x.com/2020/03/05/37Bgzt.png",
+      "text": "Reddit"
+    },
+    {
+      "link": "https://weibo.com/newlogin?tabtype=search",
+      "imageSrc": "https://weibo.com/favicon.ico",
+      "text": "微博"
+    }, 
+    {
+      "link": "https://dig.chouti.com",
+      "imageSrc": "https://dig.chouti.com/images/favicon-d38b877458.png",
+      "text": "抽屉新热榜"
+    },
+    {
+      "link": "https://www.v2ex.com/",
+      "imageSrc": "https://s1.ax1x.com/2020/09/12/wdCPU0.png",
+      "text": "V2EX"
+    },
+    {
+      "link": "https://xueqiu.com/u/1247347556",
+      "imageSrc": "https://xqimg.imedao.com/17af5fe80fb1844b3fd48941.png",
+      "text": "雪球"
+    },
+    {
+      "link": "https://www.ithome.com/blog/",
+      "imageSrc": "https://www.ithome.com/favicon.ico",
+      "text": "IT之家"
+    },
+    {
+      "link": "https://www.dongchedi.com",
+      "imageSrc": "https://p3.dcarimg.com/obj/eden-cn/vlseh7ubqnuhs/motor/favicon/favicon-96x96.png",
+      "text": "懂车帝"
+    },
+    {
+      "link": "https://hypebeast.com/?gl=us",
+      "imageSrc": "https://i2.mjj.rip/2023/06/30/bd18cec50e6e8fce29cefa878fb6defb.png",
+      "text": "HYPEBEAST"
+    },
+    {
+      "link": "https://www.zfrontier.com/",
+      "imageSrc": "https://i2.mjj.rip/2023/06/30/d3062d2b58e42536fcba7810d468ed33.png",
+      "text": "zFrontier"
+    },
+    {
+      "link": "https://cn.nytimes.com/",
+      "imageSrc": "https://i2.mjj.rip/2023/06/30/6db3334b24599860c84c7ffbc031eb6b.png",
+      "text": "纽约时报中文网"
+    },
+    {
+      "link": "https://www.bbc.com/",
+      "imageSrc": "https://i2.mjj.rip/2023/06/30/47eaca6a6daebf595d14866f8f6f7b7e.png",
+      "text": "BBC"
+    },
+    {
+      "link": "https://theinitium.com/",
+      "imageSrc": "https://s1.ax1x.com/2020/03/14/8Q5LmF.png",
+      "text": "端傳媒"
+    },
+    {
+      "link": "https://news.pts.org.tw/",
+      "imageSrc": "https://i2.mjj.rip/2023/06/30/99fd19330308deef59e30b18fedd9b7d.png",
+      "text": "公視新聞網"
+    },
+    {
+      "link": "https://www.qimai.cn/rank/index/brand/all/device/iphone/country/us/genre/6014",
+      "imageSrc": "https://static.qimai.cn/static/bitbug_favicon.ico",
+      "text": "七麦数据"
+    },
+    {
+      "link": "https://play.google.com/store/games?hl=en&gl=us",
+      "imageSrc": "https://i2.mjj.rip/2023/06/30/0ede3f74f24a3ccaf4ed9b5b23e539b0.png",
+      "text": "Google Play"
+    },
+    {
+      "link": "https://www.similarweb.com/top-websites/",
+      "imageSrc": "https://www.similarweb.com/favicon.ico",
+      "text": "Similarweb"
+    },
+    {
+      "link": "https://www.google.com/finance/?hl=en&gl=us",
+      "imageSrc": "https://i2.mjj.rip/2023/06/30/6b5a21c7c1177ab4925ff114ba9c6ea0.png",
+      "text": "Google Finance"
+    },
+    {
+      "link": "https://www.binance.com/zh-CN/markets",
+      "imageSrc": "https://i2.mjj.rip/2023/06/30/ac112f608dca95c450f5e5f2f972e8dc.png",
+      "text": "币安"
+    }
+  ],
   "entertainmentData": [
     {
       "link": "https://ddys.tv/",
