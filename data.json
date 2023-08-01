@@ -128,7 +128,7 @@
   ],
   "newsData": [
     {
-      "link": "https://twitter.com/elonmusk?lang=en",
+      "link": "https://twitter.com/?lang=en",
       "imageSrc": "https://s2.ax1x.com/2020/03/05/370I81.png",
       "text": "Twitter"
     },
@@ -268,6 +268,11 @@
       "link": "https://weread.qq.com/#login",
       "imageSrc": "https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/favicon/favicon_32h.png",
       "text": "微信读书"
+    },
+    {
+      "link": "https://www.manhuagui.com",
+      "imageSrc": "https://www.manhuagui.com/favicon.ico",
+      "text": "漫画柜"
     },
     {
       "link": "https://open.spotify.com/",
