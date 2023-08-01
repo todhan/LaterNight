@@ -156,3 +156,62 @@ fetchData().then(data => {
   appendListItems('entertainment-list', data.entertainmentData);
   appendListItems('reference-list', data.referenceData);
 });
+
+
+
+// 获取按钮和内容区域元素
+const buttons = document.querySelectorAll('.sites button');
+const contentDivs = document.querySelectorAll('.con');
+
+// 初始显示第一个按钮对应的内容
+showContent(0);
+
+// 添加鼠标滚轮事件监听器
+document.addEventListener('wheel', handleMouseWheel, { passive: false });
+
+// 定义当前显示内容的索引
+let currentIndex = 0;
+let isScrolling = false;
+
+function handleMouseWheel(event) {
+  if (isScrolling) return;
+
+  isScrolling = true;
+  setTimeout(() => {
+    isScrolling = false;
+  }, 100);
+
+  const delta = event.deltaY;
+  if (delta > 0) {
+    // 向下滚动，切换到下一个内容
+    currentIndex = (currentIndex + 1) % contentDivs.length;
+  } else {
+    // 向上滚动，切换到上一个内容
+    currentIndex = (currentIndex - 1 + contentDivs.length) % contentDivs.length;
+  }
+
+  // 显示对应的内容
+  showContent(currentIndex);
+
+  // 阻止滚动事件的默认行为
+  event.preventDefault();
+}
+
+function showContent(index) {
+  // 隐藏所有内容区域
+  contentDivs.forEach((div) => {
+    div.style.display = 'none';
+  });
+
+  // 显示对应的内容区域
+  contentDivs[index].style.display = 'block';
+
+  // 更新按钮样式
+  buttons.forEach((button, i) => {
+    if (i === index) {
+      button.classList.add('current');
+    } else {
+      button.classList.remove('current');
+    }
+  });
+}
