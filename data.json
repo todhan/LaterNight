@@ -280,6 +280,11 @@
       "text": "Spotify"
     },
     {
+      "link": "https://www.ximalaya.com/radio/",
+      "imageSrc": "https://www.ximalaya.com/favicon.ico",
+      "text": "喜马拉雅"
+    },
+    {
       "link": "https://www.taptap.com/upcoming",
       "imageSrc": "https://www.taptap.com/favicon.ico",
       "text": "TapTap"
@@ -397,14 +402,9 @@
       "text": "Meta"
     },
     {
-      "link": "https://ethereum.org/",
-      "imageSrc": "https://ethereum.org/favicon-32x32.png",
-      "text": "Ethereum"
-    },
-    {
-      "link": "https://cash.app/",
-      "imageSrc": "https://i2.mjj.rip/2023/07/02/b0a7514daebfa8051916e2bf0c2dd54f.png",
-      "text": "Cash App"
+      "link": "https://www.tiktok.com/en",
+      "imageSrc": "https://i.mji.rip/2023/07/29/af2d8fabebcd52a9e2e4f3e46ba2b8cb.png",
+      "text": "TikTok"
     },
     {
       "link": "https://us.nothing.tech/",
@@ -417,29 +417,34 @@
       "text": "Dine Creative Design"
     },
     {
+      "link": "https://cash.app/",
+      "imageSrc": "https://i.mji.rip/2023/08/02/54676462ec252cc27bd18cbded794319.png",
+      "text": "Cash App"
+    },
+    {
       "link": "https://www.timepill.net/",
       "imageSrc": "https://www.timepill.net/favicon.ico",
       "text": "胶囊日记"
     },
     {
-      "link": "https://www.sneakinpeace.com/",
-      "imageSrc": "https://cdn.shopifycdn.net/s/files/1/0493/5663/6318/files/favicon_fce707f0-955d-4b19-8beb-a3bfcb9a2b11_32x32.png",
-      "text": "Sneak in Peace"
-    },
-    {
       "link": "https://music.youtube.com/",
-      "imageSrc": "https://i2.mjj.rip/2023/06/30/699ca4142d93123618633951513ca17c.png",
+      "imageSrc": "https://i.mji.rip/2023/08/02/189f1762a08344f2a39f55b310c160c4.png",
       "text": "YouTube Music"
-    },
-    {
-      "link": "https://www.tiktok.com/en",
-      "imageSrc": "https://i.mji.rip/2023/07/29/af2d8fabebcd52a9e2e4f3e46ba2b8cb.png",
-      "text": "TikTok"
     },
     {
       "link": "https://discord.com/app",
       "imageSrc": "https://i2.mjj.rip/2023/06/30/213fbb5e8bf865a94eb7d3058c97aa33.png",
       "text": "Discord"
+    },
+    {
+      "link": "https://claude.ai",
+      "imageSrc": "https://claude.ai/favicon.ico",
+      "text": "Claude"
+    },
+    {
+      "link": "https://bard.google.com",
+      "imageSrc": "https://i.mji.rip/2023/08/02/dd8c87ea7994a7425b1be57fc900be5c.png",
+      "text": "Bard"
     }
   ]
 }
