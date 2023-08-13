@@ -72,7 +72,7 @@
     },
     {
       "link": "https://codepen.io/pen/",
-      "imageSrc": "https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico",
+      "imageSrc": "https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico",
       "text": "CodePen"
     },
     {
@@ -225,8 +225,8 @@
   ],
   "entertainmentData": [
     {
-      "link": "https://ddys.tv/",
-      "imageSrc": "https://ddys.tv/favicon-32x32.png",
+      "link": "https://ddys.pro",
+      "imageSrc": "https://ddys.pro/favicon-32x32.png",
       "text": "低端影视"
     },
     {
