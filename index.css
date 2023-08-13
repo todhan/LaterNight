@@ -39,9 +39,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #1c1c1c;
-    opacity: 1;
-    transition: opacity 0.5s ease;
+    background-color: rgba(28, 28, 28, 0.95);
     border-radius: 80px;
 }
 

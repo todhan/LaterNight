@@ -23,17 +23,12 @@ preloadImage(bgArr[bgIndex])
 });
 
 /*
-Show or hide the sites
+Click the logo reload website
 */
 const logoLink = document.querySelector('.logo');
-const sitesElement = document.querySelector('.sites');
-
-let isVisible = true;
-
-logoLink.addEventListener('click', function (event) {
-  event.preventDefault();
-  isVisible = !isVisible;
-  sitesElement.classList.toggle('hidden', !isVisible);
+var logo = document.querySelector('.logo');
+logo.addEventListener('click', function () {
+  location.reload();
 });
 
 /*
