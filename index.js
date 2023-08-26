@@ -147,7 +147,7 @@ function createListItem(link, imageSrc, text) {
 // Fetch the data and append list items once the data is retrieved
 fetchData().then(data => {
   appendListItems('tools-list', data.toolsData);
-  appendListItems('news-list', data.newsData);
+  appendListItems('information-list', data.informationData);
   appendListItems('entertainment-list', data.entertainmentData);
   appendListItems('reference-list', data.referenceData);
 });

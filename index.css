@@ -69,7 +69,6 @@ button {
 }
 
 .sites ul {
-    /* margin-top: 160px; */
     overflow: hidden;
     padding-inline-start: 78px; }
 
@@ -125,7 +124,6 @@ textarea {
     font-family: "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
-/*0-1500px widrh screen adaptation*/
 @media screen and (max-device-width: 1500px) {
     textarea {
         width: 216px;
