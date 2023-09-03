@@ -108,6 +108,7 @@ button {
     width: 24px;
     height: 24px;
     vertical-align: middle;
+    image-rendering: optimizeQuality;
 }
 
 textarea {
