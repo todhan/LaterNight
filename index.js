@@ -4,24 +4,37 @@ Random background pictures
 const bgArr = ["https://s2.ax1x.com/2020/03/01/36o3uD.gif", "https://s2.ax1x.com/2020/03/01/36oN4I.gif", "https://s2.ax1x.com/2020/03/01/36osbQ.gif", "https://s2.ax1x.com/2020/03/01/36orDg.gif", "https://s2.ax1x.com/2020/03/01/36TcLD.gif", "https://s2.ax1x.com/2020/03/01/36TyQK.gif", "https://s2.ax1x.com/2020/03/01/36TDRx.gif", "https://s2.ax1x.com/2020/03/01/36TRdH.gif", "https://s1.ax1x.com/2020/03/20/86BbqJ.gif", "https://i.mji.rip/2023/07/28/82f2ede6fd7b120ea783be716605a7c5.gif"];
 
 function preloadImage(url) {
-    return new Promise((resolve,reject)=>{
+    return new Promise((resolve, reject) => {
         const img = new Image();
         img.onload = resolve;
         img.onerror = reject;
         img.src = url;
-    }
-    );
+    });
 }
 
 // Preload the image before setting it as the background
-const bgIndex = Math.floor(Math.random() * bgArr.length);
-preloadImage(bgArr[bgIndex]).then(()=>{
-    document.body.style.backgroundImage = `url(${bgArr[bgIndex]})`;
+function changeBackgroundImage() {
+    const bgIndex = Math.floor(Math.random() * bgArr.length);
+    preloadImage(bgArr[bgIndex])
+        .then(() => {
+            document.body.style.backgroundImage = `url(${bgArr[bgIndex]})`;
+        })
+        .catch((error) => {
+            console.error("Failed to load background image:", error);
+        });
 }
-).catch((error)=>{
-    console.error("Failed to load background image:", error);
+
+// Function to change the background image initially
+function initializeBackgroundChange() {
+    changeBackgroundImage();
 }
-);
+
+// Set an interval to change the background every hour (3600000 milliseconds)
+setInterval(changeBackgroundImage, 3600000); // 3600000 milliseconds = 1 hour
+
+// Call the function to initialize background change
+initializeBackgroundChange();
+
 
 /*
 Click the logo to reload the page
