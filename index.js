@@ -201,26 +201,27 @@ const shortcuts = {
 
 let isNotesFocused = false;
 
-// Add focus and blur event listeners to the "notes" textarea
-const notesTextarea = document.getElementById("notes");
-notesTextarea.addEventListener("focus", ()=>{
+const notesTextarea1 = document.getElementById("notes");
+notesTextarea1.addEventListener("focus", () => {
     isNotesFocused = true;
-}
-);
-notesTextarea.addEventListener("blur", ()=>{
-    isNotesFocused = false;
-}
-);
+});
 
-// Add event listener for key press on the document
+notesTextarea1.addEventListener("blur", () => {
+    isNotesFocused = false;
+});
+
 document.addEventListener("keydown", function(event) {
-    // Check if the pressed key is a shortcut and not in the notes textarea
     if (!isNotesFocused && shortcuts[event.keyCode]) {
-        const [url1, url2] = shortcuts[event.keyCode]; // 获取两个网址
-        window.open(url1, "_blank"); // 打开第一个网址
-        window.open(url2, "_blank"); // 打开第二个网址
+        const urls = shortcuts[event.keyCode];
+        if (urls.length === 1) {
+            window.open(urls[0], "_blank");
+        } else if (urls.length === 2) {
+            window.open(urls[0], "_blank");
+            window.open(urls[1], "_blank");
+        }
     }
 });
+
 
 /*
 Switch the tabs
@@ -242,20 +243,16 @@ for (let i = 0; i < btnArr.length; i++) {
 /*
 Save the notes
 */
-const d = document;
-// Check browser support
-if (typeof (Storage) !== "undefined") {
-    d.addEventListener("DOMContentLoaded", function() {
-        const savedContent = localStorage.getItem("notesContent");
-        if (savedContent != null) {
-            d.getElementById("notes").value = savedContent;
-        }
+const notesTextarea = document.getElementById("notes");
 
-        d.getElementById("notes").onkeyup = function() {
-            const data = d.getElementById("notes").value;
-            localStorage.setItem("notesContent", data);
-        }
+d.addEventListener("DOMContentLoaded", function() {
+    const savedContent = localStorage.getItem("notesContent");
+    if (savedContent != null) {
+        notesTextarea.value = savedContent;
+    }
+
+    notesTextarea.addEventListener("keyup", function() {
+        const data = notesTextarea.value;
+        localStorage.setItem("notesContent", data);
     });
-} else {
-    document.getElementById("result").innerHTML = "你这个浏览器不支持 Web Storage";
-}
+});
