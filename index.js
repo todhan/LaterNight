@@ -214,7 +214,7 @@ Shortcuts
 */
 const shortcuts = {
     71: ["https://github.com/login"],
-    32: ["https://bard.google.com", "https://chat.openai.com/"],
+    32: ["https://chat.openai.com/"],
     88: ["https://x.com/"],
     68: ["https://ddys.pro"],
     90: ["https://www.zxzjhd.com"],
