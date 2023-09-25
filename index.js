@@ -1,38 +1,51 @@
 /*
-Random background pictures
+Background Images
 */
-const bgArr = ["https://s2.ax1x.com/2020/03/01/36o3uD.gif", "https://s2.ax1x.com/2020/03/01/36oN4I.gif", "https://s2.ax1x.com/2020/03/01/36osbQ.gif", "https://s2.ax1x.com/2020/03/01/36orDg.gif", "https://s2.ax1x.com/2020/03/01/36TcLD.gif", "https://s2.ax1x.com/2020/03/01/36TyQK.gif", "https://s2.ax1x.com/2020/03/01/36TDRx.gif", "https://s2.ax1x.com/2020/03/01/36TRdH.gif", "https://s1.ax1x.com/2020/03/20/86BbqJ.gif", "https://i.mji.rip/2023/07/28/82f2ede6fd7b120ea783be716605a7c5.gif"];
+const backgroundImages = [
+  "https://s2.ax1x.com/2020/03/01/36o3uD.gif",
+  "https://s2.ax1x.com/2020/03/01/36oN4I.gif",
+  "https://s2.ax1x.com/2020/03/01/36osbQ.gif",
+  "https://s2.ax1x.com/2020/03/01/36orDg.gif",
+  "https://s2.ax1x.com/2020/03/01/36TcLD.gif",
+  "https://s2.ax1x.com/2020/03/01/36TyQK.gif",
+  "https://s2.ax1x.com/2020/03/01/36TDRx.gif",
+  "https://s2.ax1x.com/2020/03/01/36TRdH.gif",
+  "https://s1.ax1x.com/2020/03/20/86BbqJ.gif",
+  "https://i.mji.rip/2023/07/28/82f2ede6fd7b120ea783be716605a7c5.gif"
+];
 
 function preloadImage(url) {
-    return new Promise((resolve, reject) => {
-        const img = new Image();
-        img.onload = resolve;
-        img.onerror = reject;
-        img.src = url;
-    });
+  return new Promise((resolve, reject) => {
+    const img = new Image();
+    img.onload = resolve;
+    img.onerror = reject;
+    img.src = url;
+  });
 }
 
-// Preload the image before setting it as the background
-function changeBackgroundImage() {
-    const bgIndex = Math.floor(Math.random() * bgArr.length);
-    preloadImage(bgArr[bgIndex])
-        .then(() => {
-            document.body.style.backgroundImage = `url(${bgArr[bgIndex]})`;
-        })
-        .catch((error) => {
-            console.error("Failed to load background image:", error);
-        });
+async function changeBackgroundImage() {
+  try {
+    const backgroundImagesIndex = Math.floor(Math.random() * backgroundImages.length);
+    await preloadImage(backgroundImages[backgroundImagesIndex]);
+    document.body.style.backgroundImage = `url(${backgroundImages[backgroundImagesIndex]})`;
+  } catch (error) {
+    console.error("Failed to load background image:", error);
+  }
 }
 
-// Function to change the background image initially
 function initializeBackgroundChange() {
-    changeBackgroundImage();
+  changeBackgroundImage();
+  // Calculate the time remaining until the next whole hour
+  const now = new Date();
+  const nextHour = new Date(now.getFullYear(), now.getMonth(), now.getDate(), now.getHours() + 1, 0, 0, 0);
+  const timeUntilNextHour = nextHour - now;
+  // Set a timeout to change the background image at the next whole hour
+  setTimeout(() => {
+    initializeBackgroundChange(); // Change the background image
+    setInterval(initializeBackgroundChange, 3600000); // Set interval to change every hour
+  }, timeUntilNextHour);
 }
 
-// Set an interval to change the background every hour (3600000 milliseconds)
-setInterval(changeBackgroundImage, 3600000); // 3600000 milliseconds = 1 hour
-
-// Call the function to initialize background change
 initializeBackgroundChange();
 
 
@@ -59,18 +72,18 @@ function displayMessage() {
         link.textContent = "夜深了";
         link.target = "_blank";
         link.classList.add("hint");
-        link.id = "nightLink";
+        link.id = "nightReminderLink";
         // Add a unique id
 
-        // Check if an element with id "nightLink" already exists
-        const existingLink = document.getElementById("nightLink");
+        // Check if an element with id "nightReminderLink" already exists
+        const existingLink = document.getElementById("nightReminderLink");
         if (!existingLink) {
             document.body.appendChild(link);
         }
     } else {
-        const existingLink = document.getElementById("nightLink");
+        const existingLink = document.getElementById("nightReminderLink");
         if (existingLink) {
-            // If an element with id "nightLink" exists, remove it from the DOM
+            // If an element with id "nightReminderLink" exists, remove it from the DOM
             existingLink.parentNode.removeChild(existingLink);
         }
     }
@@ -258,7 +271,7 @@ Save the notes
 */
 const notesTextarea = document.getElementById("notes");
 
-d.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
     const savedContent = localStorage.getItem("notesContent");
     if (savedContent != null) {
         notesTextarea.value = savedContent;
