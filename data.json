@@ -352,14 +352,14 @@
       "text": "Facebook"
     },
     {
+      "link": "https://www.tiktok.com/en",
+      "imageSrc": "https://i.mji.rip/2023/07/29/af2d8fabebcd52a9e2e4f3e46ba2b8cb.png",
+      "text": "TikTok"
+    },
+    {
       "link": "https://www.pinterest.com/ideas/",
       "imageSrc": "https://s1.ax1x.com/2020/03/20/8609fK.png",
       "text": "Pinterest"
-    },
-    {
-      "link": "https://medium.com/",
-      "imageSrc": "https://i2.mjj.rip/2023/06/30/15f3b96c90cc0aac20490f36bcc21820.png",
-      "text": "Medium"
     },
     {
       "link": "https://dribbble.com/shots/popular",
@@ -402,11 +402,6 @@
       "text": "Meta"
     },
     {
-      "link": "https://www.tiktok.com/en",
-      "imageSrc": "https://i.mji.rip/2023/07/29/af2d8fabebcd52a9e2e4f3e46ba2b8cb.png",
-      "text": "TikTok"
-    },
-    {
       "link": "https://us.nothing.tech/",
       "imageSrc": "https://cdn.shopifycdn.net/s/files/1/0585/2479/5086/files/favicon_32x32.png?v=1627223914",
       "text": "Nothing"
@@ -417,19 +412,24 @@
       "text": "Dine Creative Design"
     },
     {
-      "link": "https://cash.app/",
-      "imageSrc": "https://i.mji.rip/2023/08/02/54676462ec252cc27bd18cbded794319.png",
-      "text": "Cash App"
-    },
-    {
       "link": "https://www.timepill.net/",
       "imageSrc": "https://www.timepill.net/favicon.ico",
       "text": "胶囊日记"
     },
     {
+      "link": "https://www.xiaohongshu.com/explore",
+      "imageSrc": "https://fe-video-qc.xhscdn.com/fe-platform/ed8fe781ce9e16c1bfac2cd962f0721edabe2e49.ico",
+      "text": "小红书"
+    },
+    {
       "link": "https://music.youtube.com/",
       "imageSrc": "https://i.mji.rip/2023/08/02/189f1762a08344f2a39f55b310c160c4.png",
       "text": "YouTube Music"
+    },
+    {
+      "link": "https://discord.com/app",
+      "imageSrc": "https://ice.frostsky.com/2023/08/27/827dfb10e66b121ab2879c9e8d0bc6f0.png",
+      "text": "Discord"
     },
     {
       "link": "https://clipdrop.co/stable-diffusion",

@@ -68,7 +68,7 @@ function displayMessage() {
 
     if (hours >= 0 && hours < 6) {
         const link = document.createElement("a");
-        link.href = "https://music.163.com/#/song?id=29600147";
+        link.href = "http://www.hitoradio.com/newweb/onair_n_ajax.php";
         link.textContent = "夜深了";
         link.target = "_blank";
         link.classList.add("hint");
