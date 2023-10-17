@@ -133,15 +133,15 @@
       "text": "X"
     },
     {
-      "link": "https://www.reddit.com/r/popular/",
-      "imageSrc": "https://s2.ax1x.com/2020/03/05/37Bgzt.png",
-      "text": "Reddit"
-    },
-    {
       "link": "https://weibo.com/newlogin?tabtype=search",
       "imageSrc": "https://weibo.com/favicon.ico",
       "text": "微博"
     }, 
+    {
+      "link": "https://www.reddit.com/r/popular/",
+      "imageSrc": "https://s2.ax1x.com/2020/03/05/37Bgzt.png",
+      "text": "Reddit"
+    },
     {
       "link": "https://dig.chouti.com",
       "imageSrc": "https://dig.chouti.com/images/favicon-d38b877458.png",
@@ -178,9 +178,14 @@
       "text": "zFrontier"
     },
     {
-      "link": "https://cn.nytimes.com/",
+      "link": "https://www.nytimes.com",
       "imageSrc": "https://i2.mjj.rip/2023/06/30/6db3334b24599860c84c7ffbc031eb6b.png",
-      "text": "纽约时报中文网"
+      "text": "The New York Times"
+    },
+    {
+      "link": "http://www.people.com.cn",
+      "imageSrc": "http://www.people.com.cn/favicon.ico",
+      "text": "人民网"
     },
     {
       "link": "https://www.bbc.com/",
@@ -188,14 +193,14 @@
       "text": "BBC"
     },
     {
-      "link": "https://theinitium.com/",
-      "imageSrc": "https://i.mji.rip/2023/10/09/77e84e5f2451c6a29838928d73611eac.png",
-      "text": "端傳媒"
-    },
-    {
       "link": "https://news.pts.org.tw/",
       "imageSrc": "https://i2.mjj.rip/2023/06/30/99fd19330308deef59e30b18fedd9b7d.png",
       "text": "公視新聞網"
+    },
+    {
+      "link": "https://theinitium.com/",
+      "imageSrc": "https://i.mji.rip/2023/10/09/77e84e5f2451c6a29838928d73611eac.png",
+      "text": "端傳媒"
     },
     {
       "link": "https://www.qimai.cn/rank/index/brand/all/device/iphone/country/us/genre/6014",
@@ -332,7 +337,7 @@
       "text": "Tesla"
     },
     {
-      "link": "https://www.nike.com/w/new-mens-shoes-3n82yznik1zy7ok",
+      "link": "https://www.nike.com/",
       "imageSrc": "https://www.nike.com/favicon.ico",
       "text": "Nike"
     },
