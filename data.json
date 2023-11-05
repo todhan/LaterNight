@@ -183,9 +183,19 @@
       "text": "The New York Times"
     },
     {
+      "link": "https://www.wsj.com",
+      "imageSrc": "https://i.mji.rip/2023/11/06/9c4e2f37dce8d4deae369d54b024ee87.png",
+      "text": "The Wall Street Journal"
+    },
+    {
       "link": "http://www.people.com.cn",
       "imageSrc": "http://www.people.com.cn/favicon.ico",
       "text": "人民网"
+    },
+    {
+      "link": "https://www.asahi.com",
+      "imageSrc": "https://i.mji.rip/2023/11/06/d47f1ca5edc3df0b35fa12875198f79e.png",
+      "text": "朝日新聞デジタル"
     },
     {
       "link": "https://www.bbc.com/",
