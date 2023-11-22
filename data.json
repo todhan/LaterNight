@@ -183,19 +183,9 @@
       "text": "The New York Times"
     },
     {
-      "link": "https://www.wsj.com",
-      "imageSrc": "https://i.mji.rip/2023/11/06/9c4e2f37dce8d4deae369d54b024ee87.png",
-      "text": "The Wall Street Journal"
-    },
-    {
       "link": "http://www.people.com.cn",
       "imageSrc": "http://www.people.com.cn/favicon.ico",
       "text": "人民网"
-    },
-    {
-      "link": "https://www.asahi.com",
-      "imageSrc": "https://i.mji.rip/2023/11/06/d47f1ca5edc3df0b35fa12875198f79e.png",
-      "text": "朝日新聞デジタル"
     },
     {
       "link": "https://www.bbc.com/",
@@ -233,7 +223,7 @@
       "text": "Google Finance"
     },
     {
-      "link": "https://www.binance.com/zh-CN/markets",
+      "link": "https://www.binance.com/en/markets",
       "imageSrc": "https://i2.mjj.rip/2023/06/30/ac112f608dca95c450f5e5f2f972e8dc.png",
       "text": "币安"
     }
@@ -260,9 +250,9 @@
       "text": "AGE动漫"
     },
     {
-      "link": "https://cupfox.app/",
-      "imageSrc": "https://picx.zhimg.com/80/v2-de36e385e59fcca2df694b76f108431a.png",
-      "text": "茶杯狐"
+      "link": "https://b.movie",
+      "imageSrc": "https://b.movie/favicon.ico",
+      "text": "BEE"
     },
     {
       "link": "https://www.youtube.com/?gl=US",
@@ -280,9 +270,14 @@
       "text": "抖音"
     },
     {
-      "link": "https://weread.qq.com/#login",
+      "link": "https://weread.qq.com",
       "imageSrc": "https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/favicon/favicon_32h.png",
       "text": "微信读书"
+    },
+    {
+      "link": "https://www.qidian.com",
+      "imageSrc": "https://qdfepccdn.qidian.com/www.qidian.com/favicon/qd_icon.ico",
+      "text": "起点中文网"
     },
     {
       "link": "https://www.manhuagui.com",
@@ -310,7 +305,7 @@
       "text": "Steam"
     },
     {
-      "link": "https://www.epicgames.com/store",
+      "link": "https://store.epicgames.com/en-US/",
       "imageSrc": "https://static-assets-prod-1251447533.file.myqcloud.com/epic-store/static/favicon.ico",
       "text": "Epic Games Store"
     },
@@ -347,7 +342,7 @@
       "text": "Tesla"
     },
     {
-      "link": "https://www.nike.com/launch?s=upcoming",
+      "link": "https://www.nike.com/en-US/",
       "imageSrc": "https://www.nike.com/favicon.ico",
       "text": "Nike"
     },
