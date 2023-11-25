@@ -222,7 +222,7 @@ const shortcuts = {
     89: ["https://www.youtube.com/?gl=US"],
     66: ["https://www.bilibili.com/"],
     83: ["https://open.spotify.com/"],
-    49: ["https://movie.douban.com/mine?status=wish"]
+    65: ["https://movie.douban.com/mine?status=wish"]
 };
 
 let isNotesFocused = false;
