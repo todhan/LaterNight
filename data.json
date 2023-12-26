@@ -226,6 +226,11 @@
       "link": "https://www.binance.com/en/markets",
       "imageSrc": "https://i2.mjj.rip/2023/06/30/ac112f608dca95c450f5e5f2f972e8dc.png",
       "text": "币安"
+    },
+    {
+      "link": "https://scholar.google.com/schhp?hl=en",
+      "imageSrc": "https://i.miji.bid/2023/12/27/533dd0fff4c59929923036b25ecbb82e.png",
+      "text": "Google Scholar"
     }
   ],
   "entertainmentData": [
@@ -295,7 +300,7 @@
       "text": "喜马拉雅"
     },
     {
-      "link": "https://www.taptap.com/upcoming",
+      "link": "https://www.taptap.com/",
       "imageSrc": "https://www.taptap.com/favicon.ico",
       "text": "TapTap"
     },
@@ -453,7 +458,7 @@
     },
     {
       "link": "https://bard.google.com",
-      "imageSrc": "https://i.mji.rip/2023/08/02/dd8c87ea7994a7425b1be57fc900be5c.png",
+      "imageSrc": "https://i.miji.bid/2023/12/27/020a0fab37d97120e85427028dff792a.png",
       "text": "Bard"
     }
   ]
