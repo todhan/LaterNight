@@ -16,23 +16,22 @@ body {
 
 .logo {
     position: absolute;
-    top: 22px;
-    left: 22px;
+    top: 20px;
+    left: 20px;
     height: 40px;
 }
 
-.hint {
+.reminder {
     position: absolute;
-    top: 82px;
+    top: 80px;
     left: 20px;
-    margin-left: 4px;
     color: #ffffff;
     text-decoration: none;
 }
 
 .sites {
-    width: 930px;
-    height: 580px;
+    width: 960px;
+    height: 600px;
     margin: auto;
     position: absolute;
     top: 0;
@@ -40,7 +39,7 @@ body {
     right: 0;
     bottom: 0;
     background-color: rgba(12, 12, 12, 0.9);
-    border-radius: 80px;
+    border-radius: 96px;
 }
 
 .sites.hidden {
@@ -50,13 +49,13 @@ body {
 
 button {
     margin-top: 64px;
-    width: 96px;
-    font-size: 20px;
+    width: 104px;
+    font-size: 22px;
+    font-family: "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     border: 0;
     color: #6e6e73;
     outline: none;
     background-color: transparent;
-    font-family: "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .con {
@@ -70,11 +69,11 @@ button {
 
 .sites ul {
     overflow: hidden;
-    padding-inline-start: 78px; }
+    padding-inline-start: 96px; }
 
 .sites li {
     list-style: none;
-    width: 170px;
+    width: 164px;
     height: 80px;
     float: left;
 }
@@ -91,7 +90,7 @@ button {
     vertical-align: middle;
     text-align: left;
     display: inline-block;
-    width: 100px;
+    width: 96px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -116,17 +115,17 @@ textarea {
     top: 0;
     right: 0;
     resize: none;
-    width: 296px;
+    width: 320px;
     height: 80px;
     background-color: transparent;
     color: #ffffff;
-    font-size: 15px;
+    font-size: 14px;
     border: none;
     font-family: "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
-@media screen and (max-device-width: 1500px) {
+@media screen and (max-device-width: 1920px) {
     textarea {
-        width: 216px;
+        width: 200px;
     }
 }
