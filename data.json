@@ -27,7 +27,7 @@
     },
     {
       "link": "https://snapdrop.net/",
-      "imageSrc": "https://snapdrop.net/images/favicon-96x96.png",
+      "imageSrc": "https://onedoes.github.io/snapdrop/favicon.ico?v=3",
       "text": "Snapdrop"
     },
     {
@@ -168,14 +168,14 @@
       "text": "机核"
     },
     {
+      "link": "https://www.wallpaper.com",
+      "imageSrc": "https://cdn.mos.cms.futurecdn.net/flexiimages/fpqjm7sfgp1656622778.png",
+      "text": "Wallpaper*"
+    },
+    {
       "link": "https://hypebeast.com/?gl=us",
       "imageSrc": "https://i2.mjj.rip/2023/06/30/bd18cec50e6e8fce29cefa878fb6defb.png",
       "text": "HYPEBEAST"
-    },
-    {
-      "link": "https://www.zfrontier.com/",
-      "imageSrc": "https://i2.mjj.rip/2023/06/30/d3062d2b58e42536fcba7810d468ed33.png",
-      "text": "zFrontier"
     },
     {
       "link": "https://www.nytimes.com",
@@ -295,9 +295,9 @@
       "text": "Spotify"
     },
     {
-      "link": "https://www.ximalaya.com/radio/",
-      "imageSrc": "https://www.ximalaya.com/favicon.ico",
-      "text": "喜马拉雅"
+      "link": "https://www.iheart.com/live/wnyc-fm-news-talk-culture-5068/",
+      "imageSrc": "https://ice.frostsky.com/2024/03/03/b99e7eb06407dfd6a17c16f1ecd33b02.png",
+      "text": "iHeart"
     },
     {
       "link": "https://www.taptap.com/",
@@ -377,9 +377,9 @@
       "text": "The Verge"
     },
     {
-      "link": "https://fanqienovel.com/",
-      "imageSrc": "https://p1-tt.byteimg.com/origin/pgc-image/40b62ecded39425e819b950e745e46ae",
-      "text": "番茄小说网"
+      "link": "https://news.ycombinator.com/news",
+      "imageSrc": "https://ice.frostsky.com/2024/03/03/a47f8a3bad9689edd1a2b139f35b9b8e.png",
+      "text": "Hacker News"
     },
     {
       "link": "https://mp.weixin.qq.com/",
@@ -397,16 +397,6 @@
       "text": "Tesla"
     },
     {
-      "link": "https://www.nike.com/en-US/",
-      "imageSrc": "https://www.nike.com/favicon.ico",
-      "text": "Nike"
-    },
-    {
-      "link": "https://www.mcdonalds.com/us/en-us.html",
-      "imageSrc": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/favicon.ico",
-      "text": "McDonald's"
-    },
-    {
       "link": "https://www.muji.com/jp/ja/store",
       "imageSrc": "https://www.muji.com/favicon.ico",
       "text": "無印良品"
@@ -415,11 +405,6 @@
       "link": "https://about.facebook.com/",
       "imageSrc": "https://i2.mjj.rip/2023/06/30/9324c4d5f86b61f2e0a8a4f40a69d8f6.png",
       "text": "Meta"
-    },
-    {
-      "link": "https://us.nothing.tech/",
-      "imageSrc": "https://cdn.shopifycdn.net/s/files/1/0585/2479/5086/files/favicon_32x32.png?v=1627223914",
-      "text": "Nothing"
     },
     {
       "link": "https://www.dinehq.com/",
@@ -437,14 +422,9 @@
       "text": "Behance"
     },
     {
-      "link": "https://www.perplexity.ai",
-      "imageSrc": "https://i.miji.bid/2024/02/06/bdfa5e9ecb6094b09b0ff9b6a56790f0.png",
-      "text": "Perplexity"
-    },
-    {
-      "link": "https://bard.google.com",
-      "imageSrc": "https://i.miji.bid/2023/12/27/020a0fab37d97120e85427028dff792a.png",
-      "text": "Gemini"
+      "link": "https://www.timepill.net/",
+      "imageSrc": "https://www.timepill.net/favicon.ico",
+      "text": "胶囊日记"
     },
     {
       "link": "https://music.youtube.com/",
@@ -452,14 +432,34 @@
       "text": "YouTube Music"
     },
     {
+      "link": "https://www.airbnb.com",
+      "imageSrc": "https://a0.muscache.com/airbnb/static/icons/android-icon-192x192-c0465f9f0380893768972a31a614b670.png",
+      "text": "Airbnb"
+    },
+    {
+      "link": "https://gemini.google.com",
+      "imageSrc": "https://i.miji.bid/2023/12/27/020a0fab37d97120e85427028dff792a.png",
+      "text": "Gemini"
+    },
+    {
+      "link": "https://claude.ai",
+      "imageSrc": "https://ice.frostsky.com/2024/03/03/cd31f33fa5ccff7aa4a1f7988515147c.png",
+      "text": "Claude"
+    },
+    {
+      "link": "https://www.perplexity.ai",
+      "imageSrc": "https://i.miji.bid/2024/02/06/bdfa5e9ecb6094b09b0ff9b6a56790f0.png",
+      "text": "Perplexity"
+    },
+    {
+      "link": "https://chat.mistral.ai/chat",
+      "imageSrc": "https://ice.frostsky.com/2024/03/02/eed807d69a7df8a5afd1f39f13d6be6d.png",
+      "text": "LE Chat"
+    },
+    {
       "link": "https://discord.com/app",
       "imageSrc": "https://ice.frostsky.com/2023/08/27/827dfb10e66b121ab2879c9e8d0bc6f0.png",
       "text": "Discord"
-    },
-    {
-      "link": "https://www.timepill.net/",
-      "imageSrc": "https://www.timepill.net/favicon.ico",
-      "text": "胶囊日记"
     }
   ]
 }
