@@ -66,7 +66,7 @@ function displayMessage() {
     const hours = now.getHours();
     const minutes = now.getMinutes();
 
-    if (hours >= 0 && hours <= 6) {
+    if (hours >= 0 && hours <= 5) {
         const link = document.createElement("a");
         link.href = "http://www.hitoradio.com/newweb/onair_n_ajax.php";
         link.textContent = "🌛 夜深了";
