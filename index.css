@@ -5,7 +5,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    font-size: 18px;
+    font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -50,8 +50,8 @@ body {
 
 button {
     margin-top: 64px;
-    width: 108px;
-    font-size: 24px;
+    width: 120px;
+    font-size: 32px;
     font-family: "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     border: 0;
     color: #6e6e73;
@@ -60,7 +60,7 @@ button {
 }
 
 .con {
-    margin-top: 40px;
+    margin-top: 28px;
     display: none;
 }
 
@@ -82,7 +82,7 @@ button {
 .sites li a {
     text-decoration: none;
     color: #ffffff;
-    line-height: 60px;
+    line-height: 72px;
     float: left;
 }
 
@@ -99,7 +99,7 @@ button {
 
 .sites li a:hover {
     background-color: #111111;
-    border-radius: 20px;
+    border-radius: 24px;
     margin: 0 -20px 0 -20px;
     padding: 0 20px 0 20px;
 }
