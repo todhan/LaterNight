@@ -213,9 +213,19 @@
       "text": "Google Play"
     },
     {
+      "link": "https://apps.microsoft.com/home?hl=en-us&gl=US",
+      "imageSrc": "https://apps.microsoft.com/assets/icons/logo-256x256.png",
+      "text": "Microsoft Store"
+    },
+    {
       "link": "https://www.similarweb.com/top-websites/",
       "imageSrc": "https://www.similarweb.com/favicon.ico",
       "text": "Similarweb"
+    },
+    {
+      "link": "https://apps.apple.com/us/vision",
+      "imageSrc": "https://i.miji.bid/2023/12/14/9e560f3c2cdebc17b58eaede5b681ec3.jpeg",
+      "text": "App Store for Apple Vision Pro"
     },
     {
       "link": "https://www.google.com/finance/?hl=en&gl=us",
