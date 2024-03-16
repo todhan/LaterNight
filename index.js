@@ -223,7 +223,8 @@ const shortcuts = {
     66: ["https://www.bilibili.com/"],
     83: ["https://open.spotify.com/"],
     73: ["https://www.iheart.com/live/wnyc-fm-news-talk-culture-5068/"],
-    65: ["https://movie.douban.com/mine?status=wish"]
+    65: ["https://movie.douban.com/mine?status=wish"],
+    80: ["https://www.perplexity.ai"]
 };
 
 let isNotesFocused = false;
