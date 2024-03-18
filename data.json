@@ -86,11 +86,6 @@
       "text": "MJJ.TODAY"
     },
     {
-      "link": "https://i18ns.com/",
-      "imageSrc": "https://i18ns.com/favicon.ico",
-      "text": "I18ns"
-    },
-    {
       "link": "http://libgen.rs/",
       "imageSrc": "https://s1.ax1x.com/2020/10/07/0a7fU0.png",
       "text": "Library Genesis"
@@ -119,6 +114,11 @@
       "link": "https://apkpure.com/",
       "imageSrc": "https://i2.mjj.rip/2023/06/30/dc89b0ef6480d30c1a01f23ecc3db519.png",
       "text": "APKPure"
+    },
+    {
+      "link": "https://archive.org",
+      "imageSrc": "https://archive.org/offshoot_assets/favicon.ico",
+      "text": "Internet Archive"
     },
     {
       "link": "https://chat.openai.com/",
@@ -457,14 +457,14 @@
       "text": "Claude"
     },
     {
-      "link": "https://www.perplexity.ai",
-      "imageSrc": "https://i.miji.bid/2024/02/06/bdfa5e9ecb6094b09b0ff9b6a56790f0.png",
-      "text": "Perplexity"
-    },
-    {
       "link": "https://chat.mistral.ai/chat",
       "imageSrc": "https://ice.frostsky.com/2024/03/02/eed807d69a7df8a5afd1f39f13d6be6d.png",
       "text": "LE Chat"
+    },
+    {
+      "link": "https://www.perplexity.ai",
+      "imageSrc": "https://i.miji.bid/2024/02/06/bdfa5e9ecb6094b09b0ff9b6a56790f0.png",
+      "text": "Perplexity"
     },
     {
       "link": "https://discord.com/app",
