@@ -218,14 +218,19 @@
       "text": "Microsoft Store"
     },
     {
-      "link": "https://www.similarweb.com/top-websites/",
-      "imageSrc": "https://www.similarweb.com/favicon.ico",
-      "text": "Similarweb"
+      "link": "https://chromewebstore.google.com",
+      "imageSrc": "https://ssl.gstatic.com/chrome/webstore/images/icon_96px.png",
+      "text": "Chrome Web Store"
     },
     {
       "link": "https://apps.apple.com/us/vision",
       "imageSrc": "https://i.miji.bid/2023/12/14/9e560f3c2cdebc17b58eaede5b681ec3.jpeg",
       "text": "App Store for Apple Vision Pro"
+    },
+    {
+      "link": "https://www.similarweb.com/top-websites/",
+      "imageSrc": "https://www.similarweb.com/favicon.ico",
+      "text": "Similarweb"
     },
     {
       "link": "https://www.google.com/finance/?hl=en&gl=us",
@@ -412,14 +417,14 @@
       "text": "無印良品"
     },
     {
+      "link": "https://www.airbnb.com",
+      "imageSrc": "https://a0.muscache.com/airbnb/static/icons/android-icon-192x192-c0465f9f0380893768972a31a614b670.png",
+      "text": "Airbnb"
+    },
+    {
       "link": "https://about.facebook.com/",
       "imageSrc": "https://i2.mjj.rip/2023/06/30/9324c4d5f86b61f2e0a8a4f40a69d8f6.png",
       "text": "Meta"
-    },
-    {
-      "link": "https://www.dinehq.com/",
-      "imageSrc": "https://www.dinehq.com/favicon.png",
-      "text": "Dine Creative Design"
     },
     {
       "link": "https://dribbble.com/shots/popular",
@@ -432,9 +437,9 @@
       "text": "Behance"
     },
     {
-      "link": "https://www.timepill.net/",
-      "imageSrc": "https://www.timepill.net/favicon.ico",
-      "text": "胶囊日记"
+      "link": "https://www.dinehq.com/",
+      "imageSrc": "https://www.dinehq.com/favicon.png",
+      "text": "Dine Creative Design"
     },
     {
       "link": "https://music.youtube.com/",
@@ -442,9 +447,9 @@
       "text": "YouTube Music"
     },
     {
-      "link": "https://www.airbnb.com",
-      "imageSrc": "https://a0.muscache.com/airbnb/static/icons/android-icon-192x192-c0465f9f0380893768972a31a614b670.png",
-      "text": "Airbnb"
+      "link": "https://www.timepill.net/",
+      "imageSrc": "https://www.timepill.net/favicon.ico",
+      "text": "胶囊日记"
     },
     {
       "link": "https://gemini.google.com",
@@ -457,9 +462,9 @@
       "text": "Claude"
     },
     {
-      "link": "https://chat.mistral.ai/chat",
-      "imageSrc": "https://ice.frostsky.com/2024/03/02/eed807d69a7df8a5afd1f39f13d6be6d.png",
-      "text": "LE Chat"
+      "link": "https://copilot.microsoft.com/?setlang=en&cc=US",
+      "imageSrc": "https://copilot.microsoft.com/sa/simg/favicon-cplt.ico",
+      "text": "Microsoft Pilot"
     },
     {
       "link": "https://www.perplexity.ai",
