@@ -2,16 +2,16 @@
 Background Images
 */
 const backgroundImages = [
-  "https://s2.ax1x.com/2020/03/01/36o3uD.gif",
-  "https://s2.ax1x.com/2020/03/01/36oN4I.gif",
-  "https://s2.ax1x.com/2020/03/01/36osbQ.gif",
-  "https://s2.ax1x.com/2020/03/01/36orDg.gif",
-  "https://s2.ax1x.com/2020/03/01/36TcLD.gif",
-  "https://s2.ax1x.com/2020/03/01/36TyQK.gif",
-  "https://s2.ax1x.com/2020/03/01/36TDRx.gif",
-  "https://s2.ax1x.com/2020/03/01/36TRdH.gif",
-  "https://s1.ax1x.com/2020/03/20/86BbqJ.gif",
-  "https://i.mji.rip/2023/07/28/82f2ede6fd7b120ea783be716605a7c5.gif"
+  "https://ice.frostsky.com/2024/03/30/e4bafa41d4b5fc78e2a6a43e22f57dd1.gif",
+  "https://ice.frostsky.com/2024/03/30/04532a0617776405ce745ed611a1eb74.gif", 
+  "https://ice.frostsky.com/2024/03/30/282e33a25df9d0eb3636c76a080cc321.gif",
+  "https://ice.frostsky.com/2024/03/30/73323b56ef071b84e52e26bdb9652fb7.gif",
+  "https://ice.frostsky.com/2024/03/30/4770d353204ec4e5d084d4c0adc5cff2.gif",
+  "https://ice.frostsky.com/2024/03/30/943f9223d16bf83e10ccb6172ec64969.gif",
+  "https://ice.frostsky.com/2024/03/30/5cb05d9c6cf9429be91f04ea7052e9c3.gif",
+  "https://ice.frostsky.com/2024/03/30/3dd62fcd813063053f66effaa46cdf28.gif",
+  "https://ice.frostsky.com/2024/03/30/f74607d29fc5ab43e59e7dde084bc3a4.gif",
+  "https://ice.frostsky.com/2024/03/30/4cdd79ff4dcb6e8c3f2519c42ad939a9.gif"
 ];
 
 function preloadImage(url) {

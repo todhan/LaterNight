@@ -77,7 +77,7 @@
     },
     {
       "link": "https://www.aconvert.com/image/",
-      "imageSrc": "https://s1.ax1x.com/2020/03/14/8Q2pqA.png",
+      "imageSrc": "https://www.aconvert.com/favicon.ico",
       "text": "Aconvert"
     },
     {
@@ -87,7 +87,7 @@
     },
     {
       "link": "http://libgen.rs/",
-      "imageSrc": "https://s1.ax1x.com/2020/10/07/0a7fU0.png",
+      "imageSrc": "http://libgen.rs/favicon.ico",
       "text": "Library Genesis"
     },
     {
@@ -139,7 +139,7 @@
     }, 
     {
       "link": "https://www.reddit.com/r/popular/",
-      "imageSrc": "https://s2.ax1x.com/2020/03/05/37Bgzt.png",
+      "imageSrc": "https://www.redditstatic.com/shreddit/assets/favicon/64x64.png",
       "text": "Reddit"
     },
     {
@@ -149,7 +149,7 @@
     },
     {
       "link": "https://www.v2ex.com/",
-      "imageSrc": "https://s1.ax1x.com/2020/09/12/wdCPU0.png",
+      "imageSrc": "https://www.v2ex.com/static/icon-192.png",
       "text": "V2EX"
     },
     {
@@ -276,7 +276,7 @@
     },
     {
       "link": "https://www.youtube.com/?gl=US",
-      "imageSrc": "https://s2.ax1x.com/2020/03/07/3XHOM9.png",
+      "imageSrc": "https://www.youtube.com/s/desktop/accca349/img/favicon_96x96.png",
       "text": "YouTube"
     },
     {
@@ -293,11 +293,6 @@
       "link": "https://weread.qq.com",
       "imageSrc": "https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/favicon/favicon_32h.png",
       "text": "微信读书"
-    },
-    {
-      "link": "https://www.qidian.com",
-      "imageSrc": "https://qdfepccdn.qidian.com/www.qidian.com/favicon/qd_icon.ico",
-      "text": "起点中文网"
     },
     {
       "link": "https://www.manhuagui.com",
@@ -321,7 +316,7 @@
     },
     {
       "link": "https://store.steampowered.com/?cc=en",
-      "imageSrc": "https://s2.ax1x.com/2020/03/07/3XbqFf.png",
+      "imageSrc": "https://store.steampowered.com/favicon.ico",
       "text": "Steam"
     },
     {
@@ -341,7 +336,7 @@
     },
     {
       "link": "https://www.yikm.net/",
-      "imageSrc": "https://s2.ax1x.com/2020/03/07/3XbrLR.png",
+      "imageSrc": "https://ice.frostsky.com/2024/03/30/79e99e026282f08026d1120daa83181e.png",
       "text": "小霸王"
     },
     {
@@ -353,7 +348,7 @@
   "referenceData": [
     {
       "link": "https://www.facebook.com/",
-      "imageSrc": "https://s1.ax1x.com/2020/10/24/BV6KCd.png",
+      "imageSrc": "https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico",
       "text": "Facebook"
     },
     {
@@ -368,13 +363,28 @@
     },
     {
       "link": "https://www.pinterest.com/ideas/",
-      "imageSrc": "https://s1.ax1x.com/2020/03/20/8609fK.png",
+      "imageSrc": "https://s.pinimg.com/webapp/favicon-22eb868c.png",
       "text": "Pinterest"
     },
     {
       "link": "https://www.xiaohongshu.com/explore",
       "imageSrc": "https://www.xiaohongshu.com/favicon.ico",
       "text": "小红书"
+    },
+    {
+      "link": "https://dribbble.com/shots/popular",
+      "imageSrc": "https://ice.frostsky.com/2023/09/04/8e9ce210dc38b3622e79e31fc729a245.png",
+      "text": "Dribbble"
+    },
+    {
+      "link": "https://www.behance.net/",
+      "imageSrc": "https://ice.frostsky.com/2023/09/04/2f8d5d6c9ca0701e40f71b39b4f4a979.png",
+      "text": "Behance"
+    },
+    {
+      "link": "https://www.theverge.com/",
+      "imageSrc": "https://cdn.vox-cdn.com/verge/favicon.ico",
+      "text": "The Verge"
     },
     {
       "link": "https://www.qq.com/",
@@ -385,21 +395,6 @@
       "link": "https://www.dgtle.com/",
       "imageSrc": "https://www.dgtle.com/favicon.ico",
       "text": "数字尾巴"
-    },
-    {
-      "link": "https://www.theverge.com/",
-      "imageSrc": "https://cdn.vox-cdn.com/verge/favicon.ico",
-      "text": "The Verge"
-    },
-    {
-      "link": "https://news.ycombinator.com/news",
-      "imageSrc": "https://ice.frostsky.com/2024/03/03/a47f8a3bad9689edd1a2b139f35b9b8e.png",
-      "text": "Hacker News"
-    },
-    {
-      "link": "https://mp.weixin.qq.com/",
-      "imageSrc": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
-      "text": "微信公众平台"
     },
     {
       "link": "https://www.apple.com/",
@@ -427,24 +422,24 @@
       "text": "Meta"
     },
     {
-      "link": "https://dribbble.com/shots/popular",
-      "imageSrc": "https://ice.frostsky.com/2023/09/04/8e9ce210dc38b3622e79e31fc729a245.png",
-      "text": "Dribbble"
-    },
-    {
-      "link": "https://www.behance.net/",
-      "imageSrc": "https://ice.frostsky.com/2023/09/04/2f8d5d6c9ca0701e40f71b39b4f4a979.png",
-      "text": "Behance"
-    },
-    {
       "link": "https://www.dinehq.com/",
       "imageSrc": "https://www.dinehq.com/favicon.png",
       "text": "Dine Creative Design"
     },
     {
+      "link": "https://mp.weixin.qq.com/",
+      "imageSrc": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+      "text": "微信公众平台"
+    },
+    {
       "link": "https://music.youtube.com/",
       "imageSrc": "https://i.miji.bid/2024/02/02/568a608dbf605db6ab4ad910c0cfb6f5.png",
       "text": "YouTube Music"
+    },
+    {
+      "link": "https://discord.com/app",
+      "imageSrc": "https://ice.frostsky.com/2023/08/27/827dfb10e66b121ab2879c9e8d0bc6f0.png",
+      "text": "Discord"
     },
     {
       "link": "https://www.timepill.net/",
@@ -472,9 +467,9 @@
       "text": "Perplexity"
     },
     {
-      "link": "https://discord.com/app",
-      "imageSrc": "https://ice.frostsky.com/2023/08/27/827dfb10e66b121ab2879c9e8d0bc6f0.png",
-      "text": "Discord"
+      "link": "https://app.suno.ai/",
+      "imageSrc": "https://app.suno.ai/favicon.ico",
+      "text": "Suno"
     }
   ]
 }
