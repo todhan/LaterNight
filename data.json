@@ -87,7 +87,7 @@
     },
     {
       "link": "http://libgen.rs/",
-      "imageSrc": "http://libgen.rs/favicon.ico",
+      "imageSrc": "https://libgen.rs/favicon.ico",
       "text": "Library Genesis"
     },
     {
@@ -325,9 +325,9 @@
       "text": "Epic Games Store"
     },
     {
-      "link": "https://www.y8.com/",
-      "imageSrc": "https://i2.mjj.rip/2023/06/30/b90b2e6bf2b06c02fc6e3eee6f95f4f1.png",
-      "text": "Y8"
+      "link": "https://www.crazygames.com",
+      "imageSrc": "https://images.crazygames.com/favicons/favicon.ico",
+      "text": "CrazyGames"
     },
     {
       "link": "https://dos.lol",
@@ -337,7 +337,7 @@
     {
       "link": "https://www.yikm.net/",
       "imageSrc": "https://ice.frostsky.com/2024/03/30/79e99e026282f08026d1120daa83181e.png",
-      "text": "小霸王"
+      "text": "yikm游戏"
     },
     {
       "link": "https://movie.douban.com/mine?status=wish",
@@ -448,7 +448,7 @@
     },
     {
       "link": "https://gemini.google.com",
-      "imageSrc": "https://i.miji.bid/2023/12/27/020a0fab37d97120e85427028dff792a.png",
+      "imageSrc": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg",
       "text": "Gemini"
     },
     {
