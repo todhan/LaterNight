@@ -67,7 +67,7 @@
     },
     {
       "link": "https://www.veed.io/",
-      "imageSrc": "https://assets-global.website-files.com/616e938268c8f02f94b2b53c/616e938268c8f01093b2b56b_Frame%202.png",
+      "imageSrc": "https://www.veed.io/favicon.ico",
       "text": "VEED"
     },
     {
@@ -107,7 +107,7 @@
     },
     {
       "link": "https://github.com/login",
-      "imageSrc": "https://github.githubassets.com/favicons/favicon.svg",
+      "imageSrc": "https://github.com/favicon.ico",
       "text": "GitHub"
     },
     {
@@ -122,14 +122,14 @@
     },
     {
       "link": "https://chat.openai.com/",
-      "imageSrc": "https://ice.frostsky.com/2023/08/26/fcb00623b00da0be3e310fcaf5315e20.png",
+      "imageSrc": "https://cdn.oaistatic.com/_next/static/media/favicon-32x32.630a2b99.png",
       "text": "ChatGPT"
     }
   ],
   "informationData": [
     {
       "link": "https://x.com/?lang=en",
-      "imageSrc": "https://ice.frostsky.com/2023/09/03/9e2ed3ca257efce10144806ee16e9160.png",
+      "imageSrc": "https://abs.twimg.com/favicons/twitter.3.ico",
       "text": "X"
     },
     {
@@ -353,7 +353,7 @@
     },
     {
       "link": "https://www.tiktok.com/en",
-      "imageSrc": "https://i.miji.bid/2024/02/02/6f8805ffe4db2f0cbf1f58b5be4933eb.png",
+      "imageSrc": "https://www.tiktok.com/favicon.ico",
       "text": "TikTok"
     },
     {
@@ -363,7 +363,7 @@
     },
     {
       "link": "https://www.pinterest.com/ideas/",
-      "imageSrc": "https://s.pinimg.com/webapp/favicon-22eb868c.png",
+      "imageSrc": "https://s.pinimg.com/webapp/favicon_48x48-7470a30d.png",
       "text": "Pinterest"
     },
     {
@@ -373,7 +373,7 @@
     },
     {
       "link": "https://dribbble.com/shots/popular",
-      "imageSrc": "https://ice.frostsky.com/2023/09/04/8e9ce210dc38b3622e79e31fc729a245.png",
+      "imageSrc": "https://cdn.dribbble.com/assets/favicon-192x192-d70ad402693bdd1a8460da7f9f3c590e817da7369c5287789ac968cf6947d214.png",
       "text": "Dribbble"
     },
     {
@@ -428,8 +428,8 @@
     },
     {
       "link": "https://mp.weixin.qq.com/",
-      "imageSrc": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
-      "text": "微信公众平台"
+      "imageSrc": "https://res.wx.qq.com/a/fed_upload/9300e7ac-cec5-4454-b75c-f92260dd5b47/logo-mp.ico",
+      "text": "公众号"
     },
     {
       "link": "https://music.youtube.com/",
@@ -453,7 +453,7 @@
     },
     {
       "link": "https://claude.ai",
-      "imageSrc": "https://ice.frostsky.com/2024/03/03/cd31f33fa5ccff7aa4a1f7988515147c.png",
+      "imageSrc": "https://claude.ai/favicon.ico",
       "text": "Claude"
     },
     {

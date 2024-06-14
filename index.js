@@ -35,15 +35,15 @@ async function changeBackgroundImage() {
 
 function initializeBackgroundChange() {
   changeBackgroundImage();
-  // Calculate the time remaining until the next whole hour
+  // Calculate the time remaining until the next midnight
   const now = new Date();
-  const nextHour = new Date(now.getFullYear(), now.getMonth(), now.getDate(), now.getHours() + 1, 0, 0, 0);
-  const timeUntilNextHour = nextHour - now;
-  // Set a timeout to change the background image at the next whole hour
+  const nextMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 0, 0);
+  const timeUntilNextMidnight = nextMidnight - now;
+  // Set a timeout to change the background image at the next midnight
   setTimeout(() => {
     initializeBackgroundChange(); // Change the background image
-    setInterval(initializeBackgroundChange, 3600000); // Set interval to change every hour
-  }, timeUntilNextHour);
+    setInterval(initializeBackgroundChange, 86400000); // Set interval to change every 24 hours
+  }, timeUntilNextMidnight);
 }
 
 initializeBackgroundChange();
@@ -222,9 +222,7 @@ const shortcuts = {
     89: ["https://www.youtube.com/?gl=US"],
     66: ["https://www.bilibili.com/"],
     83: ["https://open.spotify.com/"],
-    73: ["https://www.iheart.com/live/wnyc-fm-news-talk-culture-5068/"],
-    65: ["https://movie.douban.com/mine?status=wish"],
-    80: ["https://www.perplexity.ai"]
+    65: ["https://movie.douban.com/mine?status=wish"]
 };
 
 let isNotesFocused = false;
