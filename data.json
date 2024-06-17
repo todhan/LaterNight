@@ -61,19 +61,19 @@
       "text": "Photopea"
     },
     {
-      "link": "https://rive.app/login/",
-      "imageSrc": "https://rive.app/favicon.ico",
-      "text": "Rive"
-    },
-    {
-      "link": "https://www.veed.io/",
-      "imageSrc": "https://www.veed.io/favicon.ico",
-      "text": "VEED"
+      "link": "https://www.capcut.com/editor",
+      "imageSrc": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/lv_web-2.ico",
+      "text": "CapCut"
     },
     {
       "link": "https://codepen.io/pen/",
       "imageSrc": "https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico",
       "text": "CodePen"
+    },
+    {
+      "link": "https://idx.google.com/",
+      "imageSrc": "https://ssl.gstatic.com/monospace/230530/favicon.ico",
+      "text": "Project IDX"
     },
     {
       "link": "https://www.aconvert.com/image/",
@@ -153,31 +153,6 @@
       "text": "V2EX"
     },
     {
-      "link": "https://xueqiu.com/u/1247347556",
-      "imageSrc": "https://xqimg.imedao.com/17af5fe80fb1844b3fd48941.png",
-      "text": "雪球"
-    },
-    {
-      "link": "https://www.ithome.com/blog/",
-      "imageSrc": "https://www.ithome.com/favicon.ico",
-      "text": "IT之家"
-    },
-    {
-      "link": "https://www.gcores.com",
-      "imageSrc": "https://www.gcores.com/favicon-32x32.png",
-      "text": "机核"
-    },
-    {
-      "link": "https://www.wallpaper.com",
-      "imageSrc": "https://cdn.mos.cms.futurecdn.net/flexiimages/fpqjm7sfgp1656622778.png",
-      "text": "Wallpaper*"
-    },
-    {
-      "link": "https://hypebeast.com/?gl=us",
-      "imageSrc": "https://i2.mjj.rip/2023/06/30/bd18cec50e6e8fce29cefa878fb6defb.png",
-      "text": "HYPEBEAST"
-    },
-    {
       "link": "https://www.nytimes.com",
       "imageSrc": "https://i2.mjj.rip/2023/06/30/6db3334b24599860c84c7ffbc031eb6b.png",
       "text": "The New York Times"
@@ -201,6 +176,31 @@
       "link": "https://theinitium.com/",
       "imageSrc": "https://i.miji.bid/2024/02/02/e13734c3fffc436e1de5337746cc005a.png",
       "text": "端傳媒"
+    },
+    {
+      "link": "https://xueqiu.com/u/1247347556",
+      "imageSrc": "https://xqimg.imedao.com/17af5fe80fb1844b3fd48941.png",
+      "text": "雪球"
+    },
+    {
+      "link": "https://www.ithome.com/blog/",
+      "imageSrc": "https://www.ithome.com/favicon.ico",
+      "text": "IT之家"
+    },
+    {
+      "link": "https://www.gcores.com",
+      "imageSrc": "https://www.gcores.com/favicon-32x32.png",
+      "text": "机核"
+    },
+    {
+      "link": "https://www.wallpaper.com",
+      "imageSrc": "https://cdn.mos.cms.futurecdn.net/flexiimages/fpqjm7sfgp1656622778.png",
+      "text": "Wallpaper*"
+    },
+    {
+      "link": "https://hypebeast.com/?gl=us",
+      "imageSrc": "https://i2.mjj.rip/2023/06/30/bd18cec50e6e8fce29cefa878fb6defb.png",
+      "text": "HYPEBEAST"
     },
     {
       "link": "https://apps.apple.com/us/charts/iphone",
