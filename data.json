@@ -143,9 +143,9 @@
       "text": "Reddit"
     },
     {
-      "link": "https://dig.chouti.com",
-      "imageSrc": "https://dig.chouti.com/images/favicon-d38b877458.png",
-      "text": "抽屉新热榜"
+      "link": "https://news.ycombinator.com",
+      "imageSrc": "https://news.ycombinator.com/y18.svg",
+      "text": "Hacker News"
     },
     {
       "link": "https://www.v2ex.com/",
@@ -255,9 +255,9 @@
       "text": "低端影视"
     },
     {
-      "link": "https://www.zxzja.com",
-      "imageSrc": "https://i.miji.bid/2024/02/06/55727a1f9ae983aacef650a3d39c4923.png",
-      "text": "在线之家"
+      "link": "https://libvio.cc",
+      "imageSrc": "https://xiaoxiaojia.oss-cn-shanghai.aliyuncs.com/statics/img/favicon.ico",
+      "text": "LIBVIO"
     },
     {
       "link": "https://www.novipnoad.net",
@@ -467,8 +467,8 @@
       "text": "Perplexity"
     },
     {
-      "link": "https://app.suno.ai/",
-      "imageSrc": "https://app.suno.ai/favicon.ico",
+      "link": "https://suno.com",
+      "imageSrc": "https://suno.com/favicon.ico",
       "text": "Suno"
     }
   ]
