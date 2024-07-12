@@ -7,7 +7,7 @@
     },
     {
       "link": "https://www.figma.com/login",
-      "imageSrc": "https://static.figma.com/app/icon/1/favicon.png",
+      "imageSrc": "https://static.figma.com/app/icon/1/favicon.ico",
       "text": "Figma"
     },
     {
@@ -138,29 +138,29 @@
       "text": "微博"
     }, 
     {
-      "link": "https://www.reddit.com/r/popular/",
-      "imageSrc": "https://www.redditstatic.com/shreddit/assets/favicon/64x64.png",
-      "text": "Reddit"
-    },
-    {
       "link": "https://news.ycombinator.com",
       "imageSrc": "https://news.ycombinator.com/y18.svg",
       "text": "Hacker News"
     },
     {
-      "link": "https://www.v2ex.com/",
-      "imageSrc": "https://www.v2ex.com/static/icon-192.png",
-      "text": "V2EX"
+      "link": "https://techcrunch.com",
+      "imageSrc": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32",
+      "text": "TechCrunch"
+    },
+    {
+      "link": "https://www.ithome.com/blog/",
+      "imageSrc": "https://www.ithome.com/favicon.ico",
+      "text": "IT之家"
+    },
+    {
+      "link": "https://news.google.com",
+      "imageSrc": "https://www.gstatic.com/gnews/logo/google_news_192.png",
+      "text": "Google News"
     },
     {
       "link": "https://www.nytimes.com",
       "imageSrc": "https://i2.mjj.rip/2023/06/30/6db3334b24599860c84c7ffbc031eb6b.png",
       "text": "The New York Times"
-    },
-    {
-      "link": "http://www.people.com.cn",
-      "imageSrc": "http://www.people.com.cn/favicon.ico",
-      "text": "人民网"
     },
     {
       "link": "https://www.bbc.com/",
@@ -178,29 +178,29 @@
       "text": "端傳媒"
     },
     {
+      "link": "https://www.reddit.com/r/popular/",
+      "imageSrc": "https://www.redditstatic.com/shreddit/assets/favicon/64x64.png",
+      "text": "Reddit"
+    },
+    {
       "link": "https://xueqiu.com/u/1247347556",
       "imageSrc": "https://xqimg.imedao.com/17af5fe80fb1844b3fd48941.png",
       "text": "雪球"
     },
     {
-      "link": "https://www.ithome.com/blog/",
-      "imageSrc": "https://www.ithome.com/favicon.ico",
-      "text": "IT之家"
+      "link": "https://juejin.cn",
+      "imageSrc": "https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favicons/favicon-32x32.png",
+      "text": "稀土掘金"
     },
     {
-      "link": "https://www.gcores.com",
-      "imageSrc": "https://www.gcores.com/favicon-32x32.png",
-      "text": "机核"
+      "link": "https://www.v2ex.com/?tab=hot",
+      "imageSrc": "https://www.v2ex.com/static/icon-192.png",
+      "text": "V2EX"
     },
     {
-      "link": "https://www.wallpaper.com",
-      "imageSrc": "https://cdn.mos.cms.futurecdn.net/flexiimages/fpqjm7sfgp1656622778.png",
-      "text": "Wallpaper*"
-    },
-    {
-      "link": "https://hypebeast.com/?gl=us",
-      "imageSrc": "https://i2.mjj.rip/2023/06/30/bd18cec50e6e8fce29cefa878fb6defb.png",
-      "text": "HYPEBEAST"
+      "link": "https://www.newyorker.com",
+      "imageSrc": "https://www.newyorker.com/verso/static/the-new-yorker/assets/favicon.ico",
+      "text": "The New Yorker"
     },
     {
       "link": "https://apps.apple.com/us/charts/iphone",
@@ -218,6 +218,11 @@
       "text": "Microsoft Store"
     },
     {
+      "link": "https://www.similarweb.com/top-websites/",
+      "imageSrc": "https://www.similarweb.com/favicon.ico",
+      "text": "Similarweb"
+    },
+    {
       "link": "https://chromewebstore.google.com",
       "imageSrc": "https://ssl.gstatic.com/chrome/webstore/images/icon_96px.png",
       "text": "Chrome Web Store"
@@ -228,11 +233,6 @@
       "text": "App Store for Apple Vision Pro"
     },
     {
-      "link": "https://www.similarweb.com/top-websites/",
-      "imageSrc": "https://www.similarweb.com/favicon.ico",
-      "text": "Similarweb"
-    },
-    {
       "link": "https://www.google.com/finance/?hl=en&gl=us",
       "imageSrc": "https://i2.mjj.rip/2023/06/30/6b5a21c7c1177ab4925ff114ba9c6ea0.png",
       "text": "Google Finance"
@@ -241,11 +241,6 @@
       "link": "https://www.binance.com/en/markets",
       "imageSrc": "https://i2.mjj.rip/2023/06/30/ac112f608dca95c450f5e5f2f972e8dc.png",
       "text": "Binance"
-    },
-    {
-      "link": "https://scholar.google.com/schhp?hl=en",
-      "imageSrc": "https://i.miji.bid/2023/12/27/533dd0fff4c59929923036b25ecbb82e.png",
-      "text": "Google Scholar"
     }
   ],
   "entertainmentData": [
@@ -288,6 +283,11 @@
       "link": "https://www.douyin.com/",
       "imageSrc": "https://lf1-cdn-tos.bytegoofy.com/goofy/ies/douyin_web/public/favicon.ico",
       "text": "抖音"
+    },
+    {
+      "link": "https://www.nbc.com/live?brand=nbc-news",
+      "imageSrc": "https://www.nbc.com/generetic/favicon.ico",
+      "text": "CBS"
     },
     {
       "link": "https://weread.qq.com",
