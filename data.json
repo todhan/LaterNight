@@ -92,7 +92,7 @@
     },
     {
       "link": "https://unsplash.com/",
-      "imageSrc": "https://unsplash.com/favicon-32x32.png",
+      "imageSrc": "https://unsplash-assets.imgix.net/favicon/favicon-32x32.png",
       "text": "Unsplash"
     },
     {
@@ -153,11 +153,6 @@
       "text": "IT之家"
     },
     {
-      "link": "https://news.google.com",
-      "imageSrc": "https://www.gstatic.com/gnews/logo/google_news_192.png",
-      "text": "Google News"
-    },
-    {
       "link": "https://www.nytimes.com",
       "imageSrc": "https://i2.mjj.rip/2023/06/30/6db3334b24599860c84c7ffbc031eb6b.png",
       "text": "The New York Times"
@@ -178,9 +173,9 @@
       "text": "端傳媒"
     },
     {
-      "link": "https://www.reddit.com/r/popular/",
-      "imageSrc": "https://www.redditstatic.com/shreddit/assets/favicon/64x64.png",
-      "text": "Reddit"
+      "link": "https://www.newyorker.com",
+      "imageSrc": "https://www.newyorker.com/verso/static/the-new-yorker/assets/favicon.ico",
+      "text": "The New Yorker"
     },
     {
       "link": "https://xueqiu.com/u/1247347556",
@@ -198,9 +193,14 @@
       "text": "V2EX"
     },
     {
-      "link": "https://www.newyorker.com",
-      "imageSrc": "https://www.newyorker.com/verso/static/the-new-yorker/assets/favicon.ico",
-      "text": "The New Yorker"
+      "link": "https://www.google.com/finance/?hl=en&gl=us",
+      "imageSrc": "https://i2.mjj.rip/2023/06/30/6b5a21c7c1177ab4925ff114ba9c6ea0.png",
+      "text": "Google Finance"
+    },
+    {
+      "link": "https://www.binance.com/en/markets",
+      "imageSrc": "https://i2.mjj.rip/2023/06/30/ac112f608dca95c450f5e5f2f972e8dc.png",
+      "text": "Binance"
     },
     {
       "link": "https://apps.apple.com/us/charts/iphone",
@@ -231,16 +231,6 @@
       "link": "https://apps.apple.com/us/vision",
       "imageSrc": "https://i.miji.bid/2023/12/14/9e560f3c2cdebc17b58eaede5b681ec3.jpeg",
       "text": "App Store for Apple Vision Pro"
-    },
-    {
-      "link": "https://www.google.com/finance/?hl=en&gl=us",
-      "imageSrc": "https://i2.mjj.rip/2023/06/30/6b5a21c7c1177ab4925ff114ba9c6ea0.png",
-      "text": "Google Finance"
-    },
-    {
-      "link": "https://www.binance.com/en/markets",
-      "imageSrc": "https://i2.mjj.rip/2023/06/30/ac112f608dca95c450f5e5f2f972e8dc.png",
-      "text": "Binance"
     }
   ],
   "entertainmentData": [
@@ -305,11 +295,6 @@
       "text": "Spotify"
     },
     {
-      "link": "https://www.iheart.com/live/wnyc-fm-news-talk-culture-5068/",
-      "imageSrc": "https://ice.frostsky.com/2024/03/03/b99e7eb06407dfd6a17c16f1ecd33b02.png",
-      "text": "iHeart"
-    },
-    {
       "link": "https://www.taptap.com/",
       "imageSrc": "https://www.taptap.com/favicon.ico",
       "text": "TapTap"
@@ -362,14 +347,29 @@
       "text": "Instagram"
     },
     {
-      "link": "https://www.pinterest.com/ideas/",
-      "imageSrc": "https://s.pinimg.com/webapp/favicon_48x48-7470a30d.png",
-      "text": "Pinterest"
+      "link": "https://www.reddit.com/r/popular/",
+      "imageSrc": "https://www.redditstatic.com/shreddit/assets/favicon/64x64.png",
+      "text": "Reddit"
     },
     {
       "link": "https://www.xiaohongshu.com/explore",
       "imageSrc": "https://www.xiaohongshu.com/favicon.ico",
       "text": "小红书"
+    },
+    {
+      "link": "https://www.theverge.com/",
+      "imageSrc": "https://cdn.vox-cdn.com/verge/favicon.ico",
+      "text": "The Verge"
+    },
+    {
+      "link": "https://www.dgtle.com/",
+      "imageSrc": "https://www.dgtle.com/favicon.ico",
+      "text": "数字尾巴"
+    },
+    {
+      "link": "https://www.pinterest.com/ideas/",
+      "imageSrc": "https://s.pinimg.com/webapp/favicon_48x48-7470a30d.png",
+      "text": "Pinterest"
     },
     {
       "link": "https://dribbble.com/shots/popular",
@@ -380,21 +380,6 @@
       "link": "https://www.behance.net/",
       "imageSrc": "https://ice.frostsky.com/2023/09/04/2f8d5d6c9ca0701e40f71b39b4f4a979.png",
       "text": "Behance"
-    },
-    {
-      "link": "https://www.theverge.com/",
-      "imageSrc": "https://cdn.vox-cdn.com/verge/favicon.ico",
-      "text": "The Verge"
-    },
-    {
-      "link": "https://www.qq.com/",
-      "imageSrc": "https://mat1.gtimg.com/www/icon/favicon2.ico",
-      "text": "腾讯网"
-    },
-    {
-      "link": "https://www.dgtle.com/",
-      "imageSrc": "https://www.dgtle.com/favicon.ico",
-      "text": "数字尾巴"
     },
     {
       "link": "https://www.apple.com/",
@@ -447,19 +432,19 @@
       "text": "胶囊日记"
     },
     {
-      "link": "https://gemini.google.com",
-      "imageSrc": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg",
-      "text": "Gemini"
-    },
-    {
       "link": "https://claude.ai",
       "imageSrc": "https://claude.ai/favicon.ico",
       "text": "Claude"
     },
     {
-      "link": "https://copilot.microsoft.com/?setlang=en&cc=US",
-      "imageSrc": "https://copilot.microsoft.com/sa/simg/favicon-cplt.ico",
-      "text": "Microsoft Pilot"
+      "link": "https://gemini.google.com",
+      "imageSrc": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg",
+      "text": "Gemini"
+    },
+    {
+      "link": "https://kimi.moonshot.cn",
+      "imageSrc": "https://statics.moonshot.cn/kimi-chat/favicon.ico",
+      "text": "Kimi"
     },
     {
       "link": "https://www.perplexity.ai",
