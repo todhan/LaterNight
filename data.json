@@ -27,7 +27,7 @@
     },
     {
       "link": "https://snapdrop.net/",
-      "imageSrc": "https://onedoes.github.io/snapdrop/favicon.ico?v=3",
+      "imageSrc": "https://snapdrop.net/images/favicon-96x96.png",
       "text": "Snapdrop"
     },
     {
@@ -138,14 +138,14 @@
       "text": "微博"
     }, 
     {
+      "link": "https://www.reddit.com/r/popular/",
+      "imageSrc": "https://www.redditstatic.com/shreddit/assets/favicon/64x64.png",
+      "text": "Reddit"
+    },
+    {
       "link": "https://news.ycombinator.com",
       "imageSrc": "https://news.ycombinator.com/y18.svg",
       "text": "Hacker News"
-    },
-    {
-      "link": "https://techcrunch.com",
-      "imageSrc": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32",
-      "text": "TechCrunch"
     },
     {
       "link": "https://www.ithome.com/blog/",
@@ -178,6 +178,16 @@
       "text": "The New Yorker"
     },
     {
+      "link": "https://techcrunch.com",
+      "imageSrc": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32",
+      "text": "TechCrunch"
+    },
+    {
+      "link": "https://www.theverge.com/",
+      "imageSrc": "https://cdn.vox-cdn.com/verge/favicon.ico",
+      "text": "The Verge"
+    },
+    {
       "link": "https://xueqiu.com/u/1247347556",
       "imageSrc": "https://xqimg.imedao.com/17af5fe80fb1844b3fd48941.png",
       "text": "雪球"
@@ -191,16 +201,6 @@
       "link": "https://www.v2ex.com/?tab=hot",
       "imageSrc": "https://www.v2ex.com/static/icon-192.png",
       "text": "V2EX"
-    },
-    {
-      "link": "https://www.google.com/finance/?hl=en&gl=us",
-      "imageSrc": "https://i2.mjj.rip/2023/06/30/6b5a21c7c1177ab4925ff114ba9c6ea0.png",
-      "text": "Google Finance"
-    },
-    {
-      "link": "https://www.binance.com/en/markets",
-      "imageSrc": "https://i2.mjj.rip/2023/06/30/ac112f608dca95c450f5e5f2f972e8dc.png",
-      "text": "Binance"
     },
     {
       "link": "https://apps.apple.com/us/charts/iphone",
@@ -218,19 +218,29 @@
       "text": "Microsoft Store"
     },
     {
-      "link": "https://www.similarweb.com/top-websites/",
-      "imageSrc": "https://www.similarweb.com/favicon.ico",
-      "text": "Similarweb"
-    },
-    {
       "link": "https://chromewebstore.google.com",
       "imageSrc": "https://ssl.gstatic.com/chrome/webstore/images/icon_96px.png",
       "text": "Chrome Web Store"
     },
     {
+      "link": "https://www.similarweb.com/top-websites/",
+      "imageSrc": "https://www.similarweb.com/favicon.ico",
+      "text": "Similarweb"
+    },
+    {
       "link": "https://apps.apple.com/us/vision",
       "imageSrc": "https://i.miji.bid/2023/12/14/9e560f3c2cdebc17b58eaede5b681ec3.jpeg",
       "text": "App Store for Apple Vision Pro"
+    },
+    {
+      "link": "https://www.google.com/finance/?hl=en&gl=us",
+      "imageSrc": "https://i2.mjj.rip/2023/06/30/6b5a21c7c1177ab4925ff114ba9c6ea0.png",
+      "text": "Google Finance"
+    },
+    {
+      "link": "https://www.binance.com/en/markets",
+      "imageSrc": "https://i2.mjj.rip/2023/06/30/ac112f608dca95c450f5e5f2f972e8dc.png",
+      "text": "Binance"
     }
   ],
   "entertainmentData": [
@@ -240,8 +250,8 @@
       "text": "低端影视"
     },
     {
-      "link": "https://libvio.cc",
-      "imageSrc": "https://xiaoxiaojia.oss-cn-shanghai.aliyuncs.com/statics/img/favicon.ico",
+      "link": "https://libvio.link",
+      "imageSrc": "https://libvio.link/statics/img/favicon.ico",
       "text": "LIBVIO"
     },
     {
@@ -310,6 +320,11 @@
       "text": "Epic Games Store"
     },
     {
+      "link": "https://itch.io",
+      "imageSrc": "https://itch.io/favicon.ico",
+      "text": "itch.io"
+    },
+    {
       "link": "https://www.crazygames.com",
       "imageSrc": "https://images.crazygames.com/favicons/favicon.ico",
       "text": "CrazyGames"
@@ -330,7 +345,7 @@
       "text": "豆瓣"
     }
   ],
-  "referenceData": [
+  "othersData": [
     {
       "link": "https://www.facebook.com/",
       "imageSrc": "https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico",
@@ -343,13 +358,8 @@
     },
     {
       "link": "https://www.instagram.com/?hl=en",
-      "imageSrc": "https://i.miji.bid/2024/01/28/47bc7b3114b7a28432418fc8109c6193.png",
+      "imageSrc": "https://static.cdninstagram.com/rsrc.php/y4/r/QaBlI0OZiks.ico",
       "text": "Instagram"
-    },
-    {
-      "link": "https://www.reddit.com/r/popular/",
-      "imageSrc": "https://www.redditstatic.com/shreddit/assets/favicon/64x64.png",
-      "text": "Reddit"
     },
     {
       "link": "https://www.xiaohongshu.com/explore",
@@ -357,14 +367,9 @@
       "text": "小红书"
     },
     {
-      "link": "https://www.theverge.com/",
-      "imageSrc": "https://cdn.vox-cdn.com/verge/favicon.ico",
-      "text": "The Verge"
-    },
-    {
-      "link": "https://www.dgtle.com/",
-      "imageSrc": "https://www.dgtle.com/favicon.ico",
-      "text": "数字尾巴"
+      "link": "https://www.threads.net/?hl=en",
+      "imageSrc": "https://static.cdninstagram.com/rsrc.php/ye/r/lEu8iVizmNW.ico",
+      "text": "Threads"
     },
     {
       "link": "https://www.pinterest.com/ideas/",
@@ -380,6 +385,16 @@
       "link": "https://www.behance.net/",
       "imageSrc": "https://ice.frostsky.com/2023/09/04/2f8d5d6c9ca0701e40f71b39b4f4a979.png",
       "text": "Behance"
+    },
+    {
+      "link": "https://www.pixiv.net/ranking.php",
+      "imageSrc": "https://www.pixiv.net/favicon.ico",
+      "text": "Pixiv"
+    },
+    {
+      "link": "https://www.artstation.com",
+      "imageSrc": "https://www.artstation.com/favicon.ico",
+      "text": "ArtStation"
     },
     {
       "link": "https://www.apple.com/",
@@ -407,24 +422,24 @@
       "text": "Meta"
     },
     {
-      "link": "https://www.dinehq.com/",
-      "imageSrc": "https://www.dinehq.com/favicon.png",
-      "text": "Dine Creative Design"
+      "link": "https://www.amazon.com/",
+      "imageSrc": "https://www.amazon.com/favicon.ico",
+      "text": "Amazon"
     },
     {
-      "link": "https://mp.weixin.qq.com/",
-      "imageSrc": "https://res.wx.qq.com/a/fed_upload/9300e7ac-cec5-4454-b75c-f92260dd5b47/logo-mp.ico",
-      "text": "公众号"
-    },
-    {
-      "link": "https://music.youtube.com/",
-      "imageSrc": "https://i.miji.bid/2024/02/02/568a608dbf605db6ab4ad910c0cfb6f5.png",
-      "text": "YouTube Music"
+      "link": "https://www.temu.com",
+      "imageSrc": "https://www.temu.com/favicon.ico",
+      "text": "Temu"
     },
     {
       "link": "https://discord.com/app",
       "imageSrc": "https://ice.frostsky.com/2023/08/27/827dfb10e66b121ab2879c9e8d0bc6f0.png",
       "text": "Discord"
+    },
+    {
+      "link": "https://music.youtube.com/",
+      "imageSrc": "https://i.miji.bid/2024/02/02/568a608dbf605db6ab4ad910c0cfb6f5.png",
+      "text": "YouTube Music"
     },
     {
       "link": "https://www.timepill.net/",

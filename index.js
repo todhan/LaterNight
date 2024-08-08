@@ -208,7 +208,7 @@ fetchData().then(data => {
     appendListItems('tools-list', data.toolsData);
     appendListItems('information-list', data.informationData);
     appendListItems('entertainment-list', data.entertainmentData);
-    appendListItems('reference-list', data.referenceData);
+    appendListItems('others-list', data.othersData);
 }
 )
 
