@@ -1,21 +1,10 @@
 /*
 Background Images
 */
-const backgroundImages = [
-    "https://ice.frostsky.com/2024/03/30/e4bafa41d4b5fc78e2a6a43e22f57dd1.gif",
-    "https://ice.frostsky.com/2024/03/30/04532a0617776405ce745ed611a1eb74.gif",
-    "https://ice.frostsky.com/2024/03/30/282e33a25df9d0eb3636c76a080cc321.gif",
-    "https://ice.frostsky.com/2024/03/30/73323b56ef071b84e52e26bdb9652fb7.gif",
-    "https://ice.frostsky.com/2024/03/30/4770d353204ec4e5d084d4c0adc5cff2.gif",
-    "https://ice.frostsky.com/2024/03/30/943f9223d16bf83e10ccb6172ec64969.gif",
-    "https://ice.frostsky.com/2024/03/30/5cb05d9c6cf9429be91f04ea7052e9c3.gif",
-    "https://ice.frostsky.com/2024/03/30/3dd62fcd813063053f66effaa46cdf28.gif",
-    "https://ice.frostsky.com/2024/03/30/f74607d29fc5ab43e59e7dde084bc3a4.gif",
-    "https://ice.frostsky.com/2024/03/30/4cdd79ff4dcb6e8c3f2519c42ad939a9.gif"
-];
+const backgroundImages = ["https://ice.frostsky.com/2024/03/30/e4bafa41d4b5fc78e2a6a43e22f57dd1.gif", "https://ice.frostsky.com/2024/03/30/04532a0617776405ce745ed611a1eb74.gif", "https://ice.frostsky.com/2024/03/30/282e33a25df9d0eb3636c76a080cc321.gif", "https://ice.frostsky.com/2024/03/30/73323b56ef071b84e52e26bdb9652fb7.gif", "https://ice.frostsky.com/2024/03/30/4770d353204ec4e5d084d4c0adc5cff2.gif", "https://ice.frostsky.com/2024/03/30/943f9223d16bf83e10ccb6172ec64969.gif", "https://ice.frostsky.com/2024/03/30/5cb05d9c6cf9429be91f04ea7052e9c3.gif", "https://ice.frostsky.com/2024/03/30/3dd62fcd813063053f66effaa46cdf28.gif", "https://ice.frostsky.com/2024/03/30/f74607d29fc5ab43e59e7dde084bc3a4.gif", "https://ice.frostsky.com/2024/03/30/4cdd79ff4dcb6e8c3f2519c42ad939a9.gif"];
 
 function preloadImage(url) {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve,reject)=>{
         const img = new Image();
         img.onload = resolve;
         img.onerror = reject;
@@ -36,16 +25,16 @@ async function changeBackgroundImage() {
 
 function setNextMidnightTimeout() {
     const now = new Date();
-    const nextMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 0, 0);
+    const nextMidnight = new Date(now.getFullYear(),now.getMonth(),now.getDate() + 1,0,0,0,0);
     const timeUntilNextMidnight = nextMidnight - now;
 
     // Set a timeout to change the background image at the next midnight
-    setTimeout(() => {
+    setTimeout(()=>{
         changeBackgroundImage();
         setInterval(changeBackgroundImage, 86400000);
         // Change every 24 hours thereafter
     }
-        , timeUntilNextMidnight);
+    , timeUntilNextMidnight);
 }
 
 function initializeBackgroundChange() {
@@ -62,7 +51,7 @@ Click the logo to reload the page
 */
 const logoLink = document.querySelector('.logo');
 var logo = document.querySelector('.logo');
-logo.addEventListener('click', function () {
+logo.addEventListener('click', function() {
     location.reload();
 })
 
@@ -93,7 +82,7 @@ function displayMessage() {
 }
 
 // Call displayMessage function once after the page has finished loading
-window.addEventListener('load', function () {
+window.addEventListener('load', function() {
     displayMessage();
     setInterval(displayMessage, 60000);
     // Check time every minute
@@ -123,10 +112,10 @@ function handleMouseWheel(event) {
         return;
 
     isScrolling = true;
-    setTimeout(() => {
+    setTimeout(()=>{
         isScrolling = false;
     }
-        , 100)
+    , 100)
 
     const delta = event.deltaY;
     if (delta > 0) {
@@ -146,7 +135,7 @@ function handleMouseWheel(event) {
 
 function showContent(index) {
     // Hide all content areas
-    contentDivs.forEach((div) => {
+    contentDivs.forEach((div)=>{
         div.style.display = 'none';
     }
     )
@@ -155,7 +144,7 @@ function showContent(index) {
     // Display the corresponding content area
 
     // Update button styles
-    buttons.forEach((button, i) => {
+    buttons.forEach((button,i)=>{
         if (i === index) {
             button.classList.add('current');
         } else {
@@ -177,7 +166,7 @@ async function fetchData() {
 function appendListItems(listId, data) {
     const list = document.getElementById(listId);
 
-    data.forEach(item => {
+    data.forEach(item=>{
         const listItem = createListItem(item.link, item.imageSrc, item.text);
         list.appendChild(listItem);
     }
@@ -204,7 +193,7 @@ function createListItem(link, imageSrc, text) {
 }
 
 // Fetch the data and append list items once the data is retrieved
-fetchData().then(data => {
+fetchData().then(data=>{
     appendListItems('tools-list', data.toolsData);
     appendListItems('information-list', data.informationData);
     appendListItems('entertainment-list', data.entertainmentData);
@@ -231,17 +220,17 @@ const shortcuts = {
 let isNotesFocused = false;
 
 const notesTextarea1 = document.getElementById("notes");
-notesTextarea1.addEventListener("focus", () => {
+notesTextarea1.addEventListener("focus", ()=>{
     isNotesFocused = true;
 }
 )
 
-notesTextarea1.addEventListener("blur", () => {
+notesTextarea1.addEventListener("blur", ()=>{
     isNotesFocused = false;
 }
 )
 
-document.addEventListener("keydown", function (event) {
+document.addEventListener("keydown", function(event) {
     if (!isNotesFocused && shortcuts[event.keyCode]) {
         const urls = shortcuts[event.keyCode];
         window.open(urls[0], "_blank");
@@ -255,7 +244,7 @@ const btnArr = document.getElementsByTagName("button");
 const divArr = document.getElementsByClassName("con");
 for (let i = 0; i < btnArr.length; i++) {
     btnArr[i].index = i;
-    btnArr[i].onmouseover = function () {
+    btnArr[i].onmouseover = function() {
         for (let j = 0; j < btnArr.length; j++) {
             btnArr[j].className = "";
             divArr[j].style.display = "none"
@@ -270,13 +259,13 @@ Save the notes
 */
 const notesTextarea = document.getElementById("notes");
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
     const savedContent = localStorage.getItem("notesContent");
     if (savedContent != null) {
         notesTextarea.value = savedContent;
     }
 
-    notesTextarea.addEventListener("keyup", function () {
+    notesTextarea.addEventListener("keyup", function() {
         const data = notesTextarea.value;
         localStorage.setItem("notesContent", data);
     })
