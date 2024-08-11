@@ -143,19 +143,24 @@
       "text": "Reddit"
     },
     {
-      "link": "https://news.ycombinator.com",
-      "imageSrc": "https://news.ycombinator.com/y18.svg",
-      "text": "Hacker News"
-    },
-    {
       "link": "https://www.ithome.com/blog/",
       "imageSrc": "https://www.ithome.com/favicon.ico",
       "text": "IT之家"
     },
     {
+      "link": "https://techcrunch.com",
+      "imageSrc": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32",
+      "text": "TechCrunch"
+    },
+    {
       "link": "https://www.nytimes.com",
       "imageSrc": "https://i2.mjj.rip/2023/06/30/6db3334b24599860c84c7ffbc031eb6b.png",
       "text": "The New York Times"
+    },
+    {
+      "link": "http://www.people.com.cn",
+      "imageSrc": "http://www.people.com.cn/favicon.ico",
+      "text": "人民网"
     },
     {
       "link": "https://www.bbc.com/",
@@ -173,24 +178,14 @@
       "text": "端傳媒"
     },
     {
-      "link": "https://www.newyorker.com",
-      "imageSrc": "https://www.newyorker.com/verso/static/the-new-yorker/assets/favicon.ico",
-      "text": "The New Yorker"
-    },
-    {
-      "link": "https://techcrunch.com",
-      "imageSrc": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32",
-      "text": "TechCrunch"
-    },
-    {
-      "link": "https://www.theverge.com/",
-      "imageSrc": "https://cdn.vox-cdn.com/verge/favicon.ico",
-      "text": "The Verge"
-    },
-    {
       "link": "https://xueqiu.com/u/1247347556",
       "imageSrc": "https://xqimg.imedao.com/17af5fe80fb1844b3fd48941.png",
       "text": "雪球"
+    },
+    {
+      "link": "https://news.ycombinator.com",
+      "imageSrc": "https://news.ycombinator.com/y18.svg",
+      "text": "Hacker News"
     },
     {
       "link": "https://juejin.cn",
@@ -201,6 +196,11 @@
       "link": "https://www.v2ex.com/?tab=hot",
       "imageSrc": "https://www.v2ex.com/static/icon-192.png",
       "text": "V2EX"
+    },
+    {
+      "link": "https://www.newyorker.com",
+      "imageSrc": "https://www.newyorker.com/verso/static/the-new-yorker/assets/favicon.ico",
+      "text": "The New Yorker"
     },
     {
       "link": "https://apps.apple.com/us/charts/iphone",
@@ -407,6 +407,11 @@
       "text": "Tesla"
     },
     {
+      "link": "https://www.nike.com",
+      "imageSrc": "https://www.nike.com/favicon.ico",
+      "text": "Nike"
+    },
+    {
       "link": "https://www.muji.com/jp/ja/store",
       "imageSrc": "https://www.muji.com/favicon.ico",
       "text": "無印良品"
@@ -417,19 +422,9 @@
       "text": "Airbnb"
     },
     {
-      "link": "https://about.facebook.com/",
-      "imageSrc": "https://i2.mjj.rip/2023/06/30/9324c4d5f86b61f2e0a8a4f40a69d8f6.png",
-      "text": "Meta"
-    },
-    {
       "link": "https://www.amazon.com/",
       "imageSrc": "https://www.amazon.com/favicon.ico",
       "text": "Amazon"
-    },
-    {
-      "link": "https://www.temu.com",
-      "imageSrc": "https://www.temu.com/favicon.ico",
-      "text": "Temu"
     },
     {
       "link": "https://discord.com/app",
@@ -440,6 +435,11 @@
       "link": "https://music.youtube.com/",
       "imageSrc": "https://i.miji.bid/2024/02/02/568a608dbf605db6ab4ad910c0cfb6f5.png",
       "text": "YouTube Music"
+    },
+    {
+      "link": "https://about.facebook.com/",
+      "imageSrc": "https://i2.mjj.rip/2023/06/30/9324c4d5f86b61f2e0a8a4f40a69d8f6.png",
+      "text": "Meta"
     },
     {
       "link": "https://www.timepill.net/",
