@@ -296,13 +296,18 @@
     },
     {
       "link": "https://www.manhuagui.com",
-      "imageSrc": "https://ice.frostsky.com/2023/08/26/7b77509b9dbf3858c753c6ad529e2f2f.png",
+      "imageSrc": "https://www.manhuagui.com/favicon.ico",
       "text": "漫画柜"
     },
     {
       "link": "https://open.spotify.com/",
-      "imageSrc": "https://i2.mjj.rip/2023/06/30/110976cb469a18ee90a59db2ea70138a.png",
+      "imageSrc": "https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png",
       "text": "Spotify"
+    },
+    {
+      "link": "https://podcasts.apple.com/cn/home",
+      "imageSrc": "https://podcasts.apple.com/assets/favicon/favicon-32.png",
+      "text": "Apple 播客"
     },
     {
       "link": "https://www.taptap.com/",
