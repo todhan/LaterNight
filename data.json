@@ -325,11 +325,6 @@
       "text": "Epic Games Store"
     },
     {
-      "link": "https://itch.io",
-      "imageSrc": "https://itch.io/favicon.ico",
-      "text": "itch.io"
-    },
-    {
       "link": "https://www.crazygames.com",
       "imageSrc": "https://images.crazygames.com/favicons/favicon.ico",
       "text": "CrazyGames"
@@ -357,14 +352,14 @@
       "text": "Facebook"
     },
     {
-      "link": "https://www.tiktok.com/en",
-      "imageSrc": "https://www.tiktok.com/favicon.ico",
-      "text": "TikTok"
-    },
-    {
       "link": "https://www.instagram.com/?hl=en",
       "imageSrc": "https://static.cdninstagram.com/rsrc.php/y4/r/QaBlI0OZiks.ico",
       "text": "Instagram"
+    },
+    {
+      "link": "https://www.tiktok.com/en",
+      "imageSrc": "https://www.tiktok.com/favicon.ico",
+      "text": "TikTok"
     },
     {
       "link": "https://www.xiaohongshu.com/explore",

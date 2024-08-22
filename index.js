@@ -211,7 +211,8 @@ const shortcuts = {
     68: ["https://movie.douban.com/mine?status=wish"],
     89: ["https://www.youtube.com/?gl=US"],
     66: ["https://www.bilibili.com/"],
-    83: ["https://open.spotify.com/"]
+    83: ["https://open.spotify.com/"],
+    80: ["https://podcasts.apple.com/cn/home"]
 };
 
 let isNotesFocused = false;
