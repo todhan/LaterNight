@@ -143,14 +143,14 @@
       "text": "Reddit"
     },
     {
+      "link": "https://www.theverge.com/",
+      "imageSrc": "https://cdn.vox-cdn.com/verge/favicon.ico",
+      "text": "The Verge"
+    },
+    {
       "link": "https://www.ithome.com/blog/",
       "imageSrc": "https://www.ithome.com/favicon.ico",
       "text": "IT之家"
-    },
-    {
-      "link": "https://techcrunch.com",
-      "imageSrc": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32",
-      "text": "TechCrunch"
     },
     {
       "link": "https://www.nytimes.com",
