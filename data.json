@@ -407,7 +407,7 @@
       "text": "Tesla"
     },
     {
-      "link": "https://www.nike.com",
+      "link": "https://www.nike.com/launch",
       "imageSrc": "https://www.nike.com/favicon.ico",
       "text": "Nike"
     },
@@ -422,14 +422,9 @@
       "text": "Airbnb"
     },
     {
-      "link": "https://www.amazon.com/",
-      "imageSrc": "https://www.amazon.com/favicon.ico",
-      "text": "Amazon"
-    },
-    {
-      "link": "https://discord.com/app",
-      "imageSrc": "https://ice.frostsky.com/2023/08/27/827dfb10e66b121ab2879c9e8d0bc6f0.png",
-      "text": "Discord"
+      "link": "https://about.facebook.com/",
+      "imageSrc": "https://i2.mjj.rip/2023/06/30/9324c4d5f86b61f2e0a8a4f40a69d8f6.png",
+      "text": "Meta"
     },
     {
       "link": "https://music.youtube.com/",
@@ -437,9 +432,14 @@
       "text": "YouTube Music"
     },
     {
-      "link": "https://about.facebook.com/",
-      "imageSrc": "https://i2.mjj.rip/2023/06/30/9324c4d5f86b61f2e0a8a4f40a69d8f6.png",
-      "text": "Meta"
+      "link": "https://discord.com/app",
+      "imageSrc": "https://ice.frostsky.com/2023/08/27/827dfb10e66b121ab2879c9e8d0bc6f0.png",
+      "text": "Discord"
+    },
+    {
+      "link": "https://www.amazon.com/",
+      "imageSrc": "https://www.amazon.com/favicon.ico",
+      "text": "Amazon"
     },
     {
       "link": "https://www.timepill.net/",
@@ -457,19 +457,19 @@
       "text": "Gemini"
     },
     {
-      "link": "https://kimi.moonshot.cn",
-      "imageSrc": "https://statics.moonshot.cn/kimi-chat/favicon.ico",
-      "text": "Kimi"
+      "link": "https://www.meta.ai",
+      "imageSrc": "https://static.xx.fbcdn.net/rsrc.php/ye/r/5SevCzTxl_y.ico",
+      "text": "Meta AI"
+    },
+    {
+      "link": "https://www.doubao.com/",
+      "imageSrc": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/web/logo-icon.png",
+      "text": "豆包"
     },
     {
       "link": "https://www.perplexity.ai",
       "imageSrc": "https://i.miji.bid/2024/02/06/bdfa5e9ecb6094b09b0ff9b6a56790f0.png",
       "text": "Perplexity"
-    },
-    {
-      "link": "https://suno.com",
-      "imageSrc": "https://suno.com/favicon.ico",
-      "text": "Suno"
     }
   ]
 }
