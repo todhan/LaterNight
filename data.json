@@ -143,9 +143,9 @@
       "text": "Reddit"
     },
     {
-      "link": "https://www.theverge.com/",
-      "imageSrc": "https://cdn.vox-cdn.com/verge/favicon.ico",
-      "text": "The Verge"
+      "link": "https://news.ycombinator.com",
+      "imageSrc": "https://news.ycombinator.com/y18.svg",
+      "text": "Hacker News"
     },
     {
       "link": "https://www.ithome.com/blog/",
@@ -183,9 +183,9 @@
       "text": "雪球"
     },
     {
-      "link": "https://news.ycombinator.com",
-      "imageSrc": "https://news.ycombinator.com/y18.svg",
-      "text": "Hacker News"
+      "link": "https://www.theverge.com/",
+      "imageSrc": "https://cdn.vox-cdn.com/verge/favicon.ico",
+      "text": "The Verge"
     },
     {
       "link": "https://juejin.cn",
@@ -422,6 +422,11 @@
       "text": "Meta"
     },
     {
+      "link": "https://web-next.okjike.com",
+      "imageSrc": "https://m.okjike.com/favicon-32x32.png",
+      "text": "即刻"
+    },
+    {
       "link": "https://music.youtube.com/",
       "imageSrc": "https://i.miji.bid/2024/02/02/568a608dbf605db6ab4ad910c0cfb6f5.png",
       "text": "YouTube Music"
@@ -435,11 +440,6 @@
       "link": "https://www.amazon.com/",
       "imageSrc": "https://www.amazon.com/favicon.ico",
       "text": "Amazon"
-    },
-    {
-      "link": "https://www.timepill.net/",
-      "imageSrc": "https://www.timepill.net/favicon.ico",
-      "text": "胶囊日记"
     },
     {
       "link": "https://claude.ai",

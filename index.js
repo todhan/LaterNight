@@ -67,7 +67,7 @@ function displayMessage() {
     if (hours >= 0 && hours <= 5) {
         if (!existingLink) {
             const link = document.createElement("a");
-            link.href = "http://www.hitoradio.com/newweb/onair_n_ajax.php";
+            link.href = "https://www.timepill.net";
             link.textContent = "🌛 夜深了";
             link.target = "_blank";
             link.classList.add("reminder");
