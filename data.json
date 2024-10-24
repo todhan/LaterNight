@@ -86,9 +86,9 @@
       "text": "MJJ.TODAY"
     },
     {
-      "link": "http://libgen.rs/",
-      "imageSrc": "https://libgen.rs/favicon.ico",
-      "text": "Library Genesis"
+      "link": "https://z-library.sk",
+      "imageSrc": "https://z-library.sk/favicon-32x32.svg?v=2",
+      "text": "Z-Library"
     },
     {
       "link": "https://unsplash.com/",
@@ -417,24 +417,24 @@
       "text": "Airbnb"
     },
     {
-      "link": "https://about.facebook.com/",
-      "imageSrc": "https://i2.mjj.rip/2023/06/30/9324c4d5f86b61f2e0a8a4f40a69d8f6.png",
-      "text": "Meta"
-    },
-    {
-      "link": "https://web-next.okjike.com",
-      "imageSrc": "https://m.okjike.com/favicon-32x32.png",
-      "text": "即刻"
-    },
-    {
       "link": "https://music.youtube.com/",
       "imageSrc": "https://i.miji.bid/2024/02/02/568a608dbf605db6ab4ad910c0cfb6f5.png",
       "text": "YouTube Music"
     },
     {
+      "link": "https://web-next.okjike.com/explore",
+      "imageSrc": "https://m.okjike.com/favicon-32x32.png",
+      "text": "即刻"
+    },
+    {
       "link": "https://discord.com/app",
       "imageSrc": "https://ice.frostsky.com/2023/08/27/827dfb10e66b121ab2879c9e8d0bc6f0.png",
       "text": "Discord"
+    },
+    {
+      "link": "https://web.telegram.org",
+      "imageSrc": "https://web.telegram.org/a/icon-192x192.png",
+      "text": "Telegram"
     },
     {
       "link": "https://www.amazon.com/",

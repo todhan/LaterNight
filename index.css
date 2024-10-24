@@ -119,7 +119,7 @@ textarea {
     right: 0;
     resize: none;
     width: 320px;
-    height: 80px;
+    height: 100vh;
     background-color: transparent;
     color: #ffffff;
     font-size: 18px;
