@@ -211,6 +211,7 @@ const shortcuts = {
     78: ["https://www.notion.so/login"],
     71: ["https://github.com/login"],
     32: ["https://chat.openai.com/"],
+    88: ["https://x.com/?lang=en"],
     68: ["https://movie.douban.com/mine?status=wish"],
     89: ["https://www.youtube.com/?gl=US"],
     66: ["https://www.bilibili.com/"],

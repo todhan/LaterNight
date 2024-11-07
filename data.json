@@ -168,9 +168,9 @@
       "text": "BBC"
     },
     {
-      "link": "https://www.twreporter.org",
-      "imageSrc": "https://www.twreporter.org/asset/favicon.png",
-      "text": "報導者"
+      "link": "https://www3.nhk.or.jp/news/",
+      "imageSrc": "https://www3.nhk.or.jp/news/parts16/images/favicon/favicon.ico",
+      "text": "NHKニュース"
     },
     {
       "link": "https://theinitium.com/",
@@ -183,24 +183,24 @@
       "text": "雪球"
     },
     {
+      "link": "https://techcrunch.com/latest/",
+      "imageSrc": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32",
+      "text": "TechCrunch"
+    },
+    {
       "link": "https://www.theverge.com/",
       "imageSrc": "https://cdn.vox-cdn.com/verge/favicon.ico",
       "text": "The Verge"
     },
     {
-      "link": "https://juejin.cn",
-      "imageSrc": "https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/static/favicons/favicon-32x32.png",
-      "text": "稀土掘金"
+      "link": "https://www.wallpaper.com",
+      "imageSrc": "https://cdn.mos.cms.futurecdn.net/flexiimages/fpqjm7sfgp1656622778.png",
+      "text": "Wallpaper*"
     },
     {
       "link": "https://www.v2ex.com/?tab=hot",
       "imageSrc": "https://www.v2ex.com/static/icon-192.png",
       "text": "V2EX"
-    },
-    {
-      "link": "https://www.newyorker.com",
-      "imageSrc": "https://www.newyorker.com/verso/static/the-new-yorker/assets/favicon.ico",
-      "text": "The New Yorker"
     },
     {
       "link": "https://apps.apple.com/us/charts/iphone",
