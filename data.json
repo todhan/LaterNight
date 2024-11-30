@@ -2,7 +2,7 @@
   "toolsData": [
     {
       "link": "https://www.notion.so/login",
-      "imageSrc": "https://www.notion.so/front-static/favicon.ico",
+      "imageSrc": "https://www.notion.com/front-static/favicon.ico",
       "text": "Notion"
     },
     {
@@ -11,7 +11,7 @@
       "text": "Figma"
     },
     {
-      "link": "https://docs.qq.com/desktop/",
+      "link": "https://docs.qq.com",
       "imageSrc": "https://docs.idqqimg.com/tim/docs/desktop/favicon.ico",
       "text": "腾讯文档"
     },
@@ -22,7 +22,7 @@
     },
     {
       "link": "https://mail.qq.com",
-      "imageSrc": "https://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_32h.png",
+      "imageSrc": "https://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_96h.png",
       "text": "QQ邮箱"
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "link": "https://temp-mail.org/",
-      "imageSrc": "https://i2.mjj.rip/2023/06/30/b0dab371374999d42c070f5c5a583cec.png",
+      "imageSrc": "https://temp-mail.org/images/favicon.ico",
       "text": "Temp Mail"
     },
     {
@@ -112,7 +112,7 @@
     },
     {
       "link": "https://apkpure.com/",
-      "imageSrc": "https://i2.mjj.rip/2023/06/30/dc89b0ef6480d30c1a01f23ecc3db519.png",
+      "imageSrc": "https://apkpure.com/favicon_v2.ico",
       "text": "APKPure"
     },
     {
@@ -121,8 +121,8 @@
       "text": "Internet Archive"
     },
     {
-      "link": "https://chat.openai.com/",
-      "imageSrc": "https://cdn.oaistatic.com/_next/static/media/favicon-32x32.630a2b99.png",
+      "link": "https://chatgpt.com",
+      "imageSrc": "https://cdn.oaistatic.com/assets/favicon-32x32-p4ktpm1x.webp",
       "text": "ChatGPT"
     }
   ],
@@ -154,7 +154,7 @@
     },
     {
       "link": "https://www.nytimes.com",
-      "imageSrc": "https://i2.mjj.rip/2023/06/30/6db3334b24599860c84c7ffbc031eb6b.png",
+      "imageSrc": "https://www.nytimes.com/favicon.ico",
       "text": "The New York Times"
     },
     {
@@ -164,7 +164,7 @@
     },
     {
       "link": "https://www.bbc.com/",
-      "imageSrc": "https://i2.mjj.rip/2023/06/30/47eaca6a6daebf595d14866f8f6f7b7e.png",
+      "imageSrc": "https://www.bbc.com/favicon.ico",
       "text": "BBC"
     },
     {
@@ -174,7 +174,7 @@
     },
     {
       "link": "https://theinitium.com/",
-      "imageSrc": "https://i.miji.bid/2024/02/02/e13734c3fffc436e1de5337746cc005a.png",
+      "imageSrc": "https://theinitium.com/wp-content/uploads/2024/07/favicon-1.png?w=32",
       "text": "端傳媒"
     },
     {
@@ -204,12 +204,12 @@
     },
     {
       "link": "https://apps.apple.com/us/charts/iphone",
-      "imageSrc": "https://i.miji.bid/2023/12/14/9e560f3c2cdebc17b58eaede5b681ec3.jpeg",
+      "imageSrc": "https://apps.apple.com/favicon.ico",
       "text": "App Store"
     },
     {
       "link": "https://play.google.com/store/games?hl=en&gl=us",
-      "imageSrc": "https://i2.mjj.rip/2023/06/30/0ede3f74f24a3ccaf4ed9b5b23e539b0.png",
+      "imageSrc": "https://www.gstatic.com/android/market_images/web/favicon_v3.ico",
       "text": "Google Play"
     },
     {
@@ -229,17 +229,17 @@
     },
     {
       "link": "https://apps.apple.com/us/vision",
-      "imageSrc": "https://i.miji.bid/2023/12/14/9e560f3c2cdebc17b58eaede5b681ec3.jpeg",
+      "imageSrc": "https://apps.apple.com/favicon.ico",
       "text": "App Store for Apple Vision Pro"
     },
     {
       "link": "https://www.google.com/finance/?hl=en&gl=us",
-      "imageSrc": "https://i2.mjj.rip/2023/06/30/6b5a21c7c1177ab4925ff114ba9c6ea0.png",
+      "imageSrc": "https://www.gstatic.com/finance/favicon/favicon.png",
       "text": "Google Finance"
     },
     {
       "link": "https://www.binance.com/en/markets",
-      "imageSrc": "https://i2.mjj.rip/2023/06/30/ac112f608dca95c450f5e5f2f972e8dc.png",
+      "imageSrc": "https://bin.bnbstatic.com/static/images/common/favicon.ico",
       "text": "Binance"
     }
   ],
@@ -413,12 +413,12 @@
     },
     {
       "link": "https://www.airbnb.com",
-      "imageSrc": "https://a0.muscache.com/airbnb/static/icons/android-icon-192x192-c0465f9f0380893768972a31a614b670.png",
+      "imageSrc": "https://a0.muscache.com/airbnb/static/icons/android-icon-192x192.png",
       "text": "Airbnb"
     },
     {
       "link": "https://music.youtube.com/",
-      "imageSrc": "https://i.miji.bid/2024/02/02/568a608dbf605db6ab4ad910c0cfb6f5.png",
+      "imageSrc": "https://music.youtube.com/img/cairo/favicon_96.png",
       "text": "YouTube Music"
     },
     {
