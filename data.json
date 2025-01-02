@@ -321,7 +321,7 @@
     },
     {
       "link": "https://www.crazygames.com",
-      "imageSrc": "https://images.crazygames.com/favicons/favicon.ico",
+      "imageSrc": "https://imgs.crazygames.com/favicons/favicon-transparent.png?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&w=48&h=48&fit=crop&crop=entropy",
       "text": "CrazyGames"
     },
     {
@@ -372,14 +372,14 @@
       "text": "Pinterest"
     },
     {
+      "link": "https://www.behance.net/search/projects",
+      "imageSrc": "https://ice.frostsky.com/2023/09/04/2f8d5d6c9ca0701e40f71b39b4f4a979.png",
+      "text": "Behance"
+    },
+    {
       "link": "https://dribbble.com/shots/popular",
       "imageSrc": "https://cdn.dribbble.com/assets/favicon-192x192-d70ad402693bdd1a8460da7f9f3c590e817da7369c5287789ac968cf6947d214.png",
       "text": "Dribbble"
-    },
-    {
-      "link": "https://www.behance.net/",
-      "imageSrc": "https://ice.frostsky.com/2023/09/04/2f8d5d6c9ca0701e40f71b39b4f4a979.png",
-      "text": "Behance"
     },
     {
       "link": "https://www.pixiv.net/ranking.php",
