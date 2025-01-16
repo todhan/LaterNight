@@ -442,6 +442,11 @@
       "text": "Amazon"
     },
     {
+      "link": "https://grok.com",
+      "imageSrc": "https://grok.com/favicon.ico",
+      "text": "Grok"
+    },
+    {
       "link": "https://claude.ai",
       "imageSrc": "https://claude.ai/favicon.ico",
       "text": "Claude"
@@ -450,11 +455,6 @@
       "link": "https://gemini.google.com",
       "imageSrc": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg",
       "text": "Gemini"
-    },
-    {
-      "link": "https://www.meta.ai",
-      "imageSrc": "https://static.xx.fbcdn.net/rsrc.php/ye/r/5SevCzTxl_y.ico",
-      "text": "Meta AI"
     },
     {
       "link": "https://www.doubao.com/",
