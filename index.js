@@ -209,10 +209,12 @@ Shortcuts
 */
 const shortcuts = {
     78: ["https://www.notion.so/login"],
-    71: ["https://github.com/login"],
+    71: ["https://grok.com"],
     32: ["https://chat.openai.com/"],
     88: ["https://x.com/?lang=en"],
-    68: ["https://movie.douban.com/mine?status=wish"],
+    68: ["https://ddys.pro"],
+    76: ["https://libvio.art"],  
+    51: ["https://movie.douban.com/mine?status=wish"],
     89: ["https://www.youtube.com/?gl=US"],
     66: ["https://www.bilibili.com/"],
     83: ["https://open.spotify.com/"],
