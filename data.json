@@ -107,7 +107,7 @@
     },
     {
       "link": "https://github.com/login",
-      "imageSrc": "https://github.com/favicon.ico",
+      "imageSrc": "https://github.githubassets.com/favicons/favicon-dark.svg",
       "text": "GitHub"
     },
     {
@@ -159,7 +159,7 @@
     },
     {
       "link": "http://www.people.com.cn",
-      "imageSrc": "http://www.people.com.cn/favicon.ico",
+      "imageSrc": "https://www.people.com.cn/favicon.ico",
       "text": "人民网"
     },
     {
@@ -223,9 +223,9 @@
       "text": "Chrome Web Store"
     },
     {
-      "link": "https://www.similarweb.com/top-websites/",
-      "imageSrc": "https://www.similarweb.com/favicon.ico",
-      "text": "Similarweb"
+      "link": "https://www.semrush.com/trending-websites/global/all",
+      "imageSrc": "https://www.semrush.com/favicon.ico",
+      "text": "Semrush"
     },
     {
       "link": "https://apps.apple.com/us/vision",
@@ -443,7 +443,7 @@
     },
     {
       "link": "https://grok.com",
-      "imageSrc": "https://grok.com/favicon.ico",
+      "imageSrc": "https://grok.com/images/favicon-dark.png",
       "text": "Grok"
     },
     {

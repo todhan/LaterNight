@@ -1,17 +1,14 @@
 body {
-    background-color: #111111;
-    background-size: cover;
-    image-rendering: -webkit-optimize-contrast;
-    text-align: center;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    background-color: #111111;
+    background-size: cover;
+    background-position: center;
+    image-rendering: optimizeQuality;
+    text-align: center;
     font-size: 20px;
-    font-family: SF Pro SC,SF Pro Text,SF Pro Icons,PingFang SC,Helvetica Neue,Helvetica,Arial,sans-serif;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+    font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
     user-select: none;
 }
 
