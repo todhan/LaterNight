@@ -70,7 +70,7 @@ function displayMessage() {
     if (hours >= 0 && hours <= 5) {
         if (!existingLink) {
             const link = document.createElement("a");
-            link.href = "https://www.timepill.net";
+            link.href = "https://fanfou.com/browse";
             link.textContent = "🌛 夜深了";
             link.target = "_blank";
             link.classList.add("reminder");
