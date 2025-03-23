@@ -2,7 +2,7 @@
   "toolsData": [
     {
       "link": "https://www.notion.so/login",
-      "imageSrc": "https://www.notion.com/front-static/favicon.ico",
+      "imageSrc": "https://www.notion.so/images/favicon.ico",
       "text": "Notion"
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "link": "https://filehelper.weixin.qq.com/",
-      "imageSrc": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+      "imageSrc": "https://filehelper.weixin.qq.com/favicon.ico",
       "text": "微信文件传输助手网页版"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "link": "https://www.photopea.com/",
-      "imageSrc": "https://www.photopea.com/promo/thumb256.png",
+      "imageSrc": "https://www.photopea.com/promo/icon512.png",
       "text": "Photopea"
     },
     {
@@ -67,7 +67,7 @@
     },
     {
       "link": "https://codepen.io/pen/",
-      "imageSrc": "https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico",
+      "imageSrc": "https://public.codepenassets.com/favicon/favicon.ico",
       "text": "CodePen"
     },
     {
@@ -87,12 +87,12 @@
     },
     {
       "link": "https://z-library.sk",
-      "imageSrc": "https://z-library.sk/favicon-32x32.svg?v=2",
+      "imageSrc": "https://z-library.sk/favicon.svg",
       "text": "Z-Library"
     },
     {
       "link": "https://unsplash.com/",
-      "imageSrc": "https://unsplash-assets.imgix.net/favicon/favicon-32x32.png",
+      "imageSrc": "https://unsplash.com/favicon.ico",
       "text": "Unsplash"
     },
     {
@@ -107,7 +107,7 @@
     },
     {
       "link": "https://github.com/login",
-      "imageSrc": "https://github.githubassets.com/favicons/favicon-dark.svg",
+      "imageSrc": "https://github.githubassets.com/favicons/favicon.svg",
       "text": "GitHub"
     },
     {
@@ -122,7 +122,7 @@
     },
     {
       "link": "https://chatgpt.com",
-      "imageSrc": "https://cdn.oaistatic.com/assets/favicon-32x32-p4ktpm1x.webp",
+      "imageSrc": "https://chatgpt.com/favicon.ico",
       "text": "ChatGPT"
     }
   ],
@@ -154,7 +154,7 @@
     },
     {
       "link": "https://www.nytimes.com",
-      "imageSrc": "https://www.nytimes.com/vi-assets/static-assets/favicon-dark-c0de2ee21c5d303cad570e8565f03f1d.ico",
+      "imageSrc": "https://www.nytimes.com/favicon.ico",
       "text": "The New York Times"
     },
     {
@@ -164,7 +164,7 @@
     },
     {
       "link": "https://www.bbc.com/",
-      "imageSrc": "https://www.bbc.com/favicon.ico",
+      "imageSrc": "https://www.bbc.com/bbcx/favicon.ico",
       "text": "BBC"
     },
     {
@@ -174,22 +174,22 @@
     },
     {
       "link": "https://theinitium.com/",
-      "imageSrc": "https://theinitium.com/wp-content/uploads/2024/07/favicon-1.png?w=32",
+      "imageSrc": "https://theinitium.com/wp-content/uploads/2024/07/favicon-1.png?w=192",
       "text": "端傳媒"
     },
     {
       "link": "https://xueqiu.com/u/1247347556",
-      "imageSrc": "https://xqimg.imedao.com/17af5fe80fb1844b3fd48941.png",
+      "imageSrc": "https://xueqiu.com/favicon.ico",
       "text": "雪球"
     },
     {
       "link": "https://techcrunch.com/latest/",
-      "imageSrc": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32",
+      "imageSrc": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=192",
       "text": "TechCrunch"
     },
     {
       "link": "https://www.theverge.com/",
-      "imageSrc": "https://cdn.vox-cdn.com/verge/favicon.ico",
+      "imageSrc": "https://www.theverge.com/static-assets/icons/favicon-96x96.png",
       "text": "The Verge"
     },
     {
@@ -260,8 +260,8 @@
       "text": "剧爷爷"
     },
     {
-      "link": "https://www.agedm.tv",
-      "imageSrc": "https://www.agedm.tv/favicon.ico",
+      "link": "http://www.age.tv",
+      "imageSrc": "https://www.agedm.org/favicon.ico",
       "text": "AGE动漫"
     },
     {
@@ -271,7 +271,7 @@
     },
     {
       "link": "https://www.youtube.com/?gl=US",
-      "imageSrc": "https://www.youtube.com/s/desktop/accca349/img/favicon_96x96.png",
+      "imageSrc": "https://www.youtube.com/s/desktop/ca191cfa/img/logos/favicon_96x96.png",
       "text": "YouTube"
     },
     {
@@ -286,7 +286,7 @@
     },
     {
       "link": "https://weread.qq.com",
-      "imageSrc": "https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/favicon/favicon_32h.png",
+      "imageSrc": "https://rescdn.qqmail.com/node/wr/wrpage/style/images/independent/favicon/favicon_48h.png",
       "text": "微信读书"
     },
     {
@@ -296,12 +296,17 @@
     },
     {
       "link": "https://open.spotify.com/",
-      "imageSrc": "https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png",
+      "imageSrc": "https://open.spotifycdn.com/cdn/images/favicon.0f31d2ea.ico",
       "text": "Spotify"
     },
     {
+      "link": "https://beta.music.apple.com/cn/",
+      "imageSrc": "https://beta.music.apple.com/assets/favicon/favicon-180.png",
+      "text": "Apple Music"
+    },
+    {
       "link": "https://podcasts.apple.com/cn/home",
-      "imageSrc": "https://podcasts.apple.com/assets/favicon/favicon-32.png",
+      "imageSrc": "https://podcasts.apple.com/assets/favicon/favicon-180.png",
       "text": "Apple 播客"
     },
     {
@@ -316,34 +321,34 @@
     },
     {
       "link": "https://store.epicgames.com/en-US/",
-      "imageSrc": "https://static-assets-prod-1251447533.file.myqcloud.com/epic-store/static/favicon.ico",
+      "imageSrc": "https://static-assets-prod.epicgames.com/epic-store/static/favicon.ico",
       "text": "Epic Games Store"
     },
     {
       "link": "https://www.crazygames.com",
-      "imageSrc": "https://imgs.crazygames.com/favicons/favicon-transparent.png?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&w=48&h=48&fit=crop&crop=entropy",
+      "imageSrc": "https://imgs.crazygames.com/favicons/favicon-transparent.png?metadata=none&quality=40&width=48&height=48&fit=crop",
       "text": "CrazyGames"
     },
     {
       "link": "https://dos.lol",
-      "imageSrc": "https://zaixianwan.app/favicon.svg",
+      "imageSrc": "https://zaixianwan.app/favicon.ico",
       "text": "在线 DOS 游戏"
     },
     {
       "link": "https://www.yikm.net/",
-      "imageSrc": "https://ice.frostsky.com/2024/03/30/79e99e026282f08026d1120daa83181e.png",
+      "imageSrc": "https://i.mij.rip/2024/03/30/79e99e026282f08026d1120daa83181e.png",
       "text": "yikm游戏"
     },
     {
       "link": "https://movie.douban.com/mine?status=wish",
-      "imageSrc": "https://www.douban.com/favicon.ico",
+      "imageSrc": "https://img1.doubanio.com/favicon.ico",
       "text": "豆瓣"
     }
   ],
   "othersData": [
     {
       "link": "https://www.facebook.com/",
-      "imageSrc": "https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico",
+      "imageSrc": "https://www.facebook.com/favicon.ico",
       "text": "Facebook"
     },
     {
@@ -373,7 +378,7 @@
     },
     {
       "link": "https://www.behance.net/search/projects",
-      "imageSrc": "https://ice.frostsky.com/2023/09/04/2f8d5d6c9ca0701e40f71b39b4f4a979.png",
+      "imageSrc": "https://a5.behance.net/d2cab6c543eaf6bcebb1daa9d408d0939823ee49/img/site/favicon.png",
       "text": "Behance"
     },
     {
@@ -398,7 +403,7 @@
     },
     {
       "link": "https://www.tesla.com/",
-      "imageSrc": "https://www.tesla.com/themes/custom/tesla_frontend/assets/favicons/favicon.ico",
+      "imageSrc": "https://www.tesla.com/themes/custom/tesla_frontend/assets/favicons/favicon-96x96.png",
       "text": "Tesla"
     },
     {
@@ -412,8 +417,8 @@
       "text": "無印良品"
     },
     {
-      "link": "https://www.airbnb.com",
-      "imageSrc": "https://a0.muscache.com/airbnb/static/icons/android-icon-192x192.png",
+      "link": "https://www.airbnb.com/?locale=en",
+      "imageSrc": "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-Favicons/original/0d189acb-3f82-4b2c-b95f-ad1d6a803d13.png?im_w=240",
       "text": "Airbnb"
     },
     {
@@ -423,7 +428,7 @@
     },
     {
       "link": "https://web-next.okjike.com/explore",
-      "imageSrc": "https://m.okjike.com/favicon-32x32.png",
+      "imageSrc": "https://web-next.okjike.com/favicon-32x32.png",
       "text": "即刻"
     },
     {
@@ -453,7 +458,7 @@
     },
     {
       "link": "https://gemini.google.com",
-      "imageSrc": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg",
+      "imageSrc": "https://www.gstatic.com/lamda/images/gemini_favicon_f069958c85030456e93de685481c559f160ea06b.png",
       "text": "Gemini"
     },
     {
