@@ -62,7 +62,7 @@
     },
     {
       "link": "https://www.capcut.com/editor",
-      "imageSrc": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/lv_web-2.ico",
+      "imageSrc": "https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/common/images/lv_web.ico",
       "text": "CapCut"
     },
     {
@@ -122,7 +122,7 @@
     },
     {
       "link": "https://chatgpt.com",
-      "imageSrc": "https://chatgpt.com/favicon.ico",
+      "imageSrc": "https://cdn.oaistatic.com/assets/favicon-miwirzcw.ico",
       "text": "ChatGPT"
     }
   ],

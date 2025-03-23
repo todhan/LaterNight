@@ -210,7 +210,7 @@ Shortcuts
 const shortcuts = {
     78: ["https://www.notion.so/login"],
     71: ["https://grok.com"],
-    32: ["https://chat.openai.com/"],
+    32: ["https://chatgpt.com"],
     88: ["https://x.com/?lang=en"],
     68: ["https://movie.douban.com/mine?status=wish"],
     89: ["https://www.youtube.com/?gl=US"],
@@ -238,6 +238,13 @@ document.addEventListener("keydown", function(event) {
         window.open(urls[0], "_blank");
     }
 })
+
+document.addEventListener('mousedown', function(event) {
+    // Check whether the middle mouse button is clicked
+    if (event.button === 1 && event.buttons === 4) {
+      window.open('https://chatgpt.com', '_blank');
+    }
+  });
 
 /*
 Switch the tabs
