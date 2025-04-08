@@ -70,7 +70,7 @@ function displayMessage() {
     if (hours >= 0 && hours <= 5) {
         if (!existingLink) {
             const link = document.createElement("a");
-            link.href = "https://fanfou.com/browse";
+            link.href = "https://timepill.net";
             link.textContent = "🌛 夜深了";
             link.target = "_blank";
             link.classList.add("reminder");
@@ -239,12 +239,12 @@ document.addEventListener("keydown", function(event) {
     }
 })
 
-document.addEventListener('mousedown', function(event) {
+document.addEventListener("mousedown", function(event) {
     // Check whether the middle mouse button is clicked
     if (event.button === 1 && event.buttons === 4) {
-      window.open('https://chatgpt.com', '_blank');
+      window.open("https://chatgpt.com", "_blank");
     }
-  });
+  })
 
 /*
 Switch the tabs
