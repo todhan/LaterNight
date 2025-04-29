@@ -367,7 +367,7 @@
       "text": "小红书"
     },
     {
-      "link": "https://www.threads.net/?hl=en",
+      "link": "https://www.threads.com/?hl=en",
       "imageSrc": "https://static.cdninstagram.com/rsrc.php/ye/r/lEu8iVizmNW.ico",
       "text": "Threads"
     },
@@ -467,9 +467,9 @@
       "text": "豆包"
     },
     {
-      "link": "https://kimi.moonshot.cn",
-      "imageSrc": "https://statics.moonshot.cn/kimi-chat/favicon.ico",
-      "text": "Kimi"
+      "link": "https://chat.deepseek.com",
+      "imageSrc": "https://chat.deepseek.com/favicon.svg",
+      "text": "DeepSeek"
     }
   ]
 }
