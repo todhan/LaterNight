@@ -223,9 +223,9 @@
       "text": "Chrome Web Store"
     },
     {
-      "link": "https://www.semrush.com/trending-websites/global/all",
-      "imageSrc": "https://www.semrush.com/favicon.ico",
-      "text": "Semrush"
+      "link": "https://www.similarweb.com/top-websites/",
+      "imageSrc": "https://www.similarweb.com/favicon.ico",
+      "text": "Similarweb"
     },
     {
       "link": "https://apps.apple.com/us/vision",
@@ -300,12 +300,12 @@
       "text": "Spotify"
     },
     {
-      "link": "https://beta.music.apple.com/cn/",
+      "link": "https://beta.music.apple.com/us/home",
       "imageSrc": "https://beta.music.apple.com/assets/favicon/favicon-180.png",
       "text": "Apple Music"
     },
     {
-      "link": "https://podcasts.apple.com/cn/home",
+      "link": "https://podcasts.apple.com/us/home",
       "imageSrc": "https://podcasts.apple.com/assets/favicon/favicon-180.png",
       "text": "Apple 播客"
     },
@@ -407,7 +407,7 @@
       "text": "Tesla"
     },
     {
-      "link": "https://www.nike.com/launch",
+      "link": "https://www.nike.com",
       "imageSrc": "https://www.nike.com/favicon.ico",
       "text": "Nike"
     },
