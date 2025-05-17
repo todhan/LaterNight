@@ -208,6 +208,7 @@ fetchData().then(data => {
 Shortcuts
 */
 const shortcuts = {
+    192: ["https://timepill.net"],
     78: ["https://www.notion.so/login"],
     71: ["https://grok.com"],
     32: ["https://chatgpt.com"],
