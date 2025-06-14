@@ -6,7 +6,7 @@
       "text": "Notion"
     },
     {
-      "link": "https://www.figma.com/login",
+      "link": "https://www.figma.com",
       "imageSrc": "https://static.figma.com/app/icon/1/favicon.ico",
       "text": "Figma"
     },
@@ -107,7 +107,7 @@
     },
     {
       "link": "https://github.com/login",
-      "imageSrc": "https://github.githubassets.com/favicons/favicon.svg",
+      "imageSrc": "https://github.githubassets.com/favicons/favicon-dark.svg",
       "text": "GitHub"
     },
     {
@@ -154,7 +154,7 @@
     },
     {
       "link": "https://www.nytimes.com",
-      "imageSrc": "https://www.nytimes.com/favicon.ico",
+      "imageSrc": "https://www.nytimes.com/vi-assets/static-assets/favicon-dark-c0de2ee21c5d303cad570e8565f03f1d.ico",
       "text": "The New York Times"
     },
     {
@@ -255,9 +255,9 @@
       "text": "LIBVIO"
     },
     {
-      "link": "https://freeok.la",
-      "imageSrc": "https://freeok.la/mxtheme/images/favicon.png",
-      "text": "FreeOK"
+      "link": "https://dyxs39.com",
+      "imageSrc": "https://dyxs39.com/statics/logo.png",
+      "text": "电影先生"
     },
     {
       "link": "http://www.age.tv",
