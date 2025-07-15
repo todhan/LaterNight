@@ -300,12 +300,12 @@
       "text": "Spotify"
     },
     {
-      "link": "https://beta.music.apple.com/us/home",
+      "link": "https://beta.music.apple.com/us/new",
       "imageSrc": "https://beta.music.apple.com/assets/favicon/favicon-180.png",
       "text": "Apple Music"
     },
     {
-      "link": "https://podcasts.apple.com/us/home",
+      "link": "https://podcasts.apple.com/us/browse",
       "imageSrc": "https://podcasts.apple.com/assets/favicon/favicon-180.png",
       "text": "Apple 播客"
     },
@@ -378,7 +378,7 @@
     },
     {
       "link": "https://www.behance.net/search/projects",
-      "imageSrc": "https://a5.behance.net/d2cab6c543eaf6bcebb1daa9d408d0939823ee49/img/site/favicon.png",
+      "imageSrc": "https://a5.behance.net/6ff352f25ed83587136c97fa7102270429db7bdf/img/site/favicon.png",
       "text": "Behance"
     },
     {

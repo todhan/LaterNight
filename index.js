@@ -210,14 +210,15 @@ Shortcuts
 const shortcuts = {
     192: ["https://timepill.net"],
     78: ["https://www.notion.so/login"],
-    71: ["https://grok.com"],
+    70: ["https://www.figma.com"],
     32: ["https://chatgpt.com"],
     88: ["https://x.com/?lang=en"],
     68: ["https://movie.douban.com/mine?status=wish"],
     89: ["https://www.youtube.com/?gl=US"],
     66: ["https://www.bilibili.com/"],
     83: ["https://open.spotify.com/"],
-    80: ["https://podcasts.apple.com/cn/home"]
+    80: ["https://podcasts.apple.com/us/browse"],
+    71: ["https://grok.com"],
 };
 
 let isNotesFocused = false;
