@@ -208,16 +208,16 @@ fetchData().then(data => {
 Shortcuts
 */
 const shortcuts = {
-    192: ["https://timepill.net"],
     78: ["https://www.notion.so/login"],
     70: ["https://www.figma.com"],
     32: ["https://chatgpt.com"],
     88: ["https://x.com/?lang=en"],
-    68: ["https://movie.douban.com/mine?status=wish"],
+    82: ["https://www.xiaohongshu.com"],
     89: ["https://www.youtube.com/?gl=US"],
     66: ["https://www.bilibili.com/"],
     83: ["https://open.spotify.com/"],
     80: ["https://podcasts.apple.com/us/browse"],
+    68: ["https://movie.douban.com/mine?status=wish"],
     71: ["https://grok.com"],
 };
 
