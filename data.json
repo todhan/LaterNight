@@ -1,7 +1,7 @@
 {
   "toolsData": [
     {
-      "link": "https://www.notion.so/login",
+      "link": "https://www.notion.so",
       "imageSrc": "https://www.notion.so/images/favicon.ico",
       "text": "Notion"
     },
@@ -138,9 +138,9 @@
       "text": "微博"
     }, 
     {
-      "link": "https://www.xiaohongshu.com",
-      "imageSrc": "https://www.xiaohongshu.com/favicon.ico",
-      "text": "小红书"
+      "link": "https://www.ithome.com/list/",
+      "imageSrc": "https://www.ithome.com/favicon.ico",
+      "text": "IT之家"
     },
     {
       "link": "https://news.ycombinator.com",
@@ -148,9 +148,9 @@
       "text": "Hacker News"
     },
     {
-      "link": "https://www.ithome.com/blog/",
-      "imageSrc": "https://www.ithome.com/favicon.ico",
-      "text": "IT之家"
+      "link": "https://xueqiu.com/u/1247347556",
+      "imageSrc": "https://xueqiu.com/favicon.ico",
+      "text": "雪球"
     },
     {
       "link": "https://www.nytimes.com",
@@ -176,31 +176,6 @@
       "link": "https://theinitium.com/",
       "imageSrc": "https://theinitium.com/wp-content/uploads/2024/07/favicon-1.png?w=192",
       "text": "端傳媒"
-    },
-    {
-      "link": "https://xueqiu.com/u/1247347556",
-      "imageSrc": "https://xueqiu.com/favicon.ico",
-      "text": "雪球"
-    },
-    {
-      "link": "https://techcrunch.com/latest/",
-      "imageSrc": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=192",
-      "text": "TechCrunch"
-    },
-    {
-      "link": "https://www.theverge.com/",
-      "imageSrc": "https://www.theverge.com/static-assets/icons/favicon-96x96.png",
-      "text": "The Verge"
-    },
-    {
-      "link": "https://www.wallpaper.com",
-      "imageSrc": "https://cdn.mos.cms.futurecdn.net/flexiimages/fpqjm7sfgp1656622778.png",
-      "text": "Wallpaper*"
-    },
-    {
-      "link": "https://www.v2ex.com/?tab=hot",
-      "imageSrc": "https://www.v2ex.com/static/icon-192.png",
-      "text": "V2EX"
     },
     {
       "link": "https://apps.apple.com/us/charts/iphone",
@@ -241,6 +216,11 @@
       "link": "https://www.binance.com/en/markets",
       "imageSrc": "https://bin.bnbstatic.com/static/images/common/favicon.ico",
       "text": "Binance"
+    },
+    {
+      "link": "https://scholar.google.com/?hl=en",
+      "imageSrc": "https://scholar.google.com/favicon.ico",
+      "text": "Google Scholar"
     }
   ],
   "entertainmentData": [
@@ -298,11 +278,6 @@
       "link": "https://open.spotify.com/",
       "imageSrc": "https://open.spotifycdn.com/cdn/images/favicon.0f31d2ea.ico",
       "text": "Spotify"
-    },
-    {
-      "link": "https://beta.music.apple.com/us/new",
-      "imageSrc": "https://beta.music.apple.com/assets/favicon/favicon-180.png",
-      "text": "Apple Music"
     },
     {
       "link": "https://podcasts.apple.com/us/browse",
@@ -372,31 +347,6 @@
       "text": "Threads"
     },
     {
-      "link": "https://www.pinterest.com/ideas/",
-      "imageSrc": "https://s.pinimg.com/webapp/favicon_48x48-7470a30d.png",
-      "text": "Pinterest"
-    },
-    {
-      "link": "https://www.behance.net/search/projects",
-      "imageSrc": "https://a5.behance.net/6ff352f25ed83587136c97fa7102270429db7bdf/img/site/favicon.png",
-      "text": "Behance"
-    },
-    {
-      "link": "https://dribbble.com/shots/popular",
-      "imageSrc": "https://cdn.dribbble.com/assets/favicon-192x192-d70ad402693bdd1a8460da7f9f3c590e817da7369c5287789ac968cf6947d214.png",
-      "text": "Dribbble"
-    },
-    {
-      "link": "https://www.pixiv.net/ranking.php",
-      "imageSrc": "https://www.pixiv.net/favicon.ico",
-      "text": "Pixiv"
-    },
-    {
-      "link": "https://www.artstation.com",
-      "imageSrc": "https://www.artstation.com/favicon.ico",
-      "text": "ArtStation"
-    },
-    {
       "link": "https://www.apple.com/",
       "imageSrc": "https://www.apple.com/favicon.ico",
       "text": "Apple"
@@ -422,14 +372,34 @@
       "text": "Airbnb"
     },
     {
-      "link": "https://music.youtube.com/",
-      "imageSrc": "https://music.youtube.com/img/favicon_96.png",
-      "text": "YouTube Music"
+      "link": "https://www.pinterest.com/ideas/",
+      "imageSrc": "https://s.pinimg.com/webapp/favicon_48x48-7470a30d.png",
+      "text": "Pinterest"
     },
     {
-      "link": "https://web.okjike.com/explore",
-      "imageSrc": "https://web.okjike.com/favicon-32x32.png",
-      "text": "即刻"
+      "link": "https://www.behance.net/search/projects",
+      "imageSrc": "https://a5.behance.net/6ff352f25ed83587136c97fa7102270429db7bdf/img/site/favicon.png",
+      "text": "Behance"
+    },
+    {
+      "link": "https://dribbble.com/shots/popular",
+      "imageSrc": "https://cdn.dribbble.com/assets/favicon-192x192-d70ad402693bdd1a8460da7f9f3c590e817da7369c5287789ac968cf6947d214.png",
+      "text": "Dribbble"
+    },
+    {
+      "link": "https://www.pixiv.net/ranking.php",
+      "imageSrc": "https://www.pixiv.net/favicon.ico",
+      "text": "Pixiv"
+    },
+    {
+      "link": "https://www.artstation.com",
+      "imageSrc": "https://www.artstation.com/favicon.ico",
+      "text": "ArtStation"
+    },    
+    {
+      "link": "https://web.telegram.org",
+      "imageSrc": "https://web.telegram.org/a/icon-192x192.png",
+      "text": "Telegram"
     },
     {
       "link": "https://discord.com/app",
@@ -437,14 +407,19 @@
       "text": "Discord"
     },
     {
-      "link": "https://web.telegram.org",
-      "imageSrc": "https://web.telegram.org/a/icon-192x192.png",
-      "text": "Telegram"
+      "link": "https://www.xiaohongshu.com",
+      "imageSrc": "https://www.xiaohongshu.com/favicon.ico",
+      "text": "小红书"
     },
     {
-      "link": "https://www.amazon.com/",
-      "imageSrc": "https://www.amazon.com/favicon.ico",
-      "text": "Amazon"
+      "link": "https://web.okjike.com/explore",
+      "imageSrc": "https://web.okjike.com/favicon-32x32.png",
+      "text": "即刻"
+    },
+    {
+      "link": "https://music.youtube.com/",
+      "imageSrc": "https://music.youtube.com/img/favicon_96.png",
+      "text": "YouTube Music"
     },
     {
       "link": "https://grok.com",
