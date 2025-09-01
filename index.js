@@ -47,18 +47,6 @@ function initializeBackgroundChange() {
 initializeBackgroundChange();
 
 /*
-Click the logo to reload the page
-*/
-const logoLink = document.querySelector('.logo-container');
-if (logoLink) {
-    logoLink.addEventListener('click', (event) => {
-        event.preventDefault();
-        window.location.reload();
-    }
-    );
-}
-
-/*
 Late night reminder
 */
 function displayMessage() {

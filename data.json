@@ -285,12 +285,7 @@
       "text": "Apple 播客"
     },
     {
-      "link": "https://www.taptap.com/",
-      "imageSrc": "https://www.taptap.com/favicon.ico",
-      "text": "TapTap"
-    },
-    {
-      "link": "https://store.steampowered.com/?cc=en",
+      "link": "https://store.steampowered.com",
       "imageSrc": "https://store.steampowered.com/favicon.ico",
       "text": "Steam"
     },
@@ -298,21 +293,6 @@
       "link": "https://store.epicgames.com/en-US/",
       "imageSrc": "https://static-assets-prod.epicgames.com/epic-store/static/favicon.ico",
       "text": "Epic Games Store"
-    },
-    {
-      "link": "https://www.crazygames.com",
-      "imageSrc": "https://imgs.crazygames.com/favicons/favicon-transparent.png?metadata=none&quality=40&width=48&height=48&fit=crop",
-      "text": "CrazyGames"
-    },
-    {
-      "link": "https://dos.lol",
-      "imageSrc": "https://zaixianwan.app/favicon.ico",
-      "text": "在线 DOS 游戏"
-    },
-    {
-      "link": "https://www.yikm.net/",
-      "imageSrc": "https://i.mij.rip/2024/03/30/79e99e026282f08026d1120daa83181e.png",
-      "text": "yikm游戏"
     },
     {
       "link": "https://movie.douban.com/mine?status=wish",
