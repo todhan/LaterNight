@@ -138,14 +138,14 @@
       "text": "微博"
     }, 
     {
-      "link": "https://www.ithome.com/list/",
-      "imageSrc": "https://www.ithome.com/favicon.ico",
-      "text": "IT之家"
-    },
-    {
       "link": "https://news.ycombinator.com",
       "imageSrc": "https://news.ycombinator.com/y18.svg",
       "text": "Hacker News"
+    },
+    {
+      "link": "https://www.ithome.com/list/",
+      "imageSrc": "https://www.ithome.com/favicon.ico",
+      "text": "IT之家"
     },
     {
       "link": "https://xueqiu.com/u/1247347556",
@@ -358,7 +358,7 @@
     },
     {
       "link": "https://www.behance.net/search/projects",
-      "imageSrc": "https://a5.behance.net/6ff352f25ed83587136c97fa7102270429db7bdf/img/site/favicon.png",
+      "imageSrc": "https://www.behance.net/favicon.png",
       "text": "Behance"
     },
     {
