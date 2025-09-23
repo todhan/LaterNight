@@ -108,19 +108,13 @@ textarea {
     top: 0;
     right: 0;
     resize: none;
-    width: 320px;
+    width: 200px;
     height: 100vh;
     background-color: transparent;
     color: #ffffff;
     font-size: 20px;
     border: none;
     font-family: "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-}
-
-@media screen and (max-width: 1920px) {
-    textarea {
-        width: 200px;
-    }
 }
 
 @media screen and (max-width: 768px) {
