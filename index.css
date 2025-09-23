@@ -117,8 +117,14 @@ textarea {
     font-family: "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
-@media screen and (max-device-width: 1920px) {
+@media screen and (max-width: 1920px) {
     textarea {
         width: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    textarea {
+        display: none;
     }
 }
