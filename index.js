@@ -196,45 +196,37 @@ fetchData().then(data => {
 Shortcuts
 */
 const shortcuts = {
-    78: ["https://www.notion.so"],
-    70: ["https://www.figma.com"],
-    32: ["https://chatgpt.com"],
-    88: ["https://x.com/?lang=en"],
-    89: ["https://www.youtube.com/?gl=US"],
-    66: ["https://www.bilibili.com"],
-    83: ["https://open.spotify.com"],
-    80: ["https://podcasts.apple.com/us/browse"],
-    68: ["https://movie.douban.com/mine?status=wish"],
-    82: ["https://www.xiaohongshu.com"],
-    71: ["https://grok.com"],
+    n: "https://www.notion.so",
+    f: "https://www.figma.com",
+    " ": "https://chatgpt.com",
+    x: "https://x.com/?lang=en",
+    y: "https://www.youtube.com/?gl=US",
+    b: "https://www.bilibili.com",
+    s: "https://open.spotify.com",
+    d: "https://movie.douban.com/mine?status=wish",
+    r: "https://www.xiaohongshu.com",
 };
 
-let isNotesFocused = false;
-
-const notesTextarea1 = document.getElementById("notes");
-notesTextarea1.addEventListener("focus", () => {
-    isNotesFocused = true;
-}
-)
-
-notesTextarea1.addEventListener("blur", () => {
-    isNotesFocused = false;
-}
-)
-
+// 键盘快捷键
 document.addEventListener("keydown", function(event) {
-    if (!isNotesFocused && shortcuts[event.keyCode]) {
-        const urls = shortcuts[event.keyCode];
-        window.open(urls[0], "_blank");
-    }
-})
+    const target = event.target;
+    const isInput = target.tagName === "INPUT" || target.tagName === "TEXTAREA" || target.isContentEditable;
+    if (isInput) return; // 输入框内不触发
 
-document.addEventListener("mousedown", function(event) {
-    // Check whether the middle mouse button is clicked
-    if (event.button === 1 && event.buttons === 4) {
-      window.open("https://chatgpt.com", "_blank");
+    const key = event.key.toLowerCase(); // 统一小写处理
+    const url = shortcuts[key];
+    if (url) {
+        window.open(url, "_blank");
+        event.preventDefault(); // 阻止默认行为（空格翻页等）
     }
-  })
+});
+
+// 鼠标中键点击
+document.addEventListener("mousedown", function(event) {
+    if (event.button === 1) {
+        window.open("https://chatgpt.com", "_blank");
+    }
+});
 
 /*
 Switch the tabs
@@ -252,20 +244,3 @@ for (let i = 0; i < btnArr.length; i++) {
         divArr[this.index].style.display = "block";
     }
 }
-
-/*
-Save the notes
-*/
-const notesTextarea = document.getElementById("notes");
-
-document.addEventListener("DOMContentLoaded", function() {
-    const savedContent = localStorage.getItem("notesContent");
-    if (savedContent != null) {
-        notesTextarea.value = savedContent;
-    }
-
-    notesTextarea.addEventListener("keyup", function() {
-        const data = notesTextarea.value;
-        localStorage.setItem("notesContent", data);
-    })
-})
