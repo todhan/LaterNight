@@ -138,19 +138,24 @@
       "text": "微博"
     }, 
     {
-      "link": "https://news.ycombinator.com",
-      "imageSrc": "https://news.ycombinator.com/y18.svg",
-      "text": "Hacker News"
-    },
-    {
       "link": "https://www.ithome.com/list/",
       "imageSrc": "https://www.ithome.com/favicon.ico",
       "text": "IT之家"
     },
     {
+      "link": "https://news.ycombinator.com",
+      "imageSrc": "https://news.ycombinator.com/y18.svg",
+      "text": "Hacker News"
+    },
+    {
       "link": "https://xueqiu.com/u/1247347556",
       "imageSrc": "https://xueqiu.com/favicon.ico",
       "text": "雪球"
+    },
+    {
+      "link": "https://news.google.com/home?hl=en-US&gl=US",
+      "imageSrc": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w48",
+      "text": "Google News"
     },
     {
       "link": "https://www.nytimes.com",
@@ -166,11 +171,6 @@
       "link": "https://www.bbc.com/",
       "imageSrc": "https://www.bbc.com/favicon.ico",
       "text": "BBC"
-    },
-    {
-      "link": "https://www3.nhk.or.jp/news/",
-      "imageSrc": "https://www3.nhk.or.jp/news/parts16/images/favicon/favicon.ico",
-      "text": "NHKニュース"
     },
     {
       "link": "https://theinitium.com/",

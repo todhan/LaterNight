@@ -73,11 +73,11 @@ function displayMessage() {
 }
 
 // Call displayMessage function once after the page has finished loading
-window.addEventListener('load', function() {
+document.addEventListener('DOMContentLoaded', function() {
     displayMessage();
     setInterval(displayMessage, 60000);
     // Check time every minute
-})
+});
 
 /*
 Middle mouse button scrolling or touchpad sliding

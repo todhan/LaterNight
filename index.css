@@ -15,7 +15,7 @@ body {
 .reminder {
     position: absolute;
     top: 40px;
-    left: 40px;
+    left: 20px;
     color: #ffffff;
     text-decoration: none;
 }
