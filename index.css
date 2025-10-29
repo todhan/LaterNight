@@ -1,3 +1,7 @@
+:root {
+  text-autospace: normal;
+}
+
 body {
     margin: 0;
     padding: 0;
