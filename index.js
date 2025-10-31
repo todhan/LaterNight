@@ -185,8 +185,8 @@ function createListItem(link, imageSrc, text) {
 
 // Fetch the data and append list items once the data is retrieved
 fetchData().then(data => {
-    appendListItems('tools-list', data.toolsData);
-    appendListItems('information-list', data.informationData);
+    appendListItems('work-list', data.workData);
+    appendListItems('learn-list', data.learnData);
     appendListItems('entertainment-list', data.entertainmentData);
     appendListItems('others-list', data.othersData);
 }
@@ -207,21 +207,21 @@ const shortcuts = {
     r: "https://www.xiaohongshu.com",
 };
 
-// 键盘快捷键
+// Keyboard shortcuts
 document.addEventListener("keydown", function(event) {
     const target = event.target;
     const isInput = target.tagName === "INPUT" || target.tagName === "TEXTAREA" || target.isContentEditable;
-    if (isInput) return; // 输入框内不触发
+    if (isInput) return; // dont trigger shortcuts when typing in input fields
 
-    const key = event.key.toLowerCase(); // 统一小写处理
+    const key = event.key.toLowerCase(); // universal to lower case
     const url = shortcuts[key];
     if (url) {
         window.open(url, "_blank");
-        event.preventDefault(); // 阻止默认行为（空格翻页等）
+        event.preventDefault(); // prevent default action(like space scrolling)
     }
 });
 
-// 鼠标中键点击
+// mouse middle button click
 document.addEventListener("mousedown", function(event) {
     if (event.button === 1) {
         window.open("https://chatgpt.com", "_blank");

@@ -1,5 +1,5 @@
 {
-  "toolsData": [
+  "workData": [
     {
       "link": "https://www.notion.so",
       "imageSrc": "https://www.notion.so/images/favicon.ico",
@@ -126,7 +126,7 @@
       "text": "ChatGPT"
     }
   ],
-  "informationData": [
+  "learnData": [
     {
       "link": "https://x.com/?lang=en",
       "imageSrc": "https://abs.twimg.com/favicons/twitter.3.ico",
@@ -153,11 +153,6 @@
       "text": "雪球"
     },
     {
-      "link": "https://news.google.com/home?hl=en-US&gl=US",
-      "imageSrc": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w48",
-      "text": "Google News"
-    },
-    {
       "link": "https://www.nytimes.com",
       "imageSrc": "https://www.nytimes.com/vi-assets/static-assets/favicon-dark-c0de2ee21c5d303cad570e8565f03f1d.ico",
       "text": "The New York Times"
@@ -176,6 +171,11 @@
       "link": "https://theinitium.com/",
       "imageSrc": "https://theinitium.com/wp-content/uploads/2024/07/favicon-1.png?w=192",
       "text": "端傳媒"
+    },
+    {
+      "link": "https://www.google.com/finance/?hl=en&gl=us",
+      "imageSrc": "https://www.gstatic.com/finance/favicon/favicon.png",
+      "text": "Google Finance"
     },
     {
       "link": "https://apps.apple.com/us/charts/iphone",
@@ -208,19 +208,9 @@
       "text": "App Store for Apple Vision Pro"
     },
     {
-      "link": "https://www.google.com/finance/?hl=en&gl=us",
-      "imageSrc": "https://www.gstatic.com/finance/favicon/favicon.png",
-      "text": "Google Finance"
-    },
-    {
       "link": "https://www.binance.com/en/markets",
       "imageSrc": "https://bin.bnbstatic.com/static/images/common/favicon.ico",
       "text": "Binance"
-    },
-    {
-      "link": "https://scholar.google.com/?hl=en",
-      "imageSrc": "https://scholar.google.com/favicon.ico",
-      "text": "Google Scholar"
     }
   ],
   "entertainmentData": [
@@ -240,8 +230,8 @@
       "text": "蛋蛋趣"
     },
     {
-      "link": "https://www.agedm.io",
-      "imageSrc": "https://www.agedm.io/favicon.ico",
+      "link": "https://www.age.tv",
+      "imageSrc": "https://www.age.tv/favicon.ico",
       "text": "AGE动漫"
     },
     {
