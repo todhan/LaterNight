@@ -82,10 +82,8 @@ button {
     text-align: left;
     vertical-align: middle;
     white-space: nowrap;
-    background: linear-gradient(to right, #fff 96%, transparent);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    overflow: hidden;
+    mask-image: linear-gradient(to right, #000 96%, transparent);
 }
 
 .sites li a:hover {

@@ -178,8 +178,8 @@
       "text": "Google Finance"
     },
     {
-      "link": "https://apps.apple.com/us/charts/iphone",
-      "imageSrc": "https://apps.apple.com/favicon.ico",
+      "link": "https://apps.apple.com",
+      "imageSrc": "https://apps.apple.com/assets/favicon/favicon-32.png",
       "text": "App Store"
     },
     {
@@ -201,11 +201,6 @@
       "link": "https://www.similarweb.com/top-websites/",
       "imageSrc": "https://www.similarweb.com/favicon.ico",
       "text": "Similarweb"
-    },
-    {
-      "link": "https://apps.apple.com/us/vision",
-      "imageSrc": "https://apps.apple.com/favicon.ico",
-      "text": "App Store for Apple Vision Pro"
     },
     {
       "link": "https://www.binance.com/en/markets",
@@ -272,7 +267,7 @@
     {
       "link": "https://podcasts.apple.com/us/browse",
       "imageSrc": "https://podcasts.apple.com/assets/favicon/favicon-180.png",
-      "text": "Apple 播客"
+      "text": "Apple Podcasts"
     },
     {
       "link": "https://store.steampowered.com",
