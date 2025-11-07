@@ -75,6 +75,12 @@ button {
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
+.sites li img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
 .sites li a .text {
     display: inline-block;
     width: 96px;
@@ -92,10 +98,4 @@ button {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 24px;
     transform: scale(1.08);
-}
-
-.sites li img {
-    width: 24px;
-    height: 24px;
-    vertical-align: middle;
 }

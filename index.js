@@ -4,7 +4,7 @@ Background Images
 const backgroundImages = ["https://ice.frostsky.com/2024/03/30/e4bafa41d4b5fc78e2a6a43e22f57dd1.gif", "https://ice.frostsky.com/2024/03/30/04532a0617776405ce745ed611a1eb74.gif", "https://ice.frostsky.com/2024/03/30/282e33a25df9d0eb3636c76a080cc321.gif", "https://ice.frostsky.com/2024/03/30/73323b56ef071b84e52e26bdb9652fb7.gif", "https://ice.frostsky.com/2024/03/30/4770d353204ec4e5d084d4c0adc5cff2.gif", "https://ice.frostsky.com/2024/03/30/943f9223d16bf83e10ccb6172ec64969.gif", "https://ice.frostsky.com/2024/03/30/5cb05d9c6cf9429be91f04ea7052e9c3.gif", "https://ice.frostsky.com/2024/03/30/3dd62fcd813063053f66effaa46cdf28.gif", "https://ice.frostsky.com/2024/03/30/f74607d29fc5ab43e59e7dde084bc3a4.gif", "https://ice.frostsky.com/2024/03/30/4cdd79ff4dcb6e8c3f2519c42ad939a9.gif"];
 
 function preloadImage(url) {
-    return new Promise( (resolve, reject) => {
+    return new Promise((resolve, reject) => {
         const img = new Image();
         img.onload = resolve;
         img.onerror = reject;
@@ -25,16 +25,16 @@ async function changeBackgroundImage() {
 
 function setNextMidnightTimeout() {
     const now = new Date();
-    const nextMidnight = new Date(now.getFullYear(),now.getMonth(),now.getDate() + 1,0,0,0,0);
+    const nextMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 0, 0);
     const timeUntilNextMidnight = nextMidnight - now;
 
     // Set a timeout to change the background image at the next midnight
-    setTimeout( () => {
+    setTimeout(() => {
         changeBackgroundImage();
         setInterval(changeBackgroundImage, 86400000);
         // Change every 24 hours thereafter
     }
-    , timeUntilNextMidnight);
+        , timeUntilNextMidnight);
 }
 
 function initializeBackgroundChange() {
@@ -49,23 +49,46 @@ initializeBackgroundChange();
 /*
 Late night reminder
 */
+function getMoonPhase() {
+    const LUNAR_CYCLE = 29.530588853;
+    // New moon reference: 2000-01-07 00:00 UTC
+    const REFERENCE_NEW_MOON = new Date('2025-01-29T00:00:00Z').getTime();
+    const current = Date.now() + 8 * 3600 * 1000; // Beijing time
+
+    const days = (current - REFERENCE_NEW_MOON) / 86400000;
+    const age = days % LUNAR_CYCLE;            // Current moon age
+    const phase = age / LUNAR_CYCLE;           // Cycle ratio 0-1
+    const epsilon = 0.5;                       // Threshold ±12 hours
+
+    // New moon or full moon
+    if (phase < epsilon / LUNAR_CYCLE || phase > 1 - epsilon / LUNAR_CYCLE)
+        return "🌚"; // New moon day
+    if (Math.abs(phase - 0.5) < epsilon / LUNAR_CYCLE)
+        return "🌝"; // Full moon day
+
+    // Other phases split in half
+    return phase < 0.5 ? "🌛" : "🌜";
+}
+
 function displayMessage() {
     const now = new Date();
     const hours = now.getHours();
-
     const existingLink = document.getElementById("nightReminderLink");
+    const moonEmoji = getMoonPhase();
 
-    if (hours >= 0 && hours <= 5) {
+    if (hours >= 0 && hours < 6) {
+        // Show message during late night hours (0-6)
         if (!existingLink) {
             const link = document.createElement("a");
             link.href = "https://timepill.net";
-            link.textContent = "🌛 夜深了";
+            link.textContent = `${moonEmoji} 夜深了`;
             link.target = "_blank";
             link.classList.add("reminder");
             link.id = "nightReminderLink";
             document.body.appendChild(link);
         }
     } else {
+        // Remove message during other hours
         if (existingLink) {
             existingLink.parentNode.removeChild(existingLink);
         }
@@ -73,7 +96,7 @@ function displayMessage() {
 }
 
 // Call displayMessage function once after the page has finished loading
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     displayMessage();
     setInterval(displayMessage, 60000);
     // Check time every minute
@@ -103,10 +126,10 @@ function handleMouseWheel(event) {
         return;
 
     isScrolling = true;
-    setTimeout( () => {
+    setTimeout(() => {
         isScrolling = false;
     }
-    , 100)
+        , 100)
 
     const delta = event.deltaY;
     if (delta > 0) {
@@ -126,7 +149,7 @@ function handleMouseWheel(event) {
 
 function showContent(index) {
     // Hide all content areas
-    contentDivs.forEach( (div) => {
+    contentDivs.forEach((div) => {
         div.style.display = 'none';
     }
     )
@@ -135,7 +158,7 @@ function showContent(index) {
     // Display the corresponding content area
 
     // Update button styles
-    buttons.forEach( (button, i) => {
+    buttons.forEach((button, i) => {
         if (i === index) {
             button.classList.add('current');
         } else {
@@ -208,7 +231,7 @@ const shortcuts = {
 };
 
 // Keyboard shortcuts
-document.addEventListener("keydown", function(event) {
+document.addEventListener("keydown", function (event) {
     const target = event.target;
     const isInput = target.tagName === "INPUT" || target.tagName === "TEXTAREA" || target.isContentEditable;
     if (isInput) return; // dont trigger shortcuts when typing in input fields
@@ -222,7 +245,7 @@ document.addEventListener("keydown", function(event) {
 });
 
 // mouse middle button click
-document.addEventListener("mousedown", function(event) {
+document.addEventListener("mousedown", function (event) {
     if (event.button === 1) {
         window.open("https://chatgpt.com", "_blank");
     }
@@ -235,7 +258,7 @@ const btnArr = document.getElementsByTagName("button");
 const divArr = document.getElementsByClassName("con");
 for (let i = 0; i < btnArr.length; i++) {
     btnArr[i].index = i;
-    btnArr[i].onmouseover = function() {
+    btnArr[i].onmouseover = function () {
         for (let j = 0; j < btnArr.length; j++) {
             btnArr[j].className = "";
             divArr[j].style.display = "none"
