@@ -169,7 +169,7 @@
     },
     {
       "link": "https://theinitium.com/",
-      "imageSrc": "https://theinitium.com/wp-content/uploads/2024/07/favicon-1.png?w=192",
+      "imageSrc": "https://theinitium.com/content/images/size/w256h256/2025/10/profile_Initium_logo_for_social_media.png",
       "text": "端傳媒"
     },
     {
@@ -210,14 +210,14 @@
   ],
   "entertainmentData": [
     {
-      "link": "https://ddys.pro",
-      "imageSrc": "https://ddys.pro/favicon-32x32.png",
-      "text": "低端影视"
-    },
-    {
       "link": "https://www.libvio.me",
       "imageSrc": "https://www.libvio.me/statics/img/favicon.ico",
       "text": "LIBVIO"
+    },
+    {
+      "link": "https://www.novipnoad.net",
+      "imageSrc": "https://www.novipnoad.net/favicon.ico",
+      "text": "NO视频"
     },
     {
       "link": "https://www.dandanqu.cc",
@@ -225,8 +225,8 @@
       "text": "蛋蛋趣"
     },
     {
-      "link": "https://www.age.tv",
-      "imageSrc": "https://www.age.tv/favicon.ico",
+      "link": "https://www.agedm.io",
+      "imageSrc": "https://www.agedm.io/favicon.ico",
       "text": "AGE动漫"
     },
     {
