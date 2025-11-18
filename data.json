@@ -47,7 +47,7 @@
     },
     {
       "link": "https://temp-mail.org/",
-      "imageSrc": "https://i2.mjj.rip/2023/06/30/b0dab371374999d42c070f5c5a583cec.png",
+      "imageSrc": "https://temp-mail.org/images/favicon.ico",
       "text": "Temp Mail"
     },
     {
@@ -159,7 +159,7 @@
     },
     {
       "link": "http://www.people.com.cn",
-      "imageSrc": "https://i.miji.bid/2025/03/22/4b40f1af02504cad1a25a5af9048c372.png",
+      "imageSrc": "http://www.people.com.cn/favicon.ico",
       "text": "人民网"
     },
     {
@@ -168,14 +168,14 @@
       "text": "BBC"
     },
     {
+      "link": "https://news.web.nhk/newsweb",
+      "imageSrc": "https://news.web.nhk/favicon.png",
+      "text": "NHKニュース"
+    },
+    {
       "link": "https://theinitium.com/",
       "imageSrc": "https://theinitium.com/content/images/size/w256h256/2025/10/profile_Initium_logo_for_social_media.png",
       "text": "端傳媒"
-    },
-    {
-      "link": "https://www.google.com/finance/?hl=en&gl=us",
-      "imageSrc": "https://www.gstatic.com/finance/favicon/favicon.png",
-      "text": "Google Finance"
     },
     {
       "link": "https://apps.apple.com",
@@ -203,6 +203,11 @@
       "text": "Similarweb"
     },
     {
+      "link": "https://www.google.com/finance/?hl=en&gl=us",
+      "imageSrc": "https://www.gstatic.com/finance/favicon/favicon.png",
+      "text": "Google Finance"
+    },
+    {
       "link": "https://www.binance.com/en/markets",
       "imageSrc": "https://bin.bnbstatic.com/static/images/common/favicon.ico",
       "text": "Binance"
@@ -210,8 +215,8 @@
   ],
   "entertainmentData": [
     {
-      "link": "https://www.libvio.me",
-      "imageSrc": "https://www.libvio.me/statics/img/favicon.ico",
+      "link": "https://www.libvio.site",
+      "imageSrc": "https://www.libvio.site/statics/img/favicon.ico",
       "text": "LIBVIO"
     },
     {
@@ -368,7 +373,7 @@
     },
     {
       "link": "https://discord.com/app",
-      "imageSrc": "https://ice.frostsky.com/2023/08/27/827dfb10e66b121ab2879c9e8d0bc6f0.png",
+      "imageSrc": "https://discord.com/assets/847541504914fd33810e70a0ea73177e.ico",
       "text": "Discord"
     },
     {
@@ -408,7 +413,7 @@
     },
     {
       "link": "https://chat.deepseek.com",
-      "imageSrc": "https://i.mij.rip/2025/05/07/bfec73b48ef81c39a109494900a9eb8b.png",
+      "imageSrc": "https://chat.deepseek.com/favicon.svg",
       "text": "DeepSeek"
     }
   ]
