@@ -226,7 +226,7 @@ const shortcuts = {
     y: "https://www.youtube.com/?gl=US",
     b: "https://www.bilibili.com",
     s: "https://open.spotify.com",
-    d: "https://movie.douban.com/mine?status=wish",
+    d: "https://www.douban.com/explore/",
     r: "https://www.xiaohongshu.com",
 };
 
