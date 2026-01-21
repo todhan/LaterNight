@@ -148,9 +148,9 @@
       "text": "Hacker News"
     },
     {
-      "link": "https://xueqiu.com/u/1247347556",
-      "imageSrc": "https://xueqiu.com/favicon.ico",
-      "text": "雪球"
+      "link": "https://v2ex.com",
+      "imageSrc": "https://v2ex.com/static/favicon.ico",
+      "text": "V2EX"
     },
     {
       "link": "https://www.nytimes.com",
@@ -168,14 +168,14 @@
       "text": "BBC"
     },
     {
-      "link": "https://news.web.nhk/newsweb",
-      "imageSrc": "https://news.web.nhk/favicon.png",
-      "text": "NHKニュース"
-    },
-    {
       "link": "https://theinitium.com/",
       "imageSrc": "https://theinitium.com/content/images/size/w256h256/2025/10/profile_Initium_logo_for_social_media.png",
       "text": "端傳媒"
+    },
+    {
+      "link": "https://xueqiu.com/u/1247347556",
+      "imageSrc": "https://xueqiu.com/favicon.ico",
+      "text": "雪球"
     },
     {
       "link": "https://apps.apple.com",
